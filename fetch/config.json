@@ -1,0 +1,24 @@
+{
+  "refresh_interval_hours": 3,
+  "techmap": {
+    "base_url": "https://raw.githubusercontent.com/mluggy/techmap/main",
+    "job_categories": [
+      "admin", "business", "data-science", "design", "devops",
+      "finance", "frontend", "hardware", "hr", "legal",
+      "marketing", "procurement-operations", "product",
+      "project-management", "qa", "sales", "security",
+      "software", "support"
+    ],
+    "categories_url": "https://raw.githubusercontent.com/mluggy/techmap/main/categories.json",
+    "sizes_url": "https://raw.githubusercontent.com/mluggy/techmap/main/sizes.json",
+    "tree_url": "https://api.github.com/repos/mluggy/techmap/git/trees/main?recursive=1"
+  },
+  "greenhouse": {
+    "api_base": "https://boards-api.greenhouse.io/v1/boards",
+    "enabled": true
+  },
+  "lever": {
+    "api_base": "https://api.lever.co/v0/postings",
+    "enabled": true
+  }
+}

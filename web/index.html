@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Israeli Startup Job Scanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top">
+                <h1>Israeli Startup Job Scanner <span class="version-badge" id="versionBadge"></span></h1>
+                <div class="header-stats" id="headerStats">
+                    <span class="stat" id="statRefresh">Loading...</span>
+                    <span class="stat-divider">|</span>
+                    <span class="stat" id="statTotal">-</span>
+                    <span class="stat-divider">|</span>
+                    <span class="stat highlight" id="statUnread">-</span>
+                    <span class="stat-divider">|</span>
+                    <span class="stat new" id="statNew">-</span>
+                    <span class="stat-divider">|</span>
+                    <button id="refreshBtn" class="btn btn-refresh">Refresh</button>
+                </div>
+            </div>
+
+            <!-- Update banner (hidden by default) -->
+            <div class="update-banner hidden" id="updateBanner">
+                New jobs available! <a href="#" id="refreshLink">Click to refresh</a>
+            </div>
+
+            <!-- Refresh progress bar -->
+            <div class="refresh-progress hidden" id="refreshProgress">
+                <div class="refresh-progress-bar" id="refreshProgressBar"></div>
+                <span class="refresh-progress-text" id="refreshProgressText">Fetching new jobs...</span>
+            </div>
+        </header>
+
+        <!-- Tab Navigation -->
+        <nav class="tab-bar">
+            <button class="tab active" data-tab="jobs">Jobs</button>
+            <button class="tab" data-tab="savedJobs">Saved Jobs</button>
+            <button class="tab" data-tab="followedCompanies">Followed Companies</button>
+            <button class="tab" data-tab="dailyReport">Daily Report</button>
+            <button class="tab" data-tab="savedSearches">Saved Searches</button>
+        </nav>
+
+        <!-- Jobs Tab (default) -->
+        <section class="tab-content active" id="tabJobs">
+            <!-- Filters -->
+            <div class="filters">
+                <div class="filter-row">
+                    <div class="filter-group search-group">
+                        <input type="text" id="searchInput" placeholder="Search jobs or companies..." class="search-input">
+                    </div>
+                    <div class="filter-group">
+                        <label for="locationFilter">Location</label>
+                        <select id="locationFilter">
+                            <option value="">All Locations</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="seniorityFilter">Seniority</label>
+                        <select id="seniorityFilter">
+                            <option value="">All Levels</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="industryFilter">Industry</label>
+                        <select id="industryFilter">
+                            <option value="">All Industries</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="departmentFilter">Department</label>
+                        <select id="departmentFilter">
+                            <option value="">All Departments</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="statusFilter">Status</label>
+                        <select id="statusFilter">
+                            <option value="">All Jobs</option>
+                            <option value="unread">Unread Only</option>
+                            <option value="read">Read Only</option>
+                            <option value="saved">Saved Only</option>
+                            <option value="followed">Followed Companies</option>
+                        </select>
+                    </div>
+                    <div class="filter-group filter-group-btn">
+                        <button id="saveSearchBtn" class="btn btn-ghost btn-save-search">Save Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Bar -->
+            <div class="action-bar">
+                <div class="action-left">
+                    <button id="markAllReadBtn" class="btn btn-secondary">Mark all visible as read</button>
+                    <button id="markAllUnreadBtn" class="btn btn-ghost">Mark all visible as unread</button>
+                </div>
+                <div class="action-right">
+                    <span id="showingCount" class="showing-count">Showing 0 jobs</span>
+                </div>
+            </div>
+
+            <!-- Job Table -->
+            <div class="table-container">
+                <table id="jobTable">
+                    <thead>
+                        <tr>
+                            <th class="col-status" data-sort="status">
+                                <span class="th-content">Status</span>
+                            </th>
+                            <th class="col-save">
+                                <span class="th-content">Save</span>
+                            </th>
+                            <th class="col-title sortable" data-sort="title">
+                                <span class="th-content">Title <span class="sort-icon"></span></span>
+                            </th>
+                            <th class="col-company sortable" data-sort="company">
+                                <span class="th-content">Company <span class="sort-icon"></span></span>
+                            </th>
+                            <th class="col-location sortable" data-sort="locationEn">
+                                <span class="th-content">Location <span class="sort-icon"></span></span>
+                            </th>
+                            <th class="col-industry sortable" data-sort="industry">
+                                <span class="th-content">Industry <span class="sort-icon"></span></span>
+                            </th>
+                            <th class="col-seniority sortable" data-sort="seniority">
+                                <span class="th-content">Seniority <span class="sort-icon"></span></span>
+                            </th>
+                            <th class="col-department sortable" data-sort="department">
+                                <span class="th-content">Dept <span class="sort-icon"></span></span>
+                            </th>
+                            <th class="col-updated sortable active desc" data-sort="updated">
+                                <span class="th-content">Updated <span class="sort-icon"></span></span>
+                            </th>
+                            <th class="col-source sortable" data-sort="source">
+                                <span class="th-content">Source <span class="sort-icon"></span></span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="jobTableBody">
+                        <tr class="loading-row">
+                            <td colspan="10">Loading jobs...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <button id="prevPage" class="btn btn-ghost" disabled>Previous</button>
+                <span id="pageInfo" class="page-info">Page 1</span>
+                <button id="nextPage" class="btn btn-ghost">Next</button>
+                <select id="pageSizeSelect" class="page-size-select">
+                    <option value="50">50 per page</option>
+                    <option value="100" selected>100 per page</option>
+                    <option value="200">200 per page</option>
+                    <option value="500">500 per page</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Saved Jobs Tab -->
+        <section class="tab-content" id="tabSavedJobs">
+            <div class="tab-header">
+                <h2>Saved Jobs</h2>
+                <span class="tab-subtitle" id="savedJobsCount">0 saved</span>
+            </div>
+            <div class="table-container">
+                <table id="savedJobsTable">
+                    <thead>
+                        <tr>
+                            <th class="col-save"><span class="th-content">Save</span></th>
+                            <th class="col-title"><span class="th-content">Title</span></th>
+                            <th class="col-company"><span class="th-content">Company</span></th>
+                            <th class="col-location"><span class="th-content">Location</span></th>
+                            <th class="col-industry"><span class="th-content">Industry</span></th>
+                            <th class="col-seniority"><span class="th-content">Seniority</span></th>
+                            <th class="col-updated"><span class="th-content">Updated</span></th>
+                            <th class="col-saved-at"><span class="th-content">Saved</span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="savedJobsTableBody">
+                        <tr><td colspan="8" class="empty-state">No saved jobs yet. Click the star icon on any job to save it.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Followed Companies Tab -->
+        <section class="tab-content" id="tabFollowedCompanies">
+            <div class="tab-header">
+                <h2>Followed Companies</h2>
+                <span class="tab-subtitle" id="followedCompaniesCount">0 followed</span>
+            </div>
+            <div id="followedCompaniesContainer" class="company-cards">
+                <div class="empty-state">No followed companies yet. Click the heart icon next to any company name to follow it.</div>
+            </div>
+        </section>
+
+        <!-- Daily Report Tab -->
+        <section class="tab-content" id="tabDailyReport">
+            <div class="tab-header">
+                <h2>Daily Report</h2>
+                <input type="date" id="reportDate" class="report-date-picker">
+            </div>
+            <div id="reportContent" class="report-content">
+                <div class="empty-state">Loading report...</div>
+            </div>
+        </section>
+
+        <!-- Saved Searches Tab -->
+        <section class="tab-content" id="tabSavedSearches">
+            <div class="tab-header">
+                <h2>Saved Searches</h2>
+                <span class="tab-subtitle" id="savedSearchesCount">0 saved</span>
+            </div>
+            <div id="savedSearchesContainer" class="saved-searches-list">
+                <div class="empty-state">No saved searches yet. Apply filters on the Jobs tab and click "Save Search" to save a filter combination.</div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Save Search Modal -->
+    <div class="modal-overlay hidden" id="saveSearchModal">
+        <div class="modal">
+            <h3>Save Search</h3>
+            <p class="modal-desc">Give this filter combination a name:</p>
+            <input type="text" id="saveSearchName" class="search-input" placeholder="e.g. Senior Frontend Tel Aviv" autofocus>
+            <div class="modal-filters" id="modalFilterSummary"></div>
+            <div class="modal-actions">
+                <button class="btn btn-ghost" id="cancelSaveSearch">Cancel</button>
+                <button class="btn btn-secondary" id="confirmSaveSearch">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
