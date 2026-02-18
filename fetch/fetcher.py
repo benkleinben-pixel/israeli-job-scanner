@@ -478,11 +478,13 @@ def fetch_lever_jobs(config: dict, companies: dict) -> list[dict]:
 # ─── Merge & Deduplicate ────────────────────────────────────────────────────
 
 def merge_jobs(techmap_jobs: list, greenhouse_jobs: list, lever_jobs: list,
-               linkedin_jobs: list, existing_jobs: dict) -> list[dict]:
+               linkedin_jobs: list, existing_jobs: dict,
+               companies: dict | None = None) -> list[dict]:
     """
     Merge jobs from all sources, deduplicate by normalized URL.
     ATS API / LinkedIn versions take priority over TechMap CSV versions.
     Preserves firstSeen from existing data.
+    Backfills missing industry from company data when available.
     """
     merged = {}
     today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
@@ -495,12 +497,21 @@ def merge_jobs(techmap_jobs: list, greenhouse_jobs: list, lever_jobs: list,
     for job in greenhouse_jobs + lever_jobs + linkedin_jobs:
         merged[job['id']] = job
 
-    # Set firstSeen dates
+    # Set firstSeen dates + backfill missing industry from company data
     for job_id, job in merged.items():
         if job_id in existing_jobs:
             job['firstSeen'] = existing_jobs[job_id].get('firstSeen', today)
         else:
             job['firstSeen'] = today
+
+        if not job.get('industry') and companies:
+            company_data = companies.get(job.get('company', ''))
+            if company_data:
+                job['industry'] = company_data.get('category', '') or 'Other'
+            elif job.get('source') == 'linkedin':
+                job['industry'] = 'LinkedIn N/A'
+            else:
+                job['industry'] = 'Other'
 
     result = list(merged.values())
     # Sort by updated date descending
@@ -557,7 +568,7 @@ def run_fetch():
     log.info(f'LinkedIn: {len(linkedin_jobs)} jobs')
 
     # 7. Merge and deduplicate
-    all_jobs = merge_jobs(techmap_jobs, greenhouse_jobs, lever_jobs, linkedin_jobs, existing_jobs)
+    all_jobs = merge_jobs(techmap_jobs, greenhouse_jobs, lever_jobs, linkedin_jobs, existing_jobs, companies)
 
     # 8. Count new jobs
     new_count = sum(1 for j in all_jobs if j['id'] not in existing_jobs)

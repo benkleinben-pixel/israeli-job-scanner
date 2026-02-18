@@ -1051,3 +1051,74 @@ tr.job-row.read:hover {
         font-size: 0.72rem;
     }
 }
+
+/* ─── Sync ─────────────────────────────────────────────────────────────────── */
+
+.industry-cell {
+    cursor: pointer;
+    border-bottom: 1px dashed var(--text-dim);
+}
+
+.industry-cell:hover {
+    color: var(--accent);
+}
+
+.industry-cell.overridden {
+    border-bottom-style: solid;
+    border-bottom-color: var(--accent);
+}
+
+.btn-clear-filters {
+    color: var(--text-dim);
+    font-size: 0.78rem;
+}
+
+.btn-sync {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+}
+
+.sync-status {
+    font-size: 0.72rem;
+    margin-left: 4px;
+}
+
+.sync-ok {
+    color: var(--green);
+}
+
+.sync-err {
+    color: var(--red);
+}
+
+.sync-label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin: 10px 0 4px;
+}
+
+#syncSettingsModal .modal {
+    max-width: 400px;
+}
+
+#syncSettingsModal .modal-desc {
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+#syncSettingsModal .modal-desc code {
+    background: var(--bg-secondary);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 0.78rem;
+}
+
+#syncSettingsModal .modal-actions {
+    gap: 8px;
+}
+
+#disconnectSync {
+    margin-right: auto;
+    color: var(--red);
+}
