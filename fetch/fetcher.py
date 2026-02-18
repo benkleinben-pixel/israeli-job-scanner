@@ -6,6 +6,7 @@ Aggregates job listings from:
 1. TechMap GitHub repo (primary — CSV job files + company JSON)
 2. Greenhouse API (secondary — free, no auth)
 3. Lever API (secondary — free, no auth)
+4. LinkedIn (secondary — public job search pages via Playwright)
 
 Outputs unified JSON files to the data/ directory.
 """
@@ -28,6 +29,7 @@ import requests
 # Add parent dir to path for imports
 sys.path.insert(0, os.path.dirname(__file__))
 from seniority import derive_seniority, translate_city, is_israeli_location, normalize_department
+from linkedin import fetch_linkedin_jobs
 
 # ─── Configuration ──────────────────────────────────────────────────────────
 
@@ -476,10 +478,10 @@ def fetch_lever_jobs(config: dict, companies: dict) -> list[dict]:
 # ─── Merge & Deduplicate ────────────────────────────────────────────────────
 
 def merge_jobs(techmap_jobs: list, greenhouse_jobs: list, lever_jobs: list,
-               existing_jobs: dict) -> list[dict]:
+               linkedin_jobs: list, existing_jobs: dict) -> list[dict]:
     """
     Merge jobs from all sources, deduplicate by normalized URL.
-    ATS API versions take priority over TechMap CSV versions.
+    ATS API / LinkedIn versions take priority over TechMap CSV versions.
     Preserves firstSeen from existing data.
     """
     merged = {}
@@ -489,8 +491,8 @@ def merge_jobs(techmap_jobs: list, greenhouse_jobs: list, lever_jobs: list,
     for job in techmap_jobs:
         merged[job['id']] = job
 
-    # ATS jobs overwrite TechMap duplicates
-    for job in greenhouse_jobs + lever_jobs:
+    # ATS + LinkedIn jobs overwrite TechMap duplicates
+    for job in greenhouse_jobs + lever_jobs + linkedin_jobs:
         merged[job['id']] = job
 
     # Set firstSeen dates
@@ -550,13 +552,17 @@ def run_fetch():
     # 5. Fetch Lever jobs
     lever_jobs = fetch_lever_jobs(config, companies)
 
-    # 6. Merge and deduplicate
-    all_jobs = merge_jobs(techmap_jobs, greenhouse_jobs, lever_jobs, existing_jobs)
+    # 6. Fetch LinkedIn jobs
+    linkedin_jobs = fetch_linkedin_jobs(config)
+    log.info(f'LinkedIn: {len(linkedin_jobs)} jobs')
 
-    # 7. Count new jobs
+    # 7. Merge and deduplicate
+    all_jobs = merge_jobs(techmap_jobs, greenhouse_jobs, lever_jobs, linkedin_jobs, existing_jobs)
+
+    # 8. Count new jobs
     new_count = sum(1 for j in all_jobs if j['id'] not in existing_jobs)
 
-    # 7b. Send WhatsApp notification for new jobs
+    # 8b. Send WhatsApp notification for new jobs
     if new_count > 0:
         try:
             from notify import send_whatsapp
@@ -565,7 +571,7 @@ def run_fetch():
         except Exception as e:
             log.warning(f'WhatsApp notification failed: {e}')
 
-    # 8. Build companies output
+    # 9. Build companies output
     companies_output = {}
     for name, data in companies.items():
         companies_output[name] = {
@@ -589,7 +595,7 @@ def run_fetch():
                 'cities': [job.get('location', '')],
             }
 
-    # 9. Build metadata
+    # 10. Build metadata
     source_counts = {}
     for job in all_jobs:
         src = job.get('source', 'unknown')
@@ -604,7 +610,7 @@ def run_fetch():
         'fetchDurationSeconds': round(time.time() - start_time, 1),
     }
 
-    # 10. Write output files
+    # 11. Write output files
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     with open(DATA_DIR / 'jobs.json', 'w', encoding='utf-8') as f:

@@ -20,5 +20,11 @@
   "lever": {
     "api_base": "https://api.lever.co/v0/postings",
     "enabled": true
+  },
+  "linkedin": {
+    "enabled": true,
+    "search_queries": ["software engineer", "product manager", "data scientist", "devops", "QA", "designer"],
+    "geo_id": "101620260",
+    "max_pages_per_query": 3
   }
 }
