@@ -29,15 +29,27 @@ def _load_env():
     return True
 
 
-def send_whatsapp(new_count: int, new_jobs: list[dict]):
+def _format_job(job: dict) -> str:
+    """Format a single job for display in a message."""
+    title = job.get('title', 'Unknown')
+    company = job.get('company', 'Unknown')
+    location = job.get('locationEn', '') or job.get('location', '')
+    entry = f'- {title} @ {company}'
+    if location:
+        entry += f' ({location})'
+    return entry
+
+
+def send_whatsapp(new_count: int, new_jobs: list[dict], search_matches: dict | None = None):
     """
     Send a WhatsApp notification about new jobs via Twilio.
 
     Args:
-        new_count: Total number of new jobs found.
-        new_jobs: List of new job dicts (with 'title', 'company', 'locationEn').
+        new_count: Total number of new jobs found (used when no saved searches).
+        new_jobs: List of new job dicts (used when no saved searches).
+        search_matches: Dict of {search_name: [matching_jobs]} for saved search notifications.
     """
-    if new_count <= 0:
+    if not search_matches and new_count <= 0:
         return
 
     if not _load_env():
@@ -54,23 +66,25 @@ def send_whatsapp(new_count: int, new_jobs: list[dict]):
         return
 
     # Build message
-    lines = [f'\U0001f514 Israeli Job Scanner: {new_count} new job{"s" if new_count != 1 else ""} found!']
-    lines.append('')
+    if search_matches:
+        total = sum(len(jobs) for jobs in search_matches.values())
+        lines = [f'\U0001f514 Israeli Job Scanner: {total} new job{"s" if total != 1 else ""} matching your searches!']
+        lines.append('')
 
-    top_jobs = new_jobs[:10]
-    if top_jobs:
-        lines.append('Top new jobs:')
-        for job in top_jobs:
-            title = job.get('title', 'Unknown')
-            company = job.get('company', 'Unknown')
-            location = job.get('locationEn', '') or job.get('location', '')
-            entry = f'- {title} @ {company}'
-            if location:
-                entry += f' ({location})'
-            lines.append(entry)
-
-    if new_count > 10:
-        lines.append(f'... and {new_count - 10} more')
+        for name, jobs in search_matches.items():
+            lines.append(f'\U0001f50d {name} ({len(jobs)}):')
+            for job in jobs[:5]:
+                lines.append(_format_job(job))
+            if len(jobs) > 5:
+                lines.append(f'  ... and {len(jobs) - 5} more')
+            lines.append('')
+    else:
+        lines = [f'\U0001f514 Israeli Job Scanner: {new_count} new job{"s" if new_count != 1 else ""} found!']
+        lines.append('')
+        for job in new_jobs[:10]:
+            lines.append(_format_job(job))
+        if new_count > 10:
+            lines.append(f'... and {new_count - 10} more')
 
     body = '\n'.join(lines)
 

@@ -522,6 +522,72 @@ def merge_jobs(techmap_jobs: list, greenhouse_jobs: list, lever_jobs: list,
 
 # ─── Main ────────────────────────────────────────────────────────────────────
 
+def _load_saved_searches() -> list:
+    """Load saved searches from user_prefs.json."""
+    prefs_path = DATA_DIR / 'user_prefs.json'
+    if prefs_path.exists():
+        try:
+            with open(prefs_path, 'r') as f:
+                prefs = json.load(f)
+            return prefs.get('savedSearches', [])
+        except (json.JSONDecodeError, KeyError):
+            pass
+    return []
+
+
+def _job_matches_filters(job: dict, filters: dict, overrides: dict | None = None) -> bool:
+    """Check if a job matches a saved search's filters (mirrors JS applyFilters logic)."""
+    search = (filters.get('search') or '').lower()
+    if search:
+        haystack = (job.get('title', '') + ' ' + job.get('company', '')).lower()
+        if search not in haystack:
+            return False
+
+    location = filters.get('location', '')
+    if location and job.get('locationEn') != location and job.get('location') != location:
+        return False
+
+    seniority = filters.get('seniority', '')
+    if seniority and job.get('seniority') != seniority:
+        return False
+
+    industry = filters.get('industry', '')
+    if industry:
+        effective = job.get('industry', '') or 'Other'
+        if overrides and job.get('company') in overrides:
+            effective = overrides[job['company']]
+        if effective != industry:
+            return False
+
+    department = filters.get('department', '')
+    if department and job.get('department') != department:
+        return False
+
+    return True
+
+
+def _match_saved_searches(new_jobs: list, saved_searches: list) -> dict:
+    """Match new jobs against saved searches. Returns {search_name: [jobs]}."""
+    # Load industry overrides from prefs
+    overrides = {}
+    prefs_path = DATA_DIR / 'user_prefs.json'
+    if prefs_path.exists():
+        try:
+            with open(prefs_path, 'r') as f:
+                overrides = json.load(f).get('companyIndustryOverrides', {})
+        except (json.JSONDecodeError, KeyError):
+            pass
+
+    matches = {}
+    for search in saved_searches:
+        name = search.get('name', 'Unnamed')
+        filters = search.get('filters', {})
+        matched = [j for j in new_jobs if _job_matches_filters(j, filters, overrides)]
+        if matched:
+            matches[name] = matched
+    return matches
+
+
 def load_existing_jobs() -> dict:
     """Load existing jobs.json to preserve firstSeen dates."""
     jobs_path = DATA_DIR / 'jobs.json'
@@ -573,12 +639,19 @@ def run_fetch():
     # 8. Count new jobs
     new_count = sum(1 for j in all_jobs if j['id'] not in existing_jobs)
 
-    # 8b. Send WhatsApp notification for new jobs
+    # 8b. Send WhatsApp notification for new jobs matching saved searches
     if new_count > 0:
         try:
             from notify import send_whatsapp
             new_jobs_list = [j for j in all_jobs if j['id'] not in existing_jobs]
-            send_whatsapp(new_count, new_jobs_list)
+            saved_searches = _load_saved_searches()
+            if saved_searches:
+                matches = _match_saved_searches(new_jobs_list, saved_searches)
+                if matches:
+                    send_whatsapp(0, [], search_matches=matches)
+            else:
+                # No saved searches configured — notify about all new jobs
+                send_whatsapp(new_count, new_jobs_list)
         except Exception as e:
             log.warning(f'WhatsApp notification failed: {e}')
 
