@@ -122,118 +122,39 @@ function loadSavedSearches() {
 }
 function saveSavedSearches() { saveToStorage(STORAGE_KEYS.searches, state.savedSearches); schedulePrefsSync(); }
 
-// ─── Remote Prefs Sync (GitHub API) ─────────────────────────────────────────
-
-const SYNC_STORAGE_KEYS = {
-    token: 'israeliJobScanner_ghToken',
-    owner: 'israeliJobScanner_ghOwner',
-    repo: 'israeliJobScanner_ghRepo',
-};
-const PREFS_FILE_PATH = 'data/user_prefs.json';
+// ─── Remote Prefs Sync (Server API) ─────────────────────────────────────────
 
 let _prefsSyncTimer = null;
-let _prefsSyncEnabled = false;
-let _prefsFileSha = null; // track SHA for GitHub API updates
-
-function getSyncConfig() {
-    const token = localStorage.getItem(SYNC_STORAGE_KEYS.token) || '';
-    const owner = localStorage.getItem(SYNC_STORAGE_KEYS.owner) || '';
-    const repo = localStorage.getItem(SYNC_STORAGE_KEYS.repo) || '';
-    return { token, owner, repo, configured: !!(token && owner && repo) };
-}
-
-function saveSyncConfig(token, owner, repo) {
-    localStorage.setItem(SYNC_STORAGE_KEYS.token, token);
-    localStorage.setItem(SYNC_STORAGE_KEYS.owner, owner);
-    localStorage.setItem(SYNC_STORAGE_KEYS.repo, repo);
-}
-
-function clearSyncConfig() {
-    localStorage.removeItem(SYNC_STORAGE_KEYS.token);
-    localStorage.removeItem(SYNC_STORAGE_KEYS.owner);
-    localStorage.removeItem(SYNC_STORAGE_KEYS.repo);
-    _prefsFileSha = null;
-}
 
 function schedulePrefsSync() {
-    if (!_prefsSyncEnabled) return;
     clearTimeout(_prefsSyncTimer);
-    _prefsSyncTimer = setTimeout(() => pushPrefsToGitHub(), 2000);
+    _prefsSyncTimer = setTimeout(() => pushPrefs(), 2000);
 }
 
-async function pushPrefsToGitHub() {
-    const cfg = getSyncConfig();
-    if (!cfg.configured) return;
-
+async function pushPrefs() {
     try {
         const payload = {
-            _updatedAt: new Date().toISOString(),
             readJobs: state.readJobs,
             savedJobs: state.savedJobs,
             followedCompanies: state.followedCompanies,
             companyIndustryOverrides: state.companyIndustryOverrides,
             savedSearches: state.savedSearches,
         };
-        const content = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2) + '\n')));
-
-        // If we don't have a SHA yet, fetch it first
-        if (!_prefsFileSha) {
-            const getResp = await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${PREFS_FILE_PATH}`, {
-                headers: { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json' },
-            });
-            if (getResp.ok) {
-                const data = await getResp.json();
-                _prefsFileSha = data.sha;
-            }
-        }
-
-        const body = {
-            message: 'Update user preferences [sync]',
-            content,
-        };
-        if (_prefsFileSha) body.sha = _prefsFileSha;
-
-        const resp = await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${PREFS_FILE_PATH}`, {
-            method: 'PUT',
-            headers: {
-                'Authorization': `token ${cfg.token}`,
-                'Accept': 'application/vnd.github.v3+json',
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(body),
+        await fetch('/api/prefs', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
         });
-
-        if (resp.ok) {
-            const result = await resp.json();
-            _prefsFileSha = result.content.sha;
-            updateSyncStatus('synced');
-        } else if (resp.status === 409) {
-            // SHA conflict — re-fetch and retry once
-            _prefsFileSha = null;
-            await pushPrefsToGitHub();
-        } else {
-            updateSyncStatus('error');
-        }
     } catch {
-        updateSyncStatus('error');
+        // Silently fail (e.g. static hosting without serve.py)
     }
 }
 
-async function pullPrefsFromGitHub() {
-    const cfg = getSyncConfig();
-    if (!cfg.configured) return;
-
+async function pullPrefs() {
     try {
-        const resp = await fetch(`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${PREFS_FILE_PATH}`, {
-            headers: { 'Authorization': `token ${cfg.token}`, 'Accept': 'application/vnd.github.v3+json' },
-        });
+        const resp = await fetch('/api/prefs?t=' + Date.now());
         if (!resp.ok) return;
-
-        const data = await resp.json();
-        _prefsFileSha = data.sha;
-
-        const decoded = decodeURIComponent(escape(atob(data.content.replace(/\n/g, ''))));
-        const remote = JSON.parse(decoded);
+        const remote = await resp.json();
         if (!remote._updatedAt) return;
 
         mergeTimestampMap(state.readJobs, remote.readJobs || {});
@@ -260,9 +181,8 @@ async function pullPrefsFromGitHub() {
         saveFollowedCompanies();
         saveIndustryOverrides();
         saveSavedSearches();
-        updateSyncStatus('synced');
     } catch {
-        updateSyncStatus('error');
+        // Silently fail
     }
 }
 
@@ -272,68 +192,6 @@ function mergeTimestampMap(local, remote) {
             local[key] = remoteTs;
         }
     }
-}
-
-function updateSyncStatus(status) {
-    const el = document.getElementById('syncStatus');
-    if (!el) return;
-    if (status === 'synced') {
-        el.textContent = 'Synced';
-        el.className = 'sync-status sync-ok';
-    } else if (status === 'error') {
-        el.textContent = 'Sync error';
-        el.className = 'sync-status sync-err';
-    } else {
-        el.textContent = '';
-        el.className = 'sync-status';
-    }
-}
-
-// ─── Sync Settings Modal ────────────────────────────────────────────────────
-
-function openSyncSettings() {
-    const modal = document.getElementById('syncSettingsModal');
-    const cfg = getSyncConfig();
-    document.getElementById('syncToken').value = cfg.token;
-    document.getElementById('syncOwner').value = cfg.owner;
-    document.getElementById('syncRepo').value = cfg.repo;
-    updateSyncSettingsState();
-    modal.classList.remove('hidden');
-}
-
-function closeSyncSettings() {
-    document.getElementById('syncSettingsModal').classList.add('hidden');
-}
-
-function updateSyncSettingsState() {
-    const token = document.getElementById('syncToken').value.trim();
-    const owner = document.getElementById('syncOwner').value.trim();
-    const repo = document.getElementById('syncRepo').value.trim();
-    const saveBtn = document.getElementById('saveSyncSettings');
-    saveBtn.disabled = !(token && owner && repo);
-}
-
-async function saveSyncSettings() {
-    const token = document.getElementById('syncToken').value.trim();
-    const owner = document.getElementById('syncOwner').value.trim();
-    const repo = document.getElementById('syncRepo').value.trim();
-
-    saveSyncConfig(token, owner, repo);
-    _prefsFileSha = null;
-    closeSyncSettings();
-
-    // Pull remote prefs immediately after configuring
-    await pullPrefsFromGitHub();
-    _prefsSyncEnabled = true;
-    applyFilters();
-    updateStats();
-}
-
-function disconnectSync() {
-    clearSyncConfig();
-    _prefsSyncEnabled = false;
-    updateSyncStatus('');
-    closeSyncSettings();
 }
 
 async function loadVersion() {
@@ -415,31 +273,62 @@ function applyFilters() {
     updateStats();
 }
 
-function promptIndustryOverride(company) {
-    // Collect all known industries from current jobs
+function promptIndustryOverride(company, anchorEl) {
+    // Remove any existing dropdown
+    const existing = document.querySelector('.industry-dropdown');
+    if (existing) existing.remove();
+
+    // Collect all known industries
     const industries = new Set();
     state.allJobs.forEach(j => {
-        const ind = getEffectiveIndustry(j);
+        const ind = j.industry;
         if (ind && ind !== 'LinkedIn N/A' && ind !== 'Other') industries.add(ind);
     });
+    // Also include any override values
+    Object.values(state.companyIndustryOverrides).forEach(ind => {
+        if (ind) industries.add(ind);
+    });
     const sorted = [...industries].sort();
-
     const current = state.companyIndustryOverrides[company] || '';
-    const choice = prompt(
-        `Set industry for "${company}":\n\n` +
-        `Available: ${sorted.join(', ')}\n\n` +
-        (current ? `Current override: ${current}\nLeave empty to remove override.` : 'Enter industry name:')
-    );
 
-    if (choice === null) return; // cancelled
-    if (choice.trim() === '') {
-        delete state.companyIndustryOverrides[company];
-    } else {
-        state.companyIndustryOverrides[company] = choice.trim();
+    // Build dropdown
+    const dropdown = document.createElement('select');
+    dropdown.className = 'industry-dropdown';
+
+    // "Remove override" option
+    const resetOpt = document.createElement('option');
+    resetOpt.value = '';
+    resetOpt.textContent = current ? '-- Remove override --' : '-- Select industry --';
+    dropdown.appendChild(resetOpt);
+
+    sorted.forEach(ind => {
+        const opt = document.createElement('option');
+        opt.value = ind;
+        opt.textContent = ind;
+        if (ind === current) opt.selected = true;
+        dropdown.appendChild(opt);
+    });
+
+    // Position and insert
+    const cell = anchorEl.closest('td');
+    cell.appendChild(dropdown);
+    dropdown.focus();
+
+    function apply() {
+        const val = dropdown.value;
+        if (val) {
+            state.companyIndustryOverrides[company] = val;
+        } else {
+            delete state.companyIndustryOverrides[company];
+        }
+        saveIndustryOverrides();
+        dropdown.remove();
+        populateFilters();
+        applyFilters();
     }
-    saveIndustryOverrides();
-    populateFilters();
-    applyFilters();
+
+    dropdown.addEventListener('change', apply);
+    dropdown.addEventListener('blur', () => dropdown.remove());
 }
 
 function clearAllFilters() {
@@ -1148,7 +1037,7 @@ function setupEventListeners() {
         // Edit industry override
         if (action === 'edit-industry') {
             const company = actionEl.dataset.company;
-            promptIndustryOverride(company);
+            promptIndustryOverride(company, actionEl);
             return;
         }
 
@@ -1268,18 +1157,6 @@ function setupEventListeners() {
 
     // Refresh button
     document.getElementById('refreshBtn').addEventListener('click', triggerRefresh);
-
-    // Sync settings
-    document.getElementById('syncSettingsBtn').addEventListener('click', openSyncSettings);
-    document.getElementById('cancelSyncSettings').addEventListener('click', closeSyncSettings);
-    document.getElementById('saveSyncSettings').addEventListener('click', saveSyncSettings);
-    document.getElementById('disconnectSync').addEventListener('click', disconnectSync);
-    document.getElementById('syncSettingsModal').addEventListener('click', e => {
-        if (e.target === e.currentTarget) closeSyncSettings();
-    });
-    ['syncToken', 'syncOwner', 'syncRepo'].forEach(id => {
-        document.getElementById(id).addEventListener('input', updateSyncSettingsState);
-    });
 
     // Keyboard shortcuts
     document.addEventListener('keydown', e => {
@@ -1431,14 +1308,13 @@ async function init() {
     const [jobsOk] = await Promise.all([
         loadJobs(),
         loadMetadata(),
-        pullPrefsFromGitHub(),
+        pullPrefs(),
         loadVersion(),
     ]);
     if (!jobsOk) return;
 
     document.getElementById('updateBanner').classList.add('hidden');
     document.getElementById('versionBadge').textContent = 'v' + APP_VERSION;
-    _prefsSyncEnabled = getSyncConfig().configured;
 
     // Set default date for daily report
     document.getElementById('reportDate').value = new Date().toISOString().slice(0, 10);

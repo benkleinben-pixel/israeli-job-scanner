@@ -525,7 +525,7 @@ tr.job-row.read:hover {
 .col-title { min-width: 250px; }
 .col-company { min-width: 120px; }
 .col-location { min-width: 100px; }
-.col-industry { min-width: 100px; }
+.col-industry { min-width: 100px; position: relative; }
 .col-seniority { min-width: 80px; }
 .col-department { min-width: 80px; }
 .col-updated { min-width: 90px; }
@@ -1052,7 +1052,7 @@ tr.job-row.read:hover {
     }
 }
 
-/* ─── Sync ─────────────────────────────────────────────────────────────────── */
+/* ─── Industry Override & Filters ──────────────────────────────────────────── */
 
 .industry-cell {
     cursor: pointer;
@@ -1068,57 +1068,20 @@ tr.job-row.read:hover {
     border-bottom-color: var(--accent);
 }
 
+.industry-dropdown {
+    position: absolute;
+    z-index: 100;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 0.78rem;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
 .btn-clear-filters {
     color: var(--text-dim);
     font-size: 0.78rem;
-}
-
-.btn-sync {
-    font-size: 0.75rem;
-    padding: 4px 10px;
-}
-
-.sync-status {
-    font-size: 0.72rem;
-    margin-left: 4px;
-}
-
-.sync-ok {
-    color: var(--green);
-}
-
-.sync-err {
-    color: var(--red);
-}
-
-.sync-label {
-    display: block;
-    font-size: 0.8rem;
-    color: var(--text-dim);
-    margin: 10px 0 4px;
-}
-
-#syncSettingsModal .modal {
-    max-width: 400px;
-}
-
-#syncSettingsModal .modal-desc {
-    font-size: 0.82rem;
-    line-height: 1.5;
-}
-
-#syncSettingsModal .modal-desc code {
-    background: var(--bg-secondary);
-    padding: 1px 5px;
-    border-radius: 3px;
-    font-size: 0.78rem;
-}
-
-#syncSettingsModal .modal-actions {
-    gap: 8px;
-}
-
-#disconnectSync {
-    margin-right: auto;
-    color: var(--red);
 }

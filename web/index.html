@@ -22,8 +22,6 @@
                     <span class="stat new" id="statNew">-</span>
                     <span class="stat-divider">|</span>
                     <button id="refreshBtn" class="btn btn-refresh">Refresh</button>
-                    <span id="syncStatus" class="sync-status"></span>
-                    <button id="syncSettingsBtn" class="btn btn-ghost btn-sync" title="Sync settings">Sync</button>
                 </div>
             </div>
 
@@ -238,25 +236,6 @@
             <div class="modal-actions">
                 <button class="btn btn-ghost" id="cancelSaveSearch">Cancel</button>
                 <button class="btn btn-secondary" id="confirmSaveSearch">Save</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Sync Settings Modal -->
-    <div class="modal-overlay hidden" id="syncSettingsModal">
-        <div class="modal">
-            <h3>Cross-Device Sync</h3>
-            <p class="modal-desc">Sync saved jobs, followed companies, and searches across devices via GitHub. Create a <a href="https://github.com/settings/tokens/new?scopes=repo&description=Job+Scanner+Sync" target="_blank" rel="noopener">Personal Access Token</a> with <code>repo</code> scope.</p>
-            <label class="sync-label" for="syncOwner">GitHub Owner</label>
-            <input type="text" id="syncOwner" class="search-input" placeholder="e.g. your-username">
-            <label class="sync-label" for="syncRepo">Repository</label>
-            <input type="text" id="syncRepo" class="search-input" placeholder="e.g. israeli-job-scanner">
-            <label class="sync-label" for="syncToken">Personal Access Token</label>
-            <input type="password" id="syncToken" class="search-input" placeholder="ghp_...">
-            <div class="modal-actions">
-                <button class="btn btn-ghost" id="disconnectSync">Disconnect</button>
-                <button class="btn btn-ghost" id="cancelSyncSettings">Cancel</button>
-                <button class="btn btn-secondary" id="saveSyncSettings" disabled>Save &amp; Sync</button>
             </div>
         </div>
     </div>

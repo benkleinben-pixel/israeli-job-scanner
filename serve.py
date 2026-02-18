@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple HTTP server with a /api/refresh endpoint to trigger the job fetcher.
+Simple HTTP server with API endpoints for job refresh and shared user prefs.
 Serves static files from the project root (web/ and data/ directories).
 """
 
@@ -8,6 +8,7 @@ import json
 import os
 import sys
 import threading
+from datetime import datetime, timezone
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 # Add fetch/ to path so we can import the fetcher
@@ -17,13 +18,56 @@ from fetcher import run_fetch, DATA_DIR
 _refresh_lock = threading.Lock()
 _refreshing = False
 
+PREFS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'user_prefs.json')
+
 
 class Handler(SimpleHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == '/api/prefs' or self.path.startswith('/api/prefs?'):
+            self.handle_get_prefs()
+        else:
+            super().do_GET()
+
     def do_POST(self):
         if self.path == '/api/refresh':
             self.handle_refresh()
+        elif self.path == '/api/prefs':
+            self.handle_post_prefs()
         else:
             self.send_error(404)
+
+    def handle_get_prefs(self):
+        try:
+            with open(PREFS_PATH, 'r') as f:
+                data = json.load(f)
+            self.send_json(200, data)
+        except FileNotFoundError:
+            self.send_json(200, {
+                '_updatedAt': '',
+                'readJobs': {},
+                'savedJobs': {},
+                'followedCompanies': {},
+                'companyIndustryOverrides': {},
+                'savedSearches': [],
+            })
+        except Exception as e:
+            self.send_json(500, {'status': 'error', 'message': str(e)})
+
+    def handle_post_prefs(self):
+        try:
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length)
+            data = json.loads(body)
+
+            data['_updatedAt'] = datetime.now(timezone.utc).isoformat()
+
+            with open(PREFS_PATH, 'w') as f:
+                json.dump(data, f, indent=2)
+                f.write('\n')
+
+            self.send_json(200, {'status': 'ok', '_updatedAt': data['_updatedAt']})
+        except Exception as e:
+            self.send_json(500, {'status': 'error', 'message': str(e)})
 
     def handle_refresh(self):
         global _refreshing
