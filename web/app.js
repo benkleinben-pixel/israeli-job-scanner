@@ -742,7 +742,7 @@ function renderSavedSearchesTab() {
     }
 
     container.innerHTML = state.savedSearches.map((search, idx) => {
-        const matchCount = countMatchingJobs(search.filters);
+        const { total, unread } = countMatchingJobs(search.filters);
         const filterSummary = describeFilters(search.filters);
 
         return `<div class="saved-search-item" data-idx="${idx}">
@@ -750,28 +750,32 @@ function renderSavedSearchesTab() {
                 <div class="saved-search-name">${escapeHtml(search.name)}</div>
                 <div class="saved-search-filters">${filterSummary || 'All jobs (no filters)'}</div>
             </div>
-            <span class="saved-search-badge">${matchCount}</span>
+            <span class="saved-search-badge" title="${total} total">${total}</span>
+            ${unread > 0 ? `<span class="saved-search-badge unread-badge" title="${unread} unread">${unread} new</span>` : ''}
             <button class="saved-search-delete" data-action="delete-search" data-idx="${idx}" title="Delete search">&times;</button>
         </div>`;
     }).join('');
 }
 
 function countMatchingJobs(filters) {
-    return state.allJobs.filter(job => {
+    let total = 0, unread = 0;
+    state.allJobs.forEach(job => {
         if (filters.search) {
             const haystack = (job.title + ' ' + job.company).toLowerCase();
-            if (!haystack.includes(filters.search.toLowerCase())) return false;
+            if (!haystack.includes(filters.search.toLowerCase())) return;
         }
-        if (filters.location && job.locationEn !== filters.location && job.location !== filters.location) return false;
-        if (filters.seniority && job.seniority !== filters.seniority) return false;
-        if (filters.industry && getEffectiveIndustry(job) !== filters.industry) return false;
-        if (filters.department && job.department !== filters.department) return false;
-        if (filters.status === 'unread' && isRead(job.id)) return false;
-        if (filters.status === 'read' && !isRead(job.id)) return false;
-        if (filters.status === 'saved' && !isSaved(job.id)) return false;
-        if (filters.status === 'followed' && !isFollowed(job.company)) return false;
-        return true;
-    }).length;
+        if (filters.location && job.locationEn !== filters.location && job.location !== filters.location) return;
+        if (filters.seniority && job.seniority !== filters.seniority) return;
+        if (filters.industry && getEffectiveIndustry(job) !== filters.industry) return;
+        if (filters.department && job.department !== filters.department) return;
+        if (filters.status === 'unread' && isRead(job.id)) return;
+        if (filters.status === 'read' && !isRead(job.id)) return;
+        if (filters.status === 'saved' && !isSaved(job.id)) return;
+        if (filters.status === 'followed' && !isFollowed(job.company)) return;
+        total++;
+        if (!isRead(job.id)) unread++;
+    });
+    return { total, unread };
 }
 
 function describeFilters(filters) {

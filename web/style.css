@@ -926,6 +926,10 @@ tr.job-row.read:hover {
     text-align: center;
 }
 
+.saved-search-badge.unread-badge {
+    background: var(--green);
+}
+
 .saved-search-delete {
     cursor: pointer;
     color: var(--text-muted);
