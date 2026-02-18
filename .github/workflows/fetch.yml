@@ -39,7 +39,10 @@ jobs:
         run: python3 fetch/fetcher.py --once
 
       - name: Stamp version
-        run: git rev-parse --short HEAD > web/version.txt
+        run: |
+          PREV=$(cat web/version.txt 2>/dev/null | head -1 | grep -oE '^[0-9]+' || echo 0)
+          NUM=$((PREV + 1))
+          echo "$NUM — $(date -u +'%Y-%m-%d %H:%M UTC')" > web/version.txt
 
       - name: Commit and push data
         run: |
