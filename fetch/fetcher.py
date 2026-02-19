@@ -29,7 +29,7 @@ import requests
 # Add parent dir to path for imports
 sys.path.insert(0, os.path.dirname(__file__))
 from seniority import derive_seniority, translate_city, is_israeli_location, normalize_department
-from linkedin import fetch_linkedin_jobs
+from linkedin import fetch_linkedin_jobs, fetch_linkedin_jobs_by_company
 
 # ─── Configuration ──────────────────────────────────────────────────────────
 
@@ -522,17 +522,21 @@ def merge_jobs(techmap_jobs: list, greenhouse_jobs: list, lever_jobs: list,
 
 # ─── Main ────────────────────────────────────────────────────────────────────
 
-def _load_saved_searches() -> list:
-    """Load saved searches from user_prefs.json."""
+def _load_user_prefs() -> dict:
+    """Load user_prefs.json and return the full prefs dict."""
     prefs_path = DATA_DIR / 'user_prefs.json'
     if prefs_path.exists():
         try:
             with open(prefs_path, 'r') as f:
-                prefs = json.load(f)
-            return prefs.get('savedSearches', [])
+                return json.load(f)
         except (json.JSONDecodeError, KeyError):
             pass
-    return []
+    return {}
+
+
+def _load_saved_searches() -> list:
+    """Load saved searches from user_prefs.json."""
+    return _load_user_prefs().get('savedSearches', [])
 
 
 def _job_matches_filters(job: dict, filters: dict, overrides: dict | None = None) -> bool:
@@ -629,12 +633,44 @@ def run_fetch():
     # 5. Fetch Lever jobs
     lever_jobs = fetch_lever_jobs(config, companies)
 
-    # 6. Fetch LinkedIn jobs
+    # 6. Fetch LinkedIn keyword-search jobs
     linkedin_jobs = fetch_linkedin_jobs(config)
-    log.info(f'LinkedIn: {len(linkedin_jobs)} jobs')
+    log.info(f'LinkedIn keyword search: {len(linkedin_jobs)} jobs')
+
+    # 6b. Fetch LinkedIn company-page jobs
+    company_slugs = set()
+
+    # a) Manual slugs from config
+    company_slugs.update(config.get('linkedin', {}).get('company_slugs', []))
+
+    # b) Followed companies (from user_prefs.json)
+    if config.get('linkedin', {}).get('scrape_followed_companies', True):
+        prefs = _load_user_prefs()
+        followed_names = prefs.get('followedCompanies', {}).keys()
+        for name in followed_names:
+            slug = companies.get(name, {}).get('linkedin', '')
+            if slug:
+                company_slugs.add(slug)
+
+    # c) All TechMap companies (optional, heavy)
+    if config.get('linkedin', {}).get('scrape_all_techmap_companies', False):
+        for name, data in companies.items():
+            slug = data.get('linkedin', '')
+            if slug:
+                company_slugs.add(slug)
+
+    linkedin_company_jobs = []
+    if company_slugs:
+        log.info(f'LinkedIn company slugs to scrape: {len(company_slugs)}')
+        linkedin_company_jobs = fetch_linkedin_jobs_by_company(config, list(company_slugs))
+        log.info(f'LinkedIn company pages: {len(linkedin_company_jobs)} jobs')
+
+    # Combine all LinkedIn jobs
+    all_linkedin_jobs = linkedin_jobs + linkedin_company_jobs
+    log.info(f'LinkedIn total (keyword + company): {len(all_linkedin_jobs)} jobs')
 
     # 7. Merge and deduplicate
-    all_jobs = merge_jobs(techmap_jobs, greenhouse_jobs, lever_jobs, linkedin_jobs, existing_jobs, companies)
+    all_jobs = merge_jobs(techmap_jobs, greenhouse_jobs, lever_jobs, all_linkedin_jobs, existing_jobs, companies)
 
     # 8. Count new jobs
     new_count = sum(1 for j in all_jobs if j['id'] not in existing_jobs)

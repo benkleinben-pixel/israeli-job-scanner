@@ -248,6 +248,98 @@ def fetch_linkedin_jobs(config: dict) -> list[dict]:
     return jobs
 
 
+# ─── Company-based scraper ──────────────────────────────────────────────────
+
+def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str]) -> list[dict]:
+    """
+    Fetch jobs from LinkedIn company pages using Playwright.
+    Takes a list of LinkedIn company slugs (e.g., ["helloheart", "weka-io"]).
+    Returns a list of normalized job dicts (same format as fetch_linkedin_jobs).
+    """
+    linkedin_config = config.get('linkedin', {})
+    if not linkedin_config.get('enabled', False):
+        return []
+
+    if not company_slugs:
+        return []
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log.warning('Playwright not installed — skipping LinkedIn company scraping.')
+        return []
+
+    raw_jobs = []
+    seen_urls = set()
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+
+    log.info(f'Fetching LinkedIn jobs for {len(company_slugs)} company pages...')
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            viewport={'width': 1280, 'height': 800},
+        )
+        page = context.new_page()
+
+        for slug in company_slugs:
+            url = f'https://www.linkedin.com/company/{slug}/jobs/'
+            log.info(f'  LinkedIn company: {slug}...')
+
+            try:
+                page.goto(url, wait_until='domcontentloaded', timeout=30000)
+                time.sleep(2)
+
+                _scroll_and_load(page, max_scrolls=5)
+
+                page_jobs = _extract_jobs_from_page(page)
+                log.info(f'    Found {len(page_jobs)} job cards for {slug}')
+
+                for job in page_jobs:
+                    if job['url'] not in seen_urls:
+                        seen_urls.add(job['url'])
+                        raw_jobs.append(job)
+
+            except Exception as e:
+                log.warning(f'  LinkedIn company page failed for {slug}: {e}')
+
+            # Rate limiting between company pages (3-5 sec)
+            time.sleep(3 + (hash(slug) % 3))
+
+        browser.close()
+
+    # Normalize and filter jobs
+    jobs = []
+    for raw in raw_jobs:
+        location = raw['location']
+
+        if not is_israeli_location(location):
+            continue
+
+        title = raw['title']
+        job_url = raw['url']
+
+        jobs.append({
+            'id': _url_hash(job_url),
+            'title': title,
+            'company': raw['company'],
+            'location': location,
+            'locationEn': translate_city(location),
+            'industry': '',
+            'seniority': derive_seniority(title),
+            'level': '',
+            'department': '',
+            'companySize': '',
+            'url': job_url,
+            'updated': raw['updated'],
+            'source': 'linkedin',
+        })
+
+    log.info(f'LinkedIn company pages total: {len(jobs)} Israeli jobs (from {len(raw_jobs)} raw results)')
+    return jobs
+
+
 # ─── Standalone test ─────────────────────────────────────────────────────────
 
 if __name__ == '__main__':
