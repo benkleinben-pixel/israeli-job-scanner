@@ -27,6 +27,7 @@
     "geo_id": "101620260",
     "max_pages_per_query": 3,
     "company_slugs": ["helloheart"],
+    "company_ids": {"helloheart": "3024029"},
     "scrape_followed_companies": true,
     "scrape_all_techmap_companies": false
   }

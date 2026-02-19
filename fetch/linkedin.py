@@ -252,8 +252,9 @@ def fetch_linkedin_jobs(config: dict) -> list[dict]:
 
 def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str]) -> list[dict]:
     """
-    Fetch jobs from LinkedIn company pages using Playwright.
-    Takes a list of LinkedIn company slugs (e.g., ["helloheart", "weka-io"]).
+    Fetch jobs from LinkedIn for specific companies.
+    Uses company-filtered search URL (f_C=<id>) when a numeric ID is available,
+    otherwise falls back to /company/<slug>/jobs/ page.
     Returns a list of normalized job dicts (same format as fetch_linkedin_jobs).
     """
     linkedin_config = config.get('linkedin', {})
@@ -268,6 +269,9 @@ def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str]) -> li
     except ImportError:
         log.warning('Playwright not installed — skipping LinkedIn company scraping.')
         return []
+
+    company_ids = linkedin_config.get('company_ids', {})
+    geo_id = linkedin_config.get('geo_id', '101620260')
 
     raw_jobs = []
     seen_urls = set()
@@ -284,8 +288,14 @@ def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str]) -> li
         page = context.new_page()
 
         for slug in company_slugs:
-            url = f'https://www.linkedin.com/company/{slug}/jobs/'
-            log.info(f'  LinkedIn company: {slug}...')
+            company_id = company_ids.get(slug)
+            if company_id:
+                # Use search URL filtered by company ID — same structure as keyword search
+                url = f'https://www.linkedin.com/jobs/search/?f_C={company_id}&geoId={geo_id}'
+                log.info(f'  LinkedIn company search (id={company_id}): {slug}...')
+            else:
+                url = f'https://www.linkedin.com/company/{slug}/jobs/'
+                log.info(f'  LinkedIn company page: {slug}...')
 
             try:
                 page.goto(url, wait_until='domcontentloaded', timeout=30000)
