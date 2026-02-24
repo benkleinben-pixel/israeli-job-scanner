@@ -250,32 +250,48 @@ def fetch_linkedin_jobs(config: dict) -> list[dict]:
 
 # ─── Company-based scraper ──────────────────────────────────────────────────
 
-def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str]) -> list[dict]:
+def _discover_company_id(page, slug: str) -> str | None:
+    """Visit LinkedIn company page and extract numeric company ID from URN."""
+    try:
+        page.goto(f'https://www.linkedin.com/company/{slug}/', wait_until='domcontentloaded', timeout=30000)
+        time.sleep(2)
+        content = page.content()
+        match = re.search(r'urn:li:company:(\d+)', content)
+        if match:
+            return match.group(1)
+    except Exception as e:
+        log.debug(f'Failed to discover ID for {slug}: {e}')
+    return None
+
+
+def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str], id_cache: dict | None = None) -> tuple[list[dict], dict]:
     """
     Fetch jobs from LinkedIn for specific companies.
-    Uses company-filtered search URL (f_C=<id>) when a numeric ID is available,
-    otherwise falls back to /company/<slug>/jobs/ page.
-    Returns a list of normalized job dicts (same format as fetch_linkedin_jobs).
+    Always uses company-filtered search URL (f_C=<id>) — auto-discovers numeric ID
+    if not already in config or id_cache. Skips companies where no ID can be found.
+    Returns (jobs_list, updated_id_cache).
     """
+    if id_cache is None:
+        id_cache = {}
+
     linkedin_config = config.get('linkedin', {})
     if not linkedin_config.get('enabled', False):
-        return []
+        return [], id_cache
 
     if not company_slugs:
-        return []
+        return [], id_cache
 
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
         log.warning('Playwright not installed — skipping LinkedIn company scraping.')
-        return []
+        return [], id_cache
 
     company_ids = linkedin_config.get('company_ids', {})
     geo_id = linkedin_config.get('geo_id', '101620260')
 
     raw_jobs = []
     seen_urls = set()
-    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
     log.info(f'Fetching LinkedIn jobs for {len(company_slugs)} company pages...')
 
@@ -288,14 +304,22 @@ def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str]) -> li
         page = context.new_page()
 
         for slug in company_slugs:
-            company_id = company_ids.get(slug)
-            if company_id:
-                # Use search URL filtered by company ID — same structure as keyword search
-                url = f'https://www.linkedin.com/jobs/search/?f_C={company_id}&geoId={geo_id}'
-                log.info(f'  LinkedIn company search (id={company_id}): {slug}...')
-            else:
-                url = f'https://www.linkedin.com/company/{slug}/jobs/'
-                log.info(f'  LinkedIn company page: {slug}...')
+            # ID lookup order: config → id_cache → auto-discover
+            company_id = company_ids.get(slug) or id_cache.get(slug)
+
+            if not company_id:
+                log.info(f'  LinkedIn: no ID for {slug}, attempting discovery...')
+                company_id = _discover_company_id(page, slug)
+                if company_id:
+                    log.info(f'  Discovered LinkedIn ID for {slug}: {company_id}')
+                    id_cache[slug] = company_id
+                else:
+                    log.warning(f'  LinkedIn: could not discover ID for {slug}, skipping')
+                    continue
+
+            # Always use search URL filtered by company ID
+            url = f'https://www.linkedin.com/jobs/search/?f_C={company_id}&geoId={geo_id}'
+            log.info(f'  LinkedIn company search (id={company_id}): {slug}...')
 
             try:
                 page.goto(url, wait_until='domcontentloaded', timeout=30000)
@@ -347,7 +371,7 @@ def fetch_linkedin_jobs_by_company(config: dict, company_slugs: list[str]) -> li
         })
 
     log.info(f'LinkedIn company pages total: {len(jobs)} Israeli jobs (from {len(raw_jobs)} raw results)')
-    return jobs
+    return jobs, id_cache
 
 
 # ─── Standalone test ─────────────────────────────────────────────────────────

@@ -39,6 +39,7 @@ FETCH_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = FETCH_DIR / 'config.json'
 COMPANY_CACHE_PATH = DATA_DIR / 'company_cache.json'
 COMPANY_CACHE_MAX_AGE_HOURS = 24
+LINKEDIN_IDS_PATH = DATA_DIR / 'linkedin_company_ids.json'
 
 logging.basicConfig(
     level=logging.INFO,
@@ -145,6 +146,25 @@ def _save_company_cache(companies: dict):
     with open(COMPANY_CACHE_PATH, 'w', encoding='utf-8') as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
     log.info(f'Saved {len(companies)} companies to cache')
+
+
+def _load_linkedin_ids() -> dict:
+    """Load the LinkedIn company ID cache from disk."""
+    if not LINKEDIN_IDS_PATH.exists():
+        return {}
+    try:
+        with open(LINKEDIN_IDS_PATH, 'r') as f:
+            return json.load(f)
+    except (json.JSONDecodeError, KeyError):
+        return {}
+
+
+def _save_linkedin_ids(ids: dict):
+    """Save the LinkedIn company ID cache to disk."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    with open(LINKEDIN_IDS_PATH, 'w', encoding='utf-8') as f:
+        json.dump(ids, f, ensure_ascii=False, indent=2)
+    log.info(f'Saved {len(ids)} LinkedIn company IDs to cache')
 
 
 def _fetch_company_file(base_url: str, file_path: str, categories: dict) -> tuple[str, dict] | None:
@@ -638,31 +658,52 @@ def run_fetch():
     log.info(f'LinkedIn keyword search: {len(linkedin_jobs)} jobs')
 
     # 6b. Fetch LinkedIn company-page jobs
-    company_slugs = set()
+    linkedin_config = config.get('linkedin', {})
+    max_companies = linkedin_config.get('max_companies_per_run', 30)
 
-    # a) Manual slugs from config
-    company_slugs.update(config.get('linkedin', {}).get('company_slugs', []))
+    # a) Manual slugs from config (highest priority — always included first)
+    company_slugs = list(dict.fromkeys(linkedin_config.get('company_slugs', [])))
 
-    # b) Followed companies (from user_prefs.json)
-    if config.get('linkedin', {}).get('scrape_followed_companies', True):
-        prefs = _load_user_prefs()
+    # b) Followed companies (from user_prefs.json) + custom LinkedIn slugs
+    prefs = _load_user_prefs()
+    other_slugs = []
+    if linkedin_config.get('scrape_followed_companies', True):
         followed_names = prefs.get('followedCompanies', {}).keys()
         for name in followed_names:
             slug = companies.get(name, {}).get('linkedin', '')
-            if slug:
-                company_slugs.add(slug)
+            if slug and slug not in company_slugs:
+                other_slugs.append(slug)
 
-    # c) All TechMap companies (optional, heavy)
-    if config.get('linkedin', {}).get('scrape_all_techmap_companies', False):
+    # c) Custom LinkedIn slugs from user_prefs.json
+    for slug in prefs.get('customLinkedinSlugs', {}).keys():
+        if slug and slug not in company_slugs and slug not in other_slugs:
+            other_slugs.append(slug)
+
+    # d) All TechMap companies (optional, heavy)
+    if linkedin_config.get('scrape_all_techmap_companies', False):
         for name, data in companies.items():
             slug = data.get('linkedin', '')
-            if slug:
-                company_slugs.add(slug)
+            if slug and slug not in company_slugs and slug not in other_slugs:
+                other_slugs.append(slug)
+
+    # Fill remaining slots up to cap (config slugs always included regardless of cap)
+    remaining = max_companies - len(company_slugs)
+    for slug in other_slugs:
+        if remaining <= 0:
+            break
+        company_slugs.append(slug)
+        remaining -= 1
+
+    if len(other_slugs) > max(0, max_companies - len(linkedin_config.get('company_slugs', []))):
+        log.info(f'LinkedIn company cap: {max_companies} — {len(other_slugs) - max(0, remaining)} slugs omitted')
 
     linkedin_company_jobs = []
     if company_slugs:
         log.info(f'LinkedIn company slugs to scrape: {len(company_slugs)}')
-        linkedin_company_jobs = fetch_linkedin_jobs_by_company(config, list(company_slugs))
+        id_cache = _load_linkedin_ids()
+        linkedin_company_jobs, updated_cache = fetch_linkedin_jobs_by_company(config, company_slugs, id_cache)
+        if updated_cache != id_cache:
+            _save_linkedin_ids(updated_cache)
         log.info(f'LinkedIn company pages: {len(linkedin_company_jobs)} jobs')
 
     # Combine all LinkedIn jobs

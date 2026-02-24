@@ -18,6 +18,7 @@ const state = {
     readJobs: {},
     savedJobs: {},
     followedCompanies: {},
+    customLinkedinSlugs: {},
     companyIndustryOverrides: {},
     savedSearches: [],
     currentPage: 1,
@@ -42,6 +43,7 @@ const STORAGE_KEYS = {
     read: 'israeliJobScanner_readJobs',
     saved: 'israeliJobScanner_savedJobs',
     followed: 'israeliJobScanner_followedCompanies',
+    customSlugs: 'israeliJobScanner_customLinkedinSlugs',
     industryOverrides: 'israeliJobScanner_companyIndustryOverrides',
     searches: 'israeliJobScanner_savedSearches',
 };
@@ -103,6 +105,12 @@ function toggleFollowCompany(company) {
     saveFollowedCompanies();
 }
 
+// Custom LinkedIn slugs
+function loadCustomSlugs() {
+    state.customLinkedinSlugs = loadFromStorage(STORAGE_KEYS.customSlugs, {});
+}
+function saveCustomSlugs() { saveToStorage(STORAGE_KEYS.customSlugs, state.customLinkedinSlugs); schedulePrefsSync(); }
+
 // Company industry overrides
 function loadIndustryOverrides() {
     state.companyIndustryOverrides = loadFromStorage(STORAGE_KEYS.industryOverrides, {});
@@ -137,6 +145,7 @@ async function pushPrefs() {
             readJobs: state.readJobs,
             savedJobs: state.savedJobs,
             followedCompanies: state.followedCompanies,
+            customLinkedinSlugs: state.customLinkedinSlugs,
             companyIndustryOverrides: state.companyIndustryOverrides,
             savedSearches: state.savedSearches,
         };
@@ -160,6 +169,7 @@ async function pullPrefs() {
         mergeTimestampMap(state.readJobs, remote.readJobs || {});
         mergeTimestampMap(state.savedJobs, remote.savedJobs || {});
         mergeTimestampMap(state.followedCompanies, remote.followedCompanies || {});
+        mergeTimestampMap(state.customLinkedinSlugs, remote.customLinkedinSlugs || {});
 
         // Merge industry overrides: remote wins for companies not overridden locally
         const remoteOverrides = remote.companyIndustryOverrides || {};
@@ -179,6 +189,7 @@ async function pullPrefs() {
         saveReadState();
         saveSavedJobs();
         saveFollowedCompanies();
+        saveCustomSlugs();
         saveIndustryOverrides();
         saveSavedSearches();
     } catch {
@@ -568,6 +579,60 @@ function renderSavedJobsTab() {
     }).join('');
 }
 
+// ─── Company Search & Custom Slug Helpers ───────────────────────────────────
+
+async function loadCompaniesData() {
+    try {
+        const resp = await fetch('../data/companies.json?t=' + Date.now());
+        if (!resp.ok) return;
+        window._companiesData = await resp.json();
+    } catch {
+        // Silently fail
+    }
+}
+
+function parseLinkedinSlug(input) {
+    input = input.trim();
+    const match = input.match(/(?:linkedin\.com\/company\/|^)([a-zA-Z0-9_-]+)\/?$/);
+    return match ? match[1].toLowerCase() : null;
+}
+
+function filterCompanySearch(query) {
+    const resultsEl = document.getElementById('companySearchResults');
+    if (!resultsEl) return;
+
+    const q = query.trim().toLowerCase();
+    if (!q || q.length < 2) {
+        resultsEl.innerHTML = '';
+        resultsEl.classList.add('hidden');
+        return;
+    }
+
+    const companiesData = window._companiesData || {};
+    const matches = Object.entries(companiesData)
+        .filter(([name]) => name.toLowerCase().includes(q))
+        .slice(0, 20);
+
+    if (matches.length === 0) {
+        resultsEl.innerHTML = '<li class="csr-no-results">No companies found</li>';
+    } else {
+        resultsEl.innerHTML = matches.map(([name, data]) => {
+            const followed = isFollowed(name);
+            const sizeBadge = data.size ? `<span class="csr-size">${escapeHtml(data.size)}</span>` : '';
+            return `<li class="csr-item">
+                <span class="csr-name">${escapeHtml(name)}</span>
+                <span class="csr-category">${escapeHtml(data.category || '')}</span>
+                ${sizeBadge}
+                <button class="csr-follow-btn${followed ? ' csr-following' : ''}" data-action="follow-company" data-company="${escapeHtml(name)}">
+                    ${followed ? 'Following' : 'Follow'}
+                </button>
+            </li>`;
+        }).join('');
+    }
+
+    resultsEl.classList.remove('hidden');
+}
+
 // ─── Rendering — Followed Companies Tab ─────────────────────────────────────
 
 function renderFollowedCompaniesTab() {
@@ -577,41 +642,80 @@ function renderFollowedCompaniesTab() {
 
     countEl.textContent = `${followedNames.length} followed`;
 
+    // Section 1: Find TechMap Company
+    const searchSection = `
+        <div class="fc-section">
+            <h3 class="fc-section-title">Find TechMap Company</h3>
+            <div class="company-search-wrap">
+                <input type="text" id="companySearchInput" class="company-search-input"
+                    placeholder="Search 500+ Israeli tech companies..." autocomplete="off">
+                <ul id="companySearchResults" class="company-search-results hidden"></ul>
+            </div>
+        </div>`;
+
+    // Section 2: Track Custom Company
+    const slugPills = Object.keys(state.customLinkedinSlugs).map(slug =>
+        `<span class="slug-pill">${escapeHtml(slug)}<button class="slug-pill-remove" data-action="remove-slug" data-slug="${escapeHtml(slug)}">×</button></span>`
+    ).join('');
+    const customSection = `
+        <div class="fc-section">
+            <h3 class="fc-section-title">Track Custom LinkedIn Company</h3>
+            <div class="custom-slug-row">
+                <input type="text" id="customSlugInput" class="custom-slug-input"
+                    placeholder="https://www.linkedin.com/company/theator/ or just: theator">
+                <button id="trackCustomSlugBtn" class="track-slug-btn">Track</button>
+            </div>
+            <div class="slug-pills">${slugPills}</div>
+        </div>`;
+
+    // Section 3: Currently Followed
+    let followedSection;
     if (followedNames.length === 0) {
-        container.innerHTML = '<div class="empty-state">No followed companies yet. Click the heart icon next to any company name to follow it.</div>';
-        return;
+        followedSection = `
+            <div class="fc-section">
+                <h3 class="fc-section-title">Currently Followed</h3>
+                <div class="empty-state">No followed companies yet. Click the heart icon next to any company name to follow it.</div>
+            </div>`;
+    } else {
+        const companiesWithJobs = followedNames
+            .sort()
+            .map(name => {
+                const jobs = state.allJobs
+                    .filter(j => j.company === name)
+                    .sort((a, b) => (b.updated || '').localeCompare(a.updated || ''))
+                    .slice(0, 5);
+                return { name, jobs, totalJobs: state.allJobs.filter(j => j.company === name).length };
+            });
+
+        followedSection = `
+            <div class="fc-section">
+                <h3 class="fc-section-title">Currently Followed</h3>
+                <div class="company-cards">
+                    ${companiesWithJobs.map(c => `
+                        <div class="company-card" data-company="${escapeHtml(c.name)}">
+                            <div class="company-card-header">
+                                <span class="company-card-name">${escapeHtml(c.name)}</span>
+                                <div class="company-card-meta">
+                                    ${c.totalJobs} job${c.totalJobs !== 1 ? 's' : ''}
+                                    <button class="company-unfollow-btn" data-action="unfollow" data-company="${escapeHtml(c.name)}">Unfollow</button>
+                                </div>
+                            </div>
+                            <ul class="company-card-jobs">
+                                ${c.jobs.map(j => `
+                                    <li>
+                                        <a href="${escapeHtml(j.url)}" target="_blank" rel="noopener">${escapeHtml(j.title)}</a>
+                                        <span class="job-meta">${escapeHtml(j.locationEn || j.location || '')} ${formatDate(j.updated)}</span>
+                                    </li>
+                                `).join('')}
+                                ${c.totalJobs > 5 ? `<li style="color:var(--text-dim);font-size:0.78rem;">+ ${c.totalJobs - 5} more</li>` : ''}
+                            </ul>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`;
     }
 
-    const companiesWithJobs = followedNames
-        .sort()
-        .map(name => {
-            const jobs = state.allJobs
-                .filter(j => j.company === name)
-                .sort((a, b) => (b.updated || '').localeCompare(a.updated || ''))
-                .slice(0, 5);
-            return { name, jobs, totalJobs: state.allJobs.filter(j => j.company === name).length };
-        });
-
-    container.innerHTML = companiesWithJobs.map(c => `
-        <div class="company-card" data-company="${escapeHtml(c.name)}">
-            <div class="company-card-header">
-                <span class="company-card-name">${escapeHtml(c.name)}</span>
-                <div class="company-card-meta">
-                    ${c.totalJobs} job${c.totalJobs !== 1 ? 's' : ''}
-                    <button class="company-unfollow-btn" data-action="unfollow" data-company="${escapeHtml(c.name)}">Unfollow</button>
-                </div>
-            </div>
-            <ul class="company-card-jobs">
-                ${c.jobs.map(j => `
-                    <li>
-                        <a href="${escapeHtml(j.url)}" target="_blank" rel="noopener">${escapeHtml(j.title)}</a>
-                        <span class="job-meta">${escapeHtml(j.locationEn || j.location || '')} ${formatDate(j.updated)}</span>
-                    </li>
-                `).join('')}
-                ${c.totalJobs > 5 ? `<li style="color:var(--text-dim);font-size:0.78rem;">+ ${c.totalJobs - 5} more</li>` : ''}
-            </ul>
-        </div>
-    `).join('');
+    container.innerHTML = searchSection + customSection + followedSection;
 }
 
 // ─── Rendering — Daily Report Tab ───────────────────────────────────────────
@@ -1065,13 +1169,73 @@ function setupEventListeners() {
         }
     });
 
-    // Followed Companies click delegation
-    document.getElementById('followedCompaniesContainer').addEventListener('click', e => {
-        if (e.target.dataset.action === 'unfollow') {
-            const company = e.target.dataset.company;
-            toggleFollowCompany(company);
+    // Followed Companies click + input delegation
+    const followedContainer = document.getElementById('followedCompaniesContainer');
+
+    followedContainer.addEventListener('click', e => {
+        const action = e.target.dataset.action;
+
+        if (action === 'unfollow') {
+            toggleFollowCompany(e.target.dataset.company);
             renderFollowedCompaniesTab();
             updateStats();
+            return;
+        }
+
+        if (action === 'follow-company') {
+            const company = e.target.dataset.company;
+            toggleFollowCompany(company);
+            // Re-render search results to update Follow/Following state
+            const searchInput = document.getElementById('companySearchInput');
+            if (searchInput) filterCompanySearch(searchInput.value);
+            renderFollowedCompaniesTab();
+            // Restore search input value after re-render
+            const newInput = document.getElementById('companySearchInput');
+            if (newInput && searchInput) {
+                newInput.value = searchInput.value;
+                filterCompanySearch(newInput.value);
+            }
+            updateStats();
+            return;
+        }
+
+        if (e.target.closest('#trackCustomSlugBtn')) {
+            const input = document.getElementById('customSlugInput');
+            if (!input) return;
+            const slug = parseLinkedinSlug(input.value);
+            if (!slug) {
+                input.focus();
+                return;
+            }
+            state.customLinkedinSlugs[slug] = Date.now();
+            saveCustomSlugs();
+            input.value = '';
+            renderFollowedCompaniesTab();
+            return;
+        }
+
+        if (action === 'remove-slug') {
+            delete state.customLinkedinSlugs[e.target.dataset.slug];
+            saveCustomSlugs();
+            renderFollowedCompaniesTab();
+            return;
+        }
+    });
+
+    followedContainer.addEventListener('input', e => {
+        if (e.target.id === 'companySearchInput') {
+            filterCompanySearch(e.target.value);
+        }
+    });
+
+    followedContainer.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && e.target.id === 'customSlugInput') {
+            const slug = parseLinkedinSlug(e.target.value);
+            if (!slug) return;
+            state.customLinkedinSlugs[slug] = Date.now();
+            saveCustomSlugs();
+            e.target.value = '';
+            renderFollowedCompaniesTab();
         }
     });
 
@@ -1305,6 +1469,7 @@ async function init() {
     loadReadState();
     loadSavedJobs();
     loadFollowedCompanies();
+    loadCustomSlugs();
     loadIndustryOverrides();
     loadSavedSearches();
 
@@ -1314,6 +1479,7 @@ async function init() {
         loadMetadata(),
         pullPrefs(),
         loadVersion(),
+        loadCompaniesData(),
     ]);
     if (!jobsOk) return;
 
@@ -1326,6 +1492,7 @@ async function init() {
     populateFilters();
     applyFilters();
     updateStats();
+    renderFollowedCompaniesTab();
     startAutoRefreshCheck();
 }
 

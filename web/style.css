@@ -760,6 +760,213 @@ tr.job-row.read:hover {
     background: rgba(248, 113, 113, 0.1);
 }
 
+/* ─── Followed Companies Tab — Sections ─────────────────────────────── */
+.fc-section {
+    margin-bottom: 28px;
+}
+
+.fc-section-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 12px;
+}
+
+/* Company search */
+.company-search-wrap {
+    position: relative;
+}
+
+.company-search-input {
+    width: 100%;
+    max-width: 480px;
+    padding: 8px 12px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 0.875rem;
+    box-sizing: border-box;
+}
+
+.company-search-input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.company-search-results {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    width: 100%;
+    max-width: 480px;
+    max-height: 300px;
+    overflow-y: auto;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.company-search-results.hidden {
+    display: none;
+}
+
+.csr-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.83rem;
+}
+
+.csr-item:last-child {
+    border-bottom: none;
+}
+
+.csr-item:hover {
+    background: var(--bg-hover);
+}
+
+.csr-name {
+    font-weight: 500;
+    color: var(--text);
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.csr-category {
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    flex-shrink: 0;
+}
+
+.csr-size {
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1px 5px;
+    flex-shrink: 0;
+}
+
+.csr-follow-btn {
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 0.75rem;
+    font-family: var(--font);
+    border-radius: var(--radius);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    background: none;
+    flex-shrink: 0;
+    transition: all 0.15s;
+}
+
+.csr-follow-btn:hover {
+    background: rgba(99, 179, 237, 0.1);
+}
+
+.csr-follow-btn.csr-following {
+    border-color: var(--border);
+    color: var(--text-muted);
+}
+
+.csr-no-results {
+    padding: 10px 12px;
+    color: var(--text-dim);
+    font-size: 0.83rem;
+    font-style: italic;
+}
+
+/* Custom slug tracking */
+.custom-slug-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.custom-slug-input {
+    flex: 1;
+    max-width: 440px;
+    padding: 8px 12px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 0.875rem;
+}
+
+.custom-slug-input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.track-slug-btn {
+    cursor: pointer;
+    padding: 8px 16px;
+    background: var(--accent);
+    color: #000;
+    border: none;
+    border-radius: var(--radius);
+    font-family: var(--font);
+    font-size: 0.83rem;
+    font-weight: 600;
+    transition: opacity 0.15s;
+}
+
+.track-slug-btn:hover {
+    opacity: 0.85;
+}
+
+.slug-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.slug-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px 3px 10px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.78rem;
+    color: var(--text);
+}
+
+.slug-pill-remove {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1;
+    padding: 0 2px;
+    font-family: var(--font);
+    transition: color 0.15s;
+}
+
+.slug-pill-remove:hover {
+    color: var(--red);
+}
+
 /* ─── Daily Report ────────────────────────────────────────────────────── */
 .report-date-picker {
     padding: 6px 12px;
