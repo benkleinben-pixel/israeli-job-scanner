@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-03-01T07:58:00.257300+00:00",
+  "_cached_at": "2026-03-01T10:15:45.212478+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -9389,6 +9389,342 @@
       "linkedin": "mego-afek-ac-ltd",
       "cities": [
         "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Alpha Omega": {
+      "category": "Health",
+      "size": "l",
+      "website": "https://www.alphaomega-eng.com",
+      "careers": null,
+      "linkedin": "alpha-omega",
+      "cities": [
+        "נוף הגליל"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Infineon": {
+      "category": "Semiconductors",
+      "size": "m",
+      "website": "https://www.infineon.com/",
+      "careers": "https://www.infineon.com/cms/en/careers/",
+      "linkedin": "infineon-technologies",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "10bis": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://www.10bis.co.il/",
+      "careers": null,
+      "linkedin": "10bis-co-il",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Go Internet Marketing": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "http://www.gim.co.il",
+      "careers": null,
+      "linkedin": "go-internet-marketing",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Cortica": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://cortica.com/",
+      "careers": null,
+      "linkedin": "cortica",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Vital Op": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "http://vitalop.com",
+      "careers": null,
+      "linkedin": "vital-op",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Riverbed Technology": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.riverbed.com/",
+      "careers": "https://www.riverbed.com/careers/",
+      "linkedin": "riverbed-technology",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "PractiTest": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.practitest.com",
+      "careers": "https://www.practitest.com/jobs/",
+      "linkedin": "practitest",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Bizzabo": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.bizzabo.com/",
+      "careers": null,
+      "linkedin": "bizzabo",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kendago": {
+      "category": "Digital Media",
+      "size": "m",
+      "website": "https://www.kendago.com",
+      "careers": "https://www.kendago.com/career/",
+      "linkedin": "kendago",
+      "cities": [
+        "קרית אונו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ULTRA RED": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.ultrared.ai/",
+      "careers": null,
+      "linkedin": "ultra-red-ltd",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Augury": {
+      "category": "Robotics & Automation",
+      "size": "l",
+      "website": "https://www.augury.com/",
+      "careers": "https://www.augury.com/careers/",
+      "linkedin": "augury-systems",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "NetNut": {
+      "category": "AdTech",
+      "size": "m",
+      "website": "https://netnut.io/",
+      "careers": null,
+      "linkedin": "netnut",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kardome Technology": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.kardome.com/",
+      "careers": null,
+      "linkedin": "kardome",
+      "cities": [
+        "מזור"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "WheelShare": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.wheel-share.com",
+      "careers": null,
+      "linkedin": "wheelshare1",
+      "cities": [
+        "ראש העין"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Maverick Medical AI": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://www.maverick-med.com",
+      "careers": null,
+      "linkedin": "maverick-medical-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "PathKeeper Surgical": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://www.path-keeper.com/",
+      "careers": null,
+      "linkedin": "pathkeeper",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AKEYLESS": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.akeyless.io/",
+      "careers": "https://www.akeyless.io/careers/",
+      "linkedin": "akeyless",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Logical Commander Software": {
+      "category": "Cybersecurity",
+      "size": "xs",
+      "website": "https://www.logicalcommander.com/",
+      "careers": null,
+      "linkedin": "logicalcommander",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "OneStep": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.onestep.co",
+      "careers": "https://www.comeet.com/jobs/onestep/79.007",
+      "linkedin": "take-one-step",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "InsidePacket": {
+      "category": "Cloud Computing",
+      "size": "s",
+      "website": "https://www.insidepacket.com/",
+      "careers": "https://www.insidepacket.com/company-careers/",
+      "linkedin": "insidepacket",
+      "cities": [
+        "יקום"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "INCRMNTAL": {
+      "category": "AdTech",
+      "size": "s",
+      "website": "https://incrmntal.com/",
+      "careers": null,
+      "linkedin": "incrmntal",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Oligo": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.oligo.security",
+      "careers": "https://www.oligo.security/company/careers",
+      "linkedin": "oligo-security",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BATM": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.batm.com/",
+      "careers": null,
+      "linkedin": "batm",
+      "cities": [
+        "הוד השרון"
       ],
       "greenhouseId": null,
       "leverId": null,
