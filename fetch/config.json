@@ -30,6 +30,8 @@
     "company_ids": {"helloheart": "3024029"},
     "scrape_followed_companies": true,
     "scrape_all_techmap_companies": false,
-    "max_companies_per_run": 30
+    "max_companies_per_run": 30,
+    "keywordless_scan": true,
+    "max_pages_keywordless": 15
   }
 }

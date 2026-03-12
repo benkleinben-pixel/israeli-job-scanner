@@ -56,11 +56,14 @@ def _parse_relative_date(date_text: str) -> str:
     return today.strftime('%Y-%m-%d')
 
 
-def _build_search_url(query: str, geo_id: str, start: int = 0) -> str:
-    """Build a LinkedIn job search URL with filters."""
+def _build_search_url(query: str | None, geo_id: str, start: int = 0) -> str:
+    """Build a LinkedIn job search URL with filters. Pass query=None for keywordless scan."""
     from urllib.parse import quote_plus
     base = 'https://www.linkedin.com/jobs/search/'
-    params = f'?keywords={quote_plus(query)}&location=Israel&geoId={geo_id}&f_TPR=r604800&start={start}'
+    if query:
+        params = f'?keywords={quote_plus(query)}&location=Israel&geoId={geo_id}&f_TPR=r604800&start={start}'
+    else:
+        params = f'?location=Israel&geoId={geo_id}&f_TPR=r604800&start={start}'
     return base + params
 
 
@@ -159,6 +162,8 @@ def fetch_linkedin_jobs(config: dict) -> list[dict]:
     search_queries = linkedin_config.get('search_queries', ['software engineer'])
     geo_id = linkedin_config.get('geo_id', '101620260')  # Israel
     max_pages = linkedin_config.get('max_pages_per_query', 3)
+    keywordless_scan = linkedin_config.get('keywordless_scan', False)
+    max_pages_keywordless = linkedin_config.get('max_pages_keywordless', 15)
 
     try:
         from playwright.sync_api import sync_playwright
@@ -168,7 +173,6 @@ def fetch_linkedin_jobs(config: dict) -> list[dict]:
 
     raw_jobs = []
     seen_urls = set()
-    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
 
     log.info(f'Fetching LinkedIn jobs for {len(search_queries)} queries, up to {max_pages} pages each...')
 
@@ -213,6 +217,38 @@ def fetch_linkedin_jobs(config: dict) -> list[dict]:
 
             # Extra delay between different search queries
             time.sleep(1)
+
+        # Keywordless scan — catches all job titles not covered by keyword queries
+        if keywordless_scan:
+            log.info(f'LinkedIn keywordless scan: up to {max_pages_keywordless} pages...')
+            for page_num in range(max_pages_keywordless):
+                start = page_num * 25
+                url = _build_search_url(None, geo_id, start)
+
+                log.info(f'  LinkedIn keywordless page {page_num + 1}...')
+
+                try:
+                    page.goto(url, wait_until='domcontentloaded', timeout=30000)
+                    time.sleep(2)
+
+                    _scroll_and_load(page)
+
+                    page_jobs = _extract_jobs_from_page(page)
+                    log.info(f'    Found {len(page_jobs)} job cards ({sum(1 for j in page_jobs if j["url"] not in seen_urls)} new)')
+
+                    if not page_jobs:
+                        break
+
+                    for job in page_jobs:
+                        if job['url'] not in seen_urls:
+                            seen_urls.add(job['url'])
+                            raw_jobs.append(job)
+
+                except Exception as e:
+                    log.warning(f'  LinkedIn keywordless page {page_num + 1} failed: {e}')
+                    break
+
+                time.sleep(2)
 
         browser.close()
 
