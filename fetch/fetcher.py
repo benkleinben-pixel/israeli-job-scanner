@@ -654,6 +654,11 @@ def run_fetch():
     lever_jobs = fetch_lever_jobs(config, companies)
 
     # 6. Fetch LinkedIn keyword-search jobs
+    # Allow user prefs to override search queries from config
+    prefs_queries = _load_user_prefs().get('linkedinSearchQueries')
+    if prefs_queries and isinstance(prefs_queries, list):
+        config = {**config, 'linkedin': {**config.get('linkedin', {}), 'search_queries': prefs_queries}}
+        log.info(f'Using {len(prefs_queries)} custom LinkedIn search queries from user prefs')
     linkedin_jobs = fetch_linkedin_jobs(config)
     log.info(f'LinkedIn keyword search: {len(linkedin_jobs)} jobs')
 

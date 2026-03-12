@@ -19,6 +19,7 @@ const state = {
     savedJobs: {},
     followedCompanies: {},
     customLinkedinSlugs: {},
+    linkedinSearchQueries: null,
     companyIndustryOverrides: {},
     savedSearches: [],
     currentPage: 1,
@@ -44,6 +45,7 @@ const STORAGE_KEYS = {
     saved: 'israeliJobScanner_savedJobs',
     followed: 'israeliJobScanner_followedCompanies',
     customSlugs: 'israeliJobScanner_customLinkedinSlugs',
+    linkedinQueries: 'israeliJobScanner_linkedinSearchQueries',
     industryOverrides: 'israeliJobScanner_companyIndustryOverrides',
     searches: 'israeliJobScanner_savedSearches',
 };
@@ -111,6 +113,14 @@ function loadCustomSlugs() {
 }
 function saveCustomSlugs() { saveToStorage(STORAGE_KEYS.customSlugs, state.customLinkedinSlugs); schedulePrefsSync(); }
 
+// LinkedIn search queries
+const DEFAULT_LINKEDIN_QUERIES = ['software engineer', 'product manager', 'data scientist', 'devops', 'QA', 'designer'];
+function loadLinkedinQueries() {
+    state.linkedinSearchQueries = loadFromStorage(STORAGE_KEYS.linkedinQueries, null);
+}
+function saveLinkedinQueries() { saveToStorage(STORAGE_KEYS.linkedinQueries, state.linkedinSearchQueries); schedulePrefsSync(); }
+function getLinkedinQueries() { return state.linkedinSearchQueries || DEFAULT_LINKEDIN_QUERIES; }
+
 // Company industry overrides
 function loadIndustryOverrides() {
     state.companyIndustryOverrides = loadFromStorage(STORAGE_KEYS.industryOverrides, {});
@@ -146,6 +156,7 @@ async function pushPrefs() {
             savedJobs: state.savedJobs,
             followedCompanies: state.followedCompanies,
             customLinkedinSlugs: state.customLinkedinSlugs,
+            linkedinSearchQueries: state.linkedinSearchQueries,
             companyIndustryOverrides: state.companyIndustryOverrides,
             savedSearches: state.savedSearches,
         };
@@ -186,10 +197,16 @@ async function pullPrefs() {
             }
         });
 
+        // Merge linkedinSearchQueries: remote wins if local hasn't been customized
+        if (remote.linkedinSearchQueries && !state.linkedinSearchQueries) {
+            state.linkedinSearchQueries = remote.linkedinSearchQueries;
+        }
+
         saveReadState();
         saveSavedJobs();
         saveFollowedCompanies();
         saveCustomSlugs();
+        saveLinkedinQueries();
         saveIndustryOverrides();
         saveSavedSearches();
     } catch {
@@ -893,6 +910,37 @@ function describeFilters(filters) {
     return parts.join(' / ');
 }
 
+// ─── Rendering — Settings Tab ────────────────────────────────────────────────
+
+function renderSettingsTab() {
+    const container = document.getElementById('settingsContainer');
+    const queries = getLinkedinQueries();
+    const isCustom = !!state.linkedinSearchQueries;
+
+    container.innerHTML = `
+        <div class="settings-section">
+            <h3 class="settings-section-title">LinkedIn Search Queries</h3>
+            <p class="settings-desc">
+                These keywords are searched on LinkedIn to find Israeli tech jobs.
+                Changes take effect on the next scheduled fetch run.
+            </p>
+            <div class="settings-query-list">
+                ${queries.map((q, i) => `
+                    <div class="settings-query-item">
+                        <span class="settings-query-text">${escapeHtml(q)}</span>
+                        <button class="settings-query-remove" data-action="remove-query" data-idx="${i}" title="Remove">×</button>
+                    </div>
+                `).join('')}
+            </div>
+            <div class="settings-add-row">
+                <input type="text" id="newQueryInput" class="settings-query-input" placeholder="e.g. full stack developer">
+                <button id="addQueryBtn" class="settings-add-btn">Add</button>
+            </div>
+            ${isCustom ? `<button class="settings-reset-btn" data-action="reset-queries">Reset to defaults</button>` : ''}
+        </div>
+    `;
+}
+
 // ─── Tab Navigation ─────────────────────────────────────────────────────────
 
 const TAB_MAP = {
@@ -901,6 +949,7 @@ const TAB_MAP = {
     followedCompanies: 'tabFollowedCompanies',
     dailyReport: 'tabDailyReport',
     savedSearches: 'tabSavedSearches',
+    settings: 'tabSettings',
 };
 
 function switchTab(tabName) {
@@ -925,6 +974,7 @@ function switchTab(tabName) {
     if (tabName === 'followedCompanies') renderFollowedCompaniesTab();
     if (tabName === 'dailyReport') renderDailyReport();
     if (tabName === 'savedSearches') renderSavedSearchesTab();
+    if (tabName === 'settings') renderSettingsTab();
 }
 
 // ─── Save Search Modal ──────────────────────────────────────────────────────
@@ -1239,6 +1289,60 @@ function setupEventListeners() {
         }
     });
 
+    // Settings tab delegation
+    const settingsContainer = document.getElementById('settingsContainer');
+
+    settingsContainer.addEventListener('click', e => {
+        const action = e.target.dataset.action;
+
+        if (action === 'remove-query') {
+            const queries = getLinkedinQueries().slice();
+            queries.splice(parseInt(e.target.dataset.idx, 10), 1);
+            state.linkedinSearchQueries = queries;
+            saveLinkedinQueries();
+            renderSettingsTab();
+            return;
+        }
+
+        if (action === 'reset-queries') {
+            state.linkedinSearchQueries = null;
+            saveLinkedinQueries();
+            renderSettingsTab();
+            return;
+        }
+
+        if (e.target.id === 'addQueryBtn' || e.target.closest('#addQueryBtn')) {
+            const input = document.getElementById('newQueryInput');
+            const val = input.value.trim().toLowerCase();
+            if (!val) { input.focus(); return; }
+            const queries = getLinkedinQueries().slice();
+            if (!queries.includes(val)) {
+                queries.push(val);
+                state.linkedinSearchQueries = queries;
+                saveLinkedinQueries();
+            }
+            input.value = '';
+            renderSettingsTab();
+            document.getElementById('newQueryInput').focus();
+        }
+    });
+
+    settingsContainer.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && e.target.id === 'newQueryInput') {
+            const val = e.target.value.trim().toLowerCase();
+            if (!val) return;
+            const queries = getLinkedinQueries().slice();
+            if (!queries.includes(val)) {
+                queries.push(val);
+                state.linkedinSearchQueries = queries;
+                saveLinkedinQueries();
+            }
+            e.target.value = '';
+            renderSettingsTab();
+            document.getElementById('newQueryInput').focus();
+        }
+    });
+
     // Saved Searches click delegation
     document.getElementById('savedSearchesContainer').addEventListener('click', e => {
         if (e.target.dataset.action === 'delete-search') {
@@ -1470,6 +1574,7 @@ async function init() {
     loadSavedJobs();
     loadFollowedCompanies();
     loadCustomSlugs();
+    loadLinkedinQueries();
     loadIndustryOverrides();
     loadSavedSearches();
 
@@ -1493,6 +1598,7 @@ async function init() {
     applyFilters();
     updateStats();
     renderFollowedCompaniesTab();
+    renderSettingsTab();
     startAutoRefreshCheck();
 }
 
