@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-03-25T09:58:37.214587+00:00",
+  "_cached_at": "2026-03-26T10:33:04.323698+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -9716,6 +9716,202 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Elbit Security Systems": {
+      "category": "Cybersecurity",
+      "size": "xl",
+      "website": "https://elbitsystems.com",
+      "careers": "https://elbitsystems.com/careers/",
+      "linkedin": "elbitsystems",
+      "cities": [
+        "שדרות"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "F5 Networks": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://www.f5.com/",
+      "careers": "https://www.f5.com/company/careers/",
+      "linkedin": "f5",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BugSec": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://bugsec.com",
+      "careers": null,
+      "linkedin": "bugsec",
+      "cities": [
+        "ראשון לציון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Fireberry": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.fireberry.com",
+      "careers": null,
+      "linkedin": "fireberry-software-ltd",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EVR": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "http://www.evr-motors.com",
+      "careers": null,
+      "linkedin": "evr-motors",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Pontera": {
+      "category": "Fintech",
+      "size": "l",
+      "website": "https://pontera.com/",
+      "careers": null,
+      "linkedin": "pontera",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "PayMe": {
+      "category": "Fintech",
+      "size": "m",
+      "website": "https://payme.io",
+      "careers": null,
+      "linkedin": "payme-io",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Hydrolite": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "https://www.hydrolite-h2.com/",
+      "careers": null,
+      "linkedin": "hydroliteh2",
+      "cities": [
+        "קיסריה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Snappy Gifts": {
+      "category": "E-commerce & Retail",
+      "size": "l",
+      "website": "https://www.snappy.com/",
+      "careers": null,
+      "linkedin": "snappy-app",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "LIGHTYX": {
+      "category": "Robotics & Automation",
+      "size": "xs",
+      "website": "https://www.lightyx.com/",
+      "careers": null,
+      "linkedin": "lightyx",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "DeepKeep": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.deepkeep.ai/",
+      "careers": null,
+      "linkedin": "deepkeep",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Nick Academy": {
+      "category": "Digital Media",
+      "size": "xs",
+      "website": "https://nick.academy",
+      "careers": null,
+      "linkedin": "nick-academy",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Viewz": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "https://www.viewz.co",
+      "careers": null,
+      "linkedin": "viewz.co",
+      "cities": [
+        "קרית אונו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Factify": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.factify.com",
+      "careers": "https://www.factify.com/careers",
+      "linkedin": "factifyinc",
+      "cities": [
+        "תל אביב"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "A9.00F",
       "breezyId": null
     }
   }
