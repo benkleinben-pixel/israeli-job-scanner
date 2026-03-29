@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-03-29T05:30:20.886780+00:00",
+  "_cached_at": "2026-03-29T09:56:12.117942+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8745,6 +8745,230 @@
       "linkedin": "mego-afek-ac-ltd",
       "cities": [
         "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Evogene": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://evogene.com/",
+      "careers": null,
+      "linkedin": "evogene",
+      "cities": [
+        "גבעת ברנר"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Uni.Diamonds": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.uni.diamonds/",
+      "careers": null,
+      "linkedin": "unidiamonds",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Pipl": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://pipl.com/",
+      "careers": null,
+      "linkedin": "pipl-inc",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tomax": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "http://www.tomadox.co.uk",
+      "careers": null,
+      "linkedin": "tomax-think-academy",
+      "cities": [
+        "כפר מונש"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tama Group": {
+      "category": "Sustainable Technology",
+      "size": "l",
+      "website": "https://www.tama.co.il/",
+      "careers": null,
+      "linkedin": "tamagroup",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Wearable Devices": {
+      "category": "Aerospace",
+      "size": "s",
+      "website": "https://www.wearabledevices.co.il/",
+      "careers": "https://www.wearabledevices.co.il/career",
+      "linkedin": "wearable-devices-ltd",
+      "cities": [
+        "יוקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Skillinn": {
+      "category": "Digital Media",
+      "size": "xs",
+      "website": "https://skillinn.com/",
+      "careers": "https://skillinn.com/jobseeker/search",
+      "linkedin": "joblee-israel",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Five Sigma": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://fivesigmalabs.com/",
+      "careers": "https://fivesigmalabs.com/careers/",
+      "linkedin": "five-sigma",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "MOONEE": {
+      "category": "Digital Media",
+      "size": "s",
+      "website": "https://moonee.io",
+      "careers": "https://moonee.io/career",
+      "linkedin": "moonee",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SkillReal": {
+      "category": "AR/VR",
+      "size": "s",
+      "website": "https://www.skillreal.com/",
+      "careers": null,
+      "linkedin": "skillreal",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "RepAir": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "https://repair-carbon.com",
+      "careers": "https://repair-carbon.com/careers",
+      "linkedin": "repair-carbon",
+      "cities": [
+        "יוקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Sentra": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.sentra.io/",
+      "careers": null,
+      "linkedin": "sentra-io",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Hypernative Labs": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.hypernative.io/",
+      "careers": null,
+      "linkedin": "hypernative",
+      "cities": [
+        "רמות השבים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ForeseeD": {
+      "category": "Sustainable Technology",
+      "size": "xs",
+      "website": "https://www.foreseed.tech",
+      "careers": null,
+      "linkedin": "foreseed",
+      "cities": [
+        "קיסריה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Menthoda": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "https://www.menthoda.com",
+      "careers": "https://www.menthoda.com/solutions/service/find-executive-positions",
+      "linkedin": "menthoda",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Electreon": {
+      "category": "Automotive",
+      "size": "m",
+      "website": "https://electreon.com/",
+      "careers": "https://electreon.com/about-us/careers",
+      "linkedin": "electreon",
+      "cities": [
+        "בית ינאי"
       ],
       "greenhouseId": null,
       "leverId": null,
