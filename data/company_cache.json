@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-04-05T02:15:42.921477+00:00",
+  "_cached_at": "2026-04-05T05:35:02.028717+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8423,6 +8423,90 @@
       "linkedin": "johnson-&-johnson",
       "cities": [
         "שפיים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AT&T": {
+      "category": "Telecommunications",
+      "size": "xl",
+      "website": "https://il.att.com/",
+      "careers": "https://www.att.jobs/",
+      "linkedin": "at-t-israel-r-d-center",
+      "cities": [
+        "קריית שדה התעופה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Samsung Semiconductors": {
+      "category": "Semiconductors",
+      "size": "xl",
+      "website": "https://www.samsung.com",
+      "careers": "https://semiconductor.samsung.com/about-us/careers/",
+      "linkedin": "samsungsemiconductor",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tata Consultancy Services": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.tcs.com/",
+      "careers": "https://www.tcs.com/careers",
+      "linkedin": "tata-consultancy-services",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ARM": {
+      "category": "Semiconductors",
+      "size": "m",
+      "website": "https://www.arm.com",
+      "careers": null,
+      "linkedin": "arm",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Cornerstone OnDemand": {
+      "category": "Productivity",
+      "size": "xl",
+      "website": "https://www.cornerstoneondemand.com/",
+      "careers": "https://www.cornerstoneondemand.com/careers/",
+      "linkedin": "cornerstoneondemand",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EverC": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://everc.com/",
+      "careers": "https://www.everc.com/careers",
+      "linkedin": "everc",
+      "cities": [
+        "תל אביב-יפו"
       ],
       "greenhouseId": null,
       "leverId": null,
