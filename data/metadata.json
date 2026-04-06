@@ -1,13 +1,13 @@
 {
-  "lastRefresh": "2026-04-06T07:26:46.146911+00:00",
-  "totalJobs": 5171,
-  "totalCompanies": 781,
+  "lastRefresh": "2026-04-06T10:20:49.220255+00:00",
+  "totalJobs": 5159,
+  "totalCompanies": 767,
   "sources": {
-    "linkedin": 384,
     "techmap": 4468,
-    "greenhouse": 256,
+    "linkedin": 380,
+    "greenhouse": 248,
     "lever": 63
   },
-  "newSinceLastRefresh": 5,
-  "fetchDurationSeconds": 356.5
+  "newSinceLastRefresh": 167,
+  "fetchDurationSeconds": 1045.1
 }
