@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-04-15T10:34:09.920320+00:00",
+  "_cached_at": "2026-04-16T10:20:30.114058+00:00",
   "companies": {
     "Aitech": {
       "category": "Aerospace",
@@ -9141,6 +9141,34 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Checkmarx": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://checkmarx.com/",
+      "careers": null,
+      "linkedin": "checkmarx",
+      "cities": [
+        "Ramat Gan"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "checkmarx/C0.008",
+      "breezyId": null
+    },
+    "Gloat": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://gloat.com/",
+      "careers": "https://gloat.com/careers/",
+      "linkedin": "gloat",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "gloat/E5.000",
       "breezyId": null
     }
   }
