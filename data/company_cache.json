@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-04-19T02:23:35.744919+00:00",
+  "_cached_at": "2026-04-19T05:33:37.871685+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -8423,6 +8423,370 @@
       "linkedin": "drsradatechnologies",
       "cities": [
         "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "NICE": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://www.nice.com/",
+      "careers": "https://www.nice.com/careers",
+      "linkedin": "nice-systems",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "IMCO Industries": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://www.imco-ind.com",
+      "careers": "https://imco-ind.com/careers/",
+      "linkedin": "imco-industried-ltd.",
+      "cities": [
+        "נשר"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BMC Software": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.bmc.com/",
+      "careers": "https://www.bmc.com/careers/careers.html",
+      "linkedin": "bmc-software",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Electreon": {
+      "category": "Automotive",
+      "size": "m",
+      "website": "https://electreon.com/",
+      "careers": "https://electreon.com/about-us/careers",
+      "linkedin": "electreon",
+      "cities": [
+        "בית ינאי"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ThirdEye Systems": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://thirdeye-systems.com/",
+      "careers": "https://thirdeye-systems.com/careers/",
+      "linkedin": "third-eye-systems-ltd-",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Gilat Satellite Networks": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://gilat.com/",
+      "careers": "https://gilat.com/career/",
+      "linkedin": "gilat-satellite-networks",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "gilat/39.005",
+      "breezyId": null
+    },
+    "Thales": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.thalesgroup.com",
+      "careers": "https://careers.thalesgroup.com/global/en/home",
+      "linkedin": "thales",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tower Semiconductor": {
+      "category": "Semiconductors",
+      "size": "l",
+      "website": "https://towersemi.com/",
+      "careers": "https://careers.towersemi.com/",
+      "linkedin": "tower-semiconductor",
+      "cities": [
+        "מגדל העמק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Rafael Advanced Defense Systems": {
+      "category": "Aerospace",
+      "size": "l",
+      "website": "https://www.rafael.co.il/",
+      "careers": null,
+      "linkedin": "rafael-advanced-defense-systems-official",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Lumenis": {
+      "category": "Health",
+      "size": "l",
+      "website": "https://lumenis.com/",
+      "careers": null,
+      "linkedin": "lumenis",
+      "cities": [
+        "יוקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "lumenis/A1.00C",
+      "breezyId": null
+    },
+    "BATM": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.batm.com/",
+      "careers": null,
+      "linkedin": "batm",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Check Point Software Technologies": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://www.checkpoint.com/",
+      "careers": "https://careers.checkpoint.com/",
+      "linkedin": "check-point-software-technologies",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Elbit Systems": {
+      "category": "Aerospace",
+      "size": "l",
+      "website": "https://elbitsystems.com/",
+      "careers": null,
+      "linkedin": "elbit-systems-ltd",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ACS Motion Control": {
+      "category": "Robotics & Automation",
+      "size": "m",
+      "website": "https://www.acsmotioncontrol.com/",
+      "careers": "https://acsmotioncontrol.com/careers/",
+      "linkedin": "acs-motion-control",
+      "cities": [
+        "יקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "ACS/14.000",
+      "breezyId": null
+    },
+    "RADCOM": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://radcom.com/",
+      "careers": null,
+      "linkedin": "radcom",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ADAMA Agricultural Solutions": {
+      "category": "Health",
+      "size": "l",
+      "website": "https://www.adama.com/",
+      "careers": "https://www.adama.com/en/careers",
+      "linkedin": "adama-ltd",
+      "cities": [
+        "באר שבע"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SuperCom": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.supercom.com/",
+      "careers": null,
+      "linkedin": "supercom",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AudioCodes": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://www.audiocodes.com/",
+      "careers": "https://www.audiocodes.com/careers",
+      "linkedin": "audiocodes",
+      "cities": [
+        "ראש העין"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Radware": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://www.radware.com/",
+      "careers": "https://www.radware.com/careers/",
+      "linkedin": "radware",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Johnson & Johnson": {
+      "category": "Health",
+      "size": "xl",
+      "website": "https://www.jnj.com/",
+      "careers": "https://www.careers.jnj.com/",
+      "linkedin": "johnson-&-johnson",
+      "cities": [
+        "שפיים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AT&T": {
+      "category": "Telecommunications",
+      "size": "xl",
+      "website": "https://il.att.com/",
+      "careers": "https://www.att.jobs/",
+      "linkedin": "at-t-israel-r-d-center",
+      "cities": [
+        "קריית שדה התעופה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Samsung Semiconductors": {
+      "category": "Semiconductors",
+      "size": "xl",
+      "website": "https://www.samsung.com",
+      "careers": "https://semiconductor.samsung.com/about-us/careers/",
+      "linkedin": "samsungsemiconductor",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tata Consultancy Services": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.tcs.com/",
+      "careers": "https://www.tcs.com/careers",
+      "linkedin": "tata-consultancy-services",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ARM": {
+      "category": "Semiconductors",
+      "size": "m",
+      "website": "https://www.arm.com",
+      "careers": null,
+      "linkedin": "arm",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Cornerstone OnDemand": {
+      "category": "Productivity",
+      "size": "xl",
+      "website": "https://www.cornerstoneondemand.com/",
+      "careers": "https://www.cornerstoneondemand.com/careers/",
+      "linkedin": "cornerstoneondemand",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EverC": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://everc.com/",
+      "careers": "https://www.everc.com/careers",
+      "linkedin": "everc",
+      "cities": [
+        "תל אביב-יפו"
       ],
       "greenhouseId": null,
       "leverId": null,
