@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-04-29T11:03:55.944214+00:00",
+  "_cached_at": "2026-04-30T11:04:12.889940+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8978,6 +8978,221 @@
       "linkedin": "mego-afek-ac-ltd",
       "cities": [
         "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Intel": {
+      "category": "Semiconductors",
+      "size": "l",
+      "website": "https://www.intel.com",
+      "careers": "https://www.intel.com/content/www/us/en/jobs/life-at-intel.html",
+      "linkedin": "intel-corporation",
+      "cities": [
+        "פתח תקווה",
+        "קרית גת",
+        "חיפה",
+        "תל אביב-יפו",
+        "ירושלים",
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Forcepoint": {
+      "category": "Cybersecurity",
+      "size": "xl",
+      "website": "https://www.forcepoint.com/",
+      "careers": null,
+      "linkedin": "forcepoint",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Swimm": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://swimm.io/",
+      "careers": null,
+      "linkedin": "swimm-io",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Anyword": {
+      "category": "AdTech",
+      "size": "l",
+      "website": "https://anyword.com/",
+      "careers": "https://keywee.co/careers",
+      "linkedin": "getanyword",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "TytoCare": {
+      "category": "Health",
+      "size": "l",
+      "website": "https://www.tytocare.com/",
+      "careers": "https://www.tytocare.com/careers/",
+      "linkedin": "tytocare-ltd",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Snyk": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://snyk.io/",
+      "careers": "https://snyk.io/careers/",
+      "linkedin": "snyk",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Ultra Information Solutions": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://ultra.global/",
+      "careers": "https://ultra.global/careers/",
+      "linkedin": "ultraglobal",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Workiz": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.workiz.com/",
+      "careers": null,
+      "linkedin": "workizinc",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Fabric": {
+      "category": "E-commerce & Retail",
+      "size": "l",
+      "website": "https://getfabric.com/",
+      "careers": "https://getfabric.com/careers/",
+      "linkedin": "fabriclogistics",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "fabric/52.009",
+      "breezyId": null
+    },
+    "deepdub": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://deepdub.ai/",
+      "careers": "https://deepdub.ai/careers",
+      "linkedin": "deepdub-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Blink": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.blinkops.com",
+      "careers": "https://www.blinkops.com/careers",
+      "linkedin": "blink-ops",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Harmonya Technologies": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.harmonya.com/",
+      "careers": "https://www.harmonya.com/careers",
+      "linkedin": "harmonya-inc",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Droxi AI": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://www.droxi.ai",
+      "careers": "https://www.droxi.ai/jobs",
+      "linkedin": "droxi",
+      "cities": [
+        null
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "NanoScout": {
+      "category": "Health",
+      "size": "xs",
+      "website": "https://www.nanoscout.com/",
+      "careers": null,
+      "linkedin": "nanoscout",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Electreon": {
+      "category": "Automotive",
+      "size": "m",
+      "website": "https://electreon.com/",
+      "careers": "https://electreon.com/about-us/careers",
+      "linkedin": "electreon",
+      "cities": [
+        "בית ינאי"
       ],
       "greenhouseId": null,
       "leverId": null,
