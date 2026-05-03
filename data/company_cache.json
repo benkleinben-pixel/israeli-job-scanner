@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-05-03T06:13:58.310558+00:00",
+  "_cached_at": "2026-05-03T10:13:57.744714+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8661,6 +8661,384 @@
       "linkedin": "mego-afek-ac-ltd",
       "cities": [
         "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Schneider Electric": {
+      "category": "Sustainable Technology",
+      "size": "l",
+      "website": "https://www.se.com/",
+      "careers": "https://www.se.com/us/en/about-us/careers/overview.jsp",
+      "linkedin": "schneider-electric",
+      "cities": [
+        "קדימה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Ahava Dead Sea Laboratories": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://www.ahava.com/",
+      "careers": null,
+      "linkedin": "dead-sea-laboratories-ahava",
+      "cities": [
+        "לוד"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Infineon": {
+      "category": "Semiconductors",
+      "size": "m",
+      "website": "https://www.infineon.com/",
+      "careers": "https://www.infineon.com/cms/en/careers/",
+      "linkedin": "infineon-technologies",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "10bis": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://www.10bis.co.il/",
+      "careers": null,
+      "linkedin": "10bis-co-il",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "NetApp": {
+      "category": "Cloud Computing",
+      "size": "m",
+      "website": "https://www.netapp.com/",
+      "careers": "https://careers.netapp.com/",
+      "linkedin": "netapp",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Ramon.Space": {
+      "category": "Aerospace",
+      "size": "m",
+      "website": "https://ramon.space/",
+      "careers": "https://ramon.space/careers/",
+      "linkedin": "ramonspace",
+      "cities": [
+        "יקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AIR": {
+      "category": "Automotive",
+      "size": "s",
+      "website": "https://www.airev.aero/",
+      "careers": "https://www.airev.aero/careers",
+      "linkedin": "air-ev",
+      "cities": [
+        "פרדס חנה כרכור"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Singular": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://www.singular.net/",
+      "careers": null,
+      "linkedin": "singular-labs",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Altshare": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://altshare.com",
+      "careers": "https://altshare.com/careers",
+      "linkedin": "altshare",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tomax": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "http://www.tomadox.co.uk",
+      "careers": null,
+      "linkedin": "tomax-think-academy",
+      "cities": [
+        "כפר מונש"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Intuit": {
+      "category": "Fintech",
+      "size": "xl",
+      "website": "https://www.intuit.com/",
+      "careers": "https://www.intuit.com/careers/",
+      "linkedin": "intuit",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Centrical": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://centrical.com/",
+      "careers": "https://centrical.com/company/careers/",
+      "linkedin": "centrical",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "odix": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "http://www.odi-x.com",
+      "careers": "https://www.odi-x.com/career/",
+      "linkedin": "odixcdr",
+      "cities": [
+        "ראש העין"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "CyberInt": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://cyberint.com/",
+      "careers": "https://cyberint.com/careers/",
+      "linkedin": "cyberint",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Smart Shooter": {
+      "category": "Robotics & Automation",
+      "size": "m",
+      "website": "https://www.smart-shooter.com/",
+      "careers": null,
+      "linkedin": "smart-shooter",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Finastra": {
+      "category": "Fintech",
+      "size": "l",
+      "website": "https://www.finastra.com/",
+      "careers": "https://careers.finastra.com/jobs",
+      "linkedin": "finastra",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Augury": {
+      "category": "Robotics & Automation",
+      "size": "l",
+      "website": "https://www.augury.com/",
+      "careers": "https://www.augury.com/careers/",
+      "linkedin": "augury-systems",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Raft Technologies": {
+      "category": "Telecommunications",
+      "size": "m",
+      "website": "https://raft-tech.com/",
+      "careers": null,
+      "linkedin": "raft-technologies",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Agoda.com": {
+      "category": "E-commerce & Retail",
+      "size": "xl",
+      "website": "https://www.agoda.com/",
+      "careers": "https://careersatagoda.com/",
+      "linkedin": "agoda",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kovrr": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.kovrr.com/",
+      "careers": "https://www.kovrr.com/careers",
+      "linkedin": "kovrr",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SpecterX": {
+      "category": "Cloud Computing",
+      "size": "xs",
+      "website": "https://www.specterx.com/",
+      "careers": "https://www.specterx.com/careers/",
+      "linkedin": "specterx",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Dokka": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://dokka.com/",
+      "careers": null,
+      "linkedin": "dokkasoftware",
+      "cities": [
+        "אשקלון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Cyolo": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://cyolo.io/",
+      "careers": "https://cyolo.io/careers",
+      "linkedin": "cyolo",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Trullion": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://trullion.com/",
+      "careers": null,
+      "linkedin": "trullion",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "UBS": {
+      "category": "Fintech",
+      "size": "s",
+      "website": "https://www.ubs.com/",
+      "careers": "https://www.ubs.com/global/en/careers.html",
+      "linkedin": "ubs",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Via": {
+      "category": "Automotive",
+      "size": "l",
+      "website": "https://www.ridewithvia.com",
+      "careers": "https://ridewithvia.com/careers/jobs",
+      "linkedin": "ridewithvia",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Cloudhiro": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "https://www.cloudhiro.com/",
+      "careers": null,
+      "linkedin": "cloudhiro",
+      "cities": [
+        "גני תקווה"
       ],
       "greenhouseId": null,
       "leverId": null,
