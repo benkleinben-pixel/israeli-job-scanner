@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-05-17T13:18:56.338371+00:00",
+  "_cached_at": "2026-05-18T12:40:41.573120+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -9123,6 +9123,328 @@
       "linkedin": "arm",
       "cities": [
         "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Raicol Crystals": {
+      "category": "Semiconductors",
+      "size": "m",
+      "website": "https://raicol.com/",
+      "careers": "https://raicol.com/careers",
+      "linkedin": "raicol-crystals",
+      "cities": [
+        "ראש העין"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BeeSense": {
+      "category": "Aerospace",
+      "size": "s",
+      "website": "https://beesense-sys.com/",
+      "careers": null,
+      "linkedin": "bee-sense",
+      "cities": [
+        "ראש העין"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Insightec": {
+      "category": "Health",
+      "size": "l",
+      "website": "https://insightec.com/",
+      "careers": "https://insightec.com/careers/",
+      "linkedin": "insightec",
+      "cities": [
+        "טירת כרמל"
+      ],
+      "greenhouseId": "insightec",
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Accenture": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://www.accenture.com/",
+      "careers": "https://www.accenture.com/us-en/careers",
+      "linkedin": "accenture_israel",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Singular": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://www.singular.net/",
+      "careers": null,
+      "linkedin": "singular-labs",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Sightec": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.sightec.com/",
+      "careers": "https://www.sightec.com/careers/",
+      "linkedin": "sightec",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ART Medical": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://artmedical.com/",
+      "careers": "https://artmedical.com/careers/",
+      "linkedin": "artmedicalltd",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "NetSpark": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.netspark.com/",
+      "careers": null,
+      "linkedin": "netspark-ltd",
+      "cities": [
+        "גבעת שמואל"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "IdeoDigital": {
+      "category": "Fintech",
+      "size": "m",
+      "website": "https://www.ideo-digital.com/",
+      "careers": "https://www.ideo-digital.com/careers/",
+      "linkedin": "ideodigital",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SGTech": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "http://sgtech.co.il",
+      "careers": null,
+      "linkedin": "sgtech.co.il",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Foretellix": {
+      "category": "Automotive",
+      "size": "m",
+      "website": "https://www.foretellix.com/",
+      "careers": null,
+      "linkedin": "foretellix",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Simplex Mapping Solutions": {
+      "category": "IoT",
+      "size": "s",
+      "website": "https://simplex3d.co.il",
+      "careers": null,
+      "linkedin": "simplex3d",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Playermaker": {
+      "category": "Gaming",
+      "size": "m",
+      "website": "https://www.playermaker.com/",
+      "careers": null,
+      "linkedin": "playermaker",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Strix Drones": {
+      "category": "Robotics & Automation",
+      "size": "s",
+      "website": "https://www.strixdrones.com/",
+      "careers": "https://www.strixdrones.com/careers-in-strix-drones",
+      "linkedin": "strixdrones",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "DeepKeep": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.deepkeep.ai/",
+      "careers": null,
+      "linkedin": "deepkeep",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Memcyco": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.memcyco.com/",
+      "careers": null,
+      "linkedin": "memcyco",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Lama AI": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.lama.ai",
+      "careers": "https://www.lama.ai/company#positions",
+      "linkedin": "lamaai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Paytag": {
+      "category": "Telecommunications",
+      "size": "xs",
+      "website": "https://paytagapp.com",
+      "careers": null,
+      "linkedin": "paytagapp",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Vetric Technology": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "https://vetric.io/",
+      "careers": null,
+      "linkedin": "vetric",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Viewz": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "https://www.viewz.co",
+      "careers": null,
+      "linkedin": "viewz.co",
+      "cities": [
+        "קרית אונו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Niart": {
+      "category": "IoT",
+      "size": "s",
+      "website": "https://niart-systems.com",
+      "careers": "https://niart-systems.com/career/",
+      "linkedin": "niart-systems",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Adge.ai": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "https://www.adge.ai",
+      "careers": null,
+      "linkedin": "adgeai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EverC": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://everc.com/",
+      "careers": "https://www.everc.com/careers",
+      "linkedin": "everc",
+      "cities": [
+        "תל אביב-יפו"
       ],
       "greenhouseId": null,
       "leverId": null,
