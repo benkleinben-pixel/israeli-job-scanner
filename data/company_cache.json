@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-05-18T12:40:41.573120+00:00",
+  "_cached_at": "2026-05-19T11:59:32.692827+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -9449,6 +9449,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "LiveU": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://www.liveu.tv/",
+      "careers": "https://www.liveu.tv/company/careers",
+      "linkedin": "liveu",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "liveu/90.00C",
       "breezyId": null
     }
   }
