@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-05-25T19:34:24.511137+00:00",
+  "_cached_at": "2026-05-26T15:36:07.797548+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -8301,6 +8301,34 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Driivz": {
+      "category": "Automotive",
+      "size": "m",
+      "website": "https://driivz.com/",
+      "careers": "https://driivz.com/careers-in-driivz/",
+      "linkedin": "driivz",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "driivz/C4.00B",
+      "breezyId": null
+    },
+    "Comunix": {
+      "category": "Gaming",
+      "size": "m",
+      "website": "https://www.getcomunix.com/",
+      "careers": null,
+      "linkedin": "getcomunix",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "comunix/86.006",
       "breezyId": null
     }
   }
