@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-05-27T20:28:00.951850+00:00",
+  "_cached_at": "2026-05-27T22:50:40.752136+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -8423,6 +8423,76 @@
       "linkedin": "at-t-israel-r-d-center",
       "cities": [
         "קריית שדה התעופה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Samsung Semiconductors": {
+      "category": "Semiconductors",
+      "size": "xl",
+      "website": "https://www.samsung.com",
+      "careers": "https://semiconductor.samsung.com/about-us/careers/",
+      "linkedin": "samsungsemiconductor",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tata Consultancy Services": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.tcs.com/",
+      "careers": "https://www.tcs.com/careers",
+      "linkedin": "tata-consultancy-services",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ARM": {
+      "category": "Semiconductors",
+      "size": "m",
+      "website": "https://www.arm.com",
+      "careers": null,
+      "linkedin": "arm",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EverC": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://everc.com/",
+      "careers": "https://www.everc.com/careers",
+      "linkedin": "everc",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Mego Afek": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.megoafek.com",
+      "careers": "https://www.megoafek.com/career",
+      "linkedin": "mego-afek-ac-ltd",
+      "cities": [
+        "אפק"
       ],
       "greenhouseId": null,
       "leverId": null,
