@@ -1,4 +1,14 @@
 {
+  "Avgol": {
+    "category": "E-commerce & Retail",
+    "size": "l",
+    "website": "https://www.avgol.com/",
+    "careers": "https://www.avgol.com/careers/",
+    "linkedin": "avgol",
+    "cities": [
+      "פתח תקווה"
+    ]
+  },
   "Motorola Solutions": {
     "category": "Telecommunications",
     "size": "xl",
@@ -37,6 +47,16 @@
     "linkedin": "telefire-fire-&-gas-detectors",
     "cities": [
       "פתח תקווה"
+    ]
+  },
+  "Mend": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "https://www.mend.io/",
+    "careers": null,
+    "linkedin": "mend-io",
+    "cities": [
+      "כרמיאל"
     ]
   },
   "Weka": {
@@ -99,6 +119,16 @@
       "שדרות"
     ]
   },
+  "Gat Fertilizers": {
+    "category": "Sustainable Technology",
+    "size": "xs",
+    "website": "https://deshengat.co.il/",
+    "careers": null,
+    "linkedin": "gat-fertilizers",
+    "cities": [
+      "קריית גת"
+    ]
+  },
   "Schneider Electric": {
     "category": "Sustainable Technology",
     "size": "l",
@@ -147,6 +177,16 @@
     "linkedin": "hazera-seeds",
     "cities": [
       "ברורים"
+    ]
+  },
+  "Camtek": {
+    "category": "Semiconductors",
+    "size": "l",
+    "website": "https://www.camtek.com/",
+    "careers": "https://www.camtek.com/careers/working-at-camtek/",
+    "linkedin": "camtek",
+    "cities": [
+      "מגדל העמק"
     ]
   },
   "Amdocs": {
@@ -230,6 +270,16 @@
       "כפר סבא"
     ]
   },
+  "IBM": {
+    "category": "AI/ML",
+    "size": "l",
+    "website": "https://www.ibm.com/",
+    "careers": "https://www.ibm.com/careers",
+    "linkedin": "ibm",
+    "cities": [
+      "פתח תקווה"
+    ]
+  },
   "Kamada": {
     "category": "Health",
     "size": "l",
@@ -300,6 +350,16 @@
       "רחובות"
     ]
   },
+  "DSIT Solutions": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "http://www.dsit.co.il",
+    "careers": "https://dsit.co.il/about-us/careers/",
+    "linkedin": "dsit-solutions-ltd",
+    "cities": [
+      "גבעת שמואל"
+    ]
+  },
   "Port": {
     "category": "Productivity",
     "size": "m",
@@ -330,16 +390,6 @@
       "תל אביב-יפו"
     ]
   },
-  "Sivron": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://sivron.com/",
-    "careers": null,
-    "linkedin": "sivron",
-    "cities": [
-      "קרית אונו"
-    ]
-  },
   "Align Technology": {
     "category": "Health",
     "size": "xl",
@@ -350,14 +400,24 @@
       "פתח תקווה"
     ]
   },
-  "Microchip": {
-    "category": "Semiconductors",
-    "size": "xl",
-    "website": "https://www.microchip.com/",
-    "careers": "https://www.microchip.com/en-us/about/careers",
-    "linkedin": "microchip-technology",
+  "Redler Technologies": {
+    "category": "Robotics & Automation",
+    "size": "s",
+    "website": "https://www.redlertechnologies.com/",
+    "careers": null,
+    "linkedin": "redler-technologies",
     "cities": [
-      "הוד השרון"
+      "כפר סבא"
+    ]
+  },
+  "Lycored": {
+    "category": "Health",
+    "size": "m",
+    "website": "https://www.lycored.com/",
+    "careers": null,
+    "linkedin": "lycored",
+    "cities": [
+      "באר שבע"
     ]
   },
   "Rockwell Automation": {
@@ -450,6 +510,16 @@
       "נתניה"
     ]
   },
+  "Merck": {
+    "category": "Health",
+    "size": "l",
+    "website": "https://www.merckgroup.com/en/worldwide/merck-in-israel.html",
+    "careers": "https://jobs.merck.com/us/en",
+    "linkedin": "merck-group",
+    "cities": [
+      "הוד השרון"
+    ]
+  },
   "abra": {
     "category": "Productivity",
     "size": "l",
@@ -468,6 +538,16 @@
     "linkedin": "dolav-plastic-products",
     "cities": [
       "דביר"
+    ]
+  },
+  "Aeronautics": {
+    "category": "Aerospace",
+    "size": "l",
+    "website": "https://www.aeronautics-sys.com/",
+    "careers": null,
+    "linkedin": "aeronautics",
+    "cities": [
+      "יבנה"
     ]
   },
   "ScanMaster Systems": {
@@ -590,16 +670,6 @@
       "אור יהודה"
     ]
   },
-  "Insightec": {
-    "category": "Health",
-    "size": "l",
-    "website": "https://insightec.com/",
-    "careers": "https://insightec.com/careers/",
-    "linkedin": "insightec",
-    "cities": [
-      "טירת כרמל"
-    ]
-  },
   "Cellebrite": {
     "category": "Cybersecurity",
     "size": "l",
@@ -640,26 +710,6 @@
       "אור יהודה"
     ]
   },
-  "Callflow Software": {
-    "category": "Productivity",
-    "size": "m",
-    "website": "http://www.callflow.com",
-    "careers": null,
-    "linkedin": "q-nomy-inc-",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Keysight": {
-    "category": "Semiconductors",
-    "size": "xl",
-    "website": "https://www.keysight.com",
-    "careers": null,
-    "linkedin": "keysight-technologies",
-    "cities": [
-      "רעננה"
-    ]
-  },
   "Medtronic": {
     "category": "Health",
     "size": "l",
@@ -680,6 +730,16 @@
       "קיסריה"
     ]
   },
+  "Essence Security": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "https://www.essence-grp.com/solutions/security-solutions",
+    "careers": "https://www.essence-grp.com/about/careers/",
+    "linkedin": "essence-group",
+    "cities": [
+      "הרצליה"
+    ]
+  },
   "Perion Network": {
     "category": "AdTech",
     "size": "l",
@@ -698,6 +758,16 @@
     "linkedin": "manpowergroup",
     "cities": [
       "תל אביב-יפו"
+    ]
+  },
+  "Septier Communication": {
+    "category": "Telecommunications",
+    "size": "m",
+    "website": "https://www.septier.com/",
+    "careers": "https://www.septier.com/careers/",
+    "linkedin": "septier-communication-ltd",
+    "cities": [
+      "פתח תקווה"
     ]
   },
   "Vishay": {
@@ -785,16 +855,6 @@
       "הרצליה"
     ]
   },
-  "Carl Zeiss": {
-    "category": "Health",
-    "size": "xl",
-    "website": "https://www.zeiss.com/",
-    "careers": "https://www.zeiss.com/semiconductor-manufacturing-technology/career.html",
-    "linkedin": "zeiss",
-    "cities": [
-      "קיסריה"
-    ]
-  },
   "Connecteam": {
     "category": "Productivity",
     "size": "l",
@@ -803,26 +863,6 @@
     "linkedin": "connecteam",
     "cities": [
       "ראשון לציון"
-    ]
-  },
-  "10bis": {
-    "category": "E-commerce & Retail",
-    "size": "m",
-    "website": "https://www.10bis.co.il/",
-    "careers": null,
-    "linkedin": "10bis-co-il",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "F5 Networks": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.f5.com/",
-    "careers": "https://www.f5.com/company/careers/",
-    "linkedin": "f5",
-    "cities": [
-      "רמת גן"
     ]
   },
   "Swimm": {
@@ -895,16 +935,6 @@
       "מרחביה (קיבוץ)"
     ]
   },
-  "PayPal": {
-    "category": "Fintech",
-    "size": "l",
-    "website": "https://www.paypal.com/",
-    "careers": null,
-    "linkedin": "paypal",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
   "BIRD Aerosystems": {
     "category": "Aerospace",
     "size": "m",
@@ -913,16 +943,6 @@
     "linkedin": "bird-aerosystems",
     "cities": [
       "הרצליה"
-    ]
-  },
-  "Lesico CleanTech": {
-    "category": "Sustainable Technology",
-    "size": "xs",
-    "website": "https://lesico.com/en/",
-    "careers": null,
-    "linkedin": "lesicoltd",
-    "cities": [
-      "תל אביב-יפו"
     ]
   },
   "Incredibuild": {
@@ -1075,16 +1095,6 @@
       "פתח תקווה"
     ]
   },
-  "AB Dental Devices": {
-    "category": "Health",
-    "size": "m",
-    "website": "http://www.ab-dent.com",
-    "careers": null,
-    "linkedin": "ab-dental-devices-ltd.",
-    "cities": [
-      "אשדוד"
-    ]
-  },
   "Paragon": {
     "category": "Cybersecurity",
     "size": "l",
@@ -1173,6 +1183,16 @@
     "linkedin": "questarauto",
     "cities": [
       "הרצליה"
+    ]
+  },
+  "BugSec": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://bugsec.com",
+    "careers": null,
+    "linkedin": "bugsec",
+    "cities": [
+      "ראשון לציון"
     ]
   },
   "Red Hat": {
@@ -1285,6 +1305,16 @@
       "תל אביב-יפו"
     ]
   },
+  "Flare": {
+    "category": "Productivity",
+    "size": "l",
+    "website": "https://www.helloflare.com/",
+    "careers": null,
+    "linkedin": "hello-flare",
+    "cities": [
+      "רמת גן"
+    ]
+  },
   "FormTitan": {
     "category": "Productivity",
     "size": "m",
@@ -1345,6 +1375,16 @@
       "רמת גן"
     ]
   },
+  "Percepto Digital": {
+    "category": "Digital Media",
+    "size": "s",
+    "website": "https://www.percepto-digital.com",
+    "careers": "https://www.percepto-digital.com/careers/",
+    "linkedin": "percepto",
+    "cities": [
+      "בני ברק"
+    ]
+  },
   "Teva Pharmaceuticals": {
     "category": "Health",
     "size": "l",
@@ -1400,6 +1440,16 @@
       "תל אביב-יפו"
     ]
   },
+  "SITE123": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "https://he.site123.com/",
+    "careers": null,
+    "linkedin": "site123",
+    "cities": [
+      "באר שבע"
+    ]
+  },
   "General Motors": {
     "category": "Automotive",
     "size": "l",
@@ -1450,6 +1500,16 @@
       "אור יהודה"
     ]
   },
+  "ActiveTrail": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "https://www.activetrail.com/",
+    "careers": null,
+    "linkedin": "activetrail",
+    "cities": [
+      "בני ברק"
+    ]
+  },
   "Digital Turbine": {
     "category": "AdTech",
     "size": "xl",
@@ -1458,16 +1518,6 @@
     "linkedin": "digital-turbine",
     "cities": [
       "פתח תקווה"
-    ]
-  },
-  "Paretix": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://www.paretix.com/",
-    "careers": null,
-    "linkedin": "pareto-pulse",
-    "cities": [
-      "תל אביב-יפו"
     ]
   },
   "Toluna": {
@@ -1500,6 +1550,16 @@
       "חולון"
     ]
   },
+  "Tomax": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "http://www.tomadox.co.uk",
+    "careers": null,
+    "linkedin": "tomax-think-academy",
+    "cities": [
+      "כפר מונש"
+    ]
+  },
   "Intuit": {
     "category": "Fintech",
     "size": "xl",
@@ -1528,6 +1588,16 @@
     "linkedin": "innodata-inc-",
     "cities": [
       "ירושלים"
+    ]
+  },
+  "Mechanical Devices": {
+    "category": "Semiconductors",
+    "size": "s",
+    "website": "http://www.mechanical-devices.com",
+    "careers": null,
+    "linkedin": "m--d--mechanical-devices",
+    "cities": [
+      "חיפה"
     ]
   },
   "Rise": {
@@ -1650,16 +1720,6 @@
       "תל אביב-יפו"
     ]
   },
-  "ZOLL Medical": {
-    "category": "Health",
-    "size": "xl",
-    "website": "https://www.zoll.com/",
-    "careers": "https://www.zoll.com/contact/careers-at-zoll",
-    "linkedin": "zoll-medical-corporation",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
   "Bright Data": {
     "category": "AdTech",
     "size": "l",
@@ -1680,6 +1740,16 @@
       "גבעת עדה"
     ]
   },
+  "Genesys": {
+    "category": "Productivity",
+    "size": "xl",
+    "website": "https://www.genesys.com/",
+    "careers": "https://www.genesys.com/company/careers",
+    "linkedin": "genesys",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
   "JFrog": {
     "category": "Cloud Computing",
     "size": "l",
@@ -1688,6 +1758,16 @@
     "linkedin": "jfrog-ltd",
     "cities": [
       "נתניה"
+    ]
+  },
+  "PointGrab": {
+    "category": "IoT",
+    "size": "s",
+    "website": "https://www.pointgrab.com/",
+    "careers": null,
+    "linkedin": "pointgrab",
+    "cities": [
+      "כפר סבא"
     ]
   },
   "Plus500": {
@@ -1720,16 +1800,6 @@
       "תל-אביב"
     ]
   },
-  "Phenome Networks": {
-    "category": "Sustainable Technology",
-    "size": "s",
-    "website": "https://phenome-networks.com/en",
-    "careers": null,
-    "linkedin": "phenom-networks-inc.",
-    "cities": [
-      "רחובות"
-    ]
-  },
   "ControlUp": {
     "category": "Productivity",
     "size": "l",
@@ -1748,6 +1818,16 @@
     "linkedin": "glassesusa-llc",
     "cities": [
       "תל אביב-יפו"
+    ]
+  },
+  "Rapid Medical": {
+    "category": "Health",
+    "size": "m",
+    "website": "https://www.rapid-medical.com/",
+    "careers": null,
+    "linkedin": "rapid-medical",
+    "cities": [
+      "יוקנעם עילית"
     ]
   },
   "Pi-Cardia": {
@@ -1820,24 +1900,14 @@
       "תל אביב-יפו"
     ]
   },
-  "Mobius Protection Systems": {
+  "NextVision Stabilized Systems": {
     "category": "Aerospace",
     "size": "s",
-    "website": "https://www.mobius-ps.com/",
+    "website": "https://www.nextvision-sys.com/",
     "careers": null,
-    "linkedin": "mobius-protection-systems",
+    "linkedin": "nextvision-stabilized-systems-ltd-",
     "cities": [
-      "מודיעין מכבים רעות"
-    ]
-  },
-  "NetSpark": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.netspark.com/",
-    "careers": null,
-    "linkedin": "netspark-ltd",
-    "cities": [
-      "גבעת שמואל"
+      "רעננה"
     ]
   },
   "SafeWay": {
@@ -1858,16 +1928,6 @@
     "linkedin": "ideodigital",
     "cities": [
       "תל אביב-יפו"
-    ]
-  },
-  "MeMed Diagnostics": {
-    "category": "Health",
-    "size": "m",
-    "website": "https://www.me-med.com/",
-    "careers": null,
-    "linkedin": "memed-dx",
-    "cities": [
-      "חיפה"
     ]
   },
   "WorldQuant": {
@@ -1940,14 +2000,14 @@
       "תל אביב-יפו"
     ]
   },
-  "SGTech": {
-    "category": "Sustainable Technology",
+  "Squaretalk": {
+    "category": "Telecommunications",
     "size": "s",
-    "website": "http://sgtech.co.il",
+    "website": "https://squaretalk.com/",
     "careers": null,
-    "linkedin": "sgtech.co.il",
+    "linkedin": "squaretalk",
     "cities": [
-      "נתניה"
+      "ירושלים"
     ]
   },
   "365Scores": {
@@ -1968,16 +2028,6 @@
     "linkedin": "playtika",
     "cities": [
       "הרצליה"
-    ]
-  },
-  "Meta": {
-    "category": "Digital Media",
-    "size": "xl",
-    "website": "https://about.meta.com/",
-    "careers": "https://www.metacareers.com/locations/tel-aviv/",
-    "linkedin": "meta",
-    "cities": [
-      "תל אביב-יפו"
     ]
   },
   "Quicklizard": {
@@ -2020,6 +2070,16 @@
       "פתח תקווה"
     ]
   },
+  "Foretellix": {
+    "category": "Automotive",
+    "size": "m",
+    "website": "https://www.foretellix.com/",
+    "careers": null,
+    "linkedin": "foretellix",
+    "cities": [
+      "רמת גן"
+    ]
+  },
   "Simply": {
     "category": "Productivity",
     "size": "l",
@@ -2050,6 +2110,16 @@
       "תל אביב-יפו"
     ]
   },
+  "Microbot Medical": {
+    "category": "Robotics & Automation",
+    "size": "s",
+    "website": "https://microbotmedical.com/",
+    "careers": null,
+    "linkedin": "microbot-medical",
+    "cities": [
+      "יוקנעם עילית"
+    ]
+  },
   "Tipalti": {
     "category": "Fintech",
     "size": "l",
@@ -2078,6 +2148,16 @@
     "linkedin": "start-io",
     "cities": [
       "נתניה"
+    ]
+  },
+  "Vi Labs": {
+    "category": "AI/ML",
+    "size": "l",
+    "website": "https://vi.co/",
+    "careers": "https://vi.co/careers/",
+    "linkedin": "vi",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "CrazyLabs": {
@@ -2178,26 +2258,6 @@
     "linkedin": "moon-active",
     "cities": [
       "תל אביב-יפו"
-    ]
-  },
-  "NoviSign": {
-    "category": "Digital Media",
-    "size": "s",
-    "website": "https://www.novisign.com/",
-    "careers": "https://www.novisign.com/about/careers/",
-    "linkedin": "novisign-digital-signage",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
-  "Smart Shooter": {
-    "category": "Robotics & Automation",
-    "size": "m",
-    "website": "https://www.smart-shooter.com/",
-    "careers": null,
-    "linkedin": "smart-shooter",
-    "cities": [
-      "חיפה"
     ]
   },
   "Optibus": {
@@ -2572,6 +2632,16 @@
       "מודיעין-מכבים-רעות"
     ]
   },
+  "Bits of Gold": {
+    "category": "E-commerce & Retail",
+    "size": "s",
+    "website": "https://www.bitsofgold.net",
+    "careers": null,
+    "linkedin": "bits-of-gold-ltd",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
   "BrandShield": {
     "category": "Cybersecurity",
     "size": "m",
@@ -2692,6 +2762,26 @@
       "חיפה"
     ]
   },
+  "Raft Technologies": {
+    "category": "Telecommunications",
+    "size": "m",
+    "website": "https://raft-tech.com/",
+    "careers": null,
+    "linkedin": "raft-technologies",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Origami.ms": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "https://origami.ms/",
+    "careers": null,
+    "linkedin": "origami-ms",
+    "cities": [
+      "כפר סבא"
+    ]
+  },
   "KayHut": {
     "category": "Cybersecurity",
     "size": "m",
@@ -2732,16 +2822,6 @@
       "רמת גן"
     ]
   },
-  "Teramount": {
-    "category": "Semiconductors",
-    "size": "s",
-    "website": "https://teramount.com/",
-    "careers": null,
-    "linkedin": "teramount",
-    "cities": [
-      "ירושלים"
-    ]
-  },
   "Bluevine": {
     "category": "Fintech",
     "size": "l",
@@ -2762,16 +2842,6 @@
       "תל אביב-יפו"
     ]
   },
-  "Gth Software": {
-    "category": "Gaming",
-    "size": "m",
-    "website": "https://gthsoftware.com/",
-    "careers": null,
-    "linkedin": "gth-software",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
   "Altair": {
     "category": "AI/ML",
     "size": "xs",
@@ -2780,6 +2850,16 @@
     "linkedin": null,
     "cities": [
       "יקנעם עילית"
+    ]
+  },
+  "CHEQ": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "https://cheq.ai/",
+    "careers": "https://cheq.ai/careers/",
+    "linkedin": "cheq-ai",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "AGAT Software": {
@@ -2802,6 +2882,36 @@
       "רעננה"
     ]
   },
+  "MazeBolt": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "https://mazebolt.com/",
+    "careers": "https://mazebolt.com/careers/",
+    "linkedin": "mazebolt-technologies",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "flo Optics": {
+    "category": "Health",
+    "size": "s",
+    "website": "https://www.flo-optics.com",
+    "careers": "https://www.flo-optics.com/career/",
+    "linkedin": "flo-optics",
+    "cities": [
+      "כרמיאל"
+    ]
+  },
+  "Dragontail Systems": {
+    "category": "AI/ML",
+    "size": "m",
+    "website": "https://www.dragontail.com/",
+    "careers": null,
+    "linkedin": "dragontail-systems",
+    "cities": [
+      "בני ברק"
+    ]
+  },
   "Flytrex Aviation": {
     "category": "Aerospace",
     "size": "m",
@@ -2810,6 +2920,16 @@
     "linkedin": "flytrex",
     "cities": [
       "תל אביב-יפו"
+    ]
+  },
+  "Moburst": {
+    "category": "Digital Media",
+    "size": "m",
+    "website": "https://www.moburst.com",
+    "careers": "https://www.moburst.com/career/",
+    "linkedin": "moburst",
+    "cities": [
+      "כפר סבא"
     ]
   },
   "BlueGreen Water Technologies": {
@@ -2892,12 +3012,42 @@
       "תל אביב-יפו"
     ]
   },
+  "Wearable Devices": {
+    "category": "Aerospace",
+    "size": "s",
+    "website": "https://www.wearabledevices.co.il/",
+    "careers": "https://www.wearabledevices.co.il/career",
+    "linkedin": "wearable-devices-ltd",
+    "cities": [
+      "יוקנעם עילית"
+    ]
+  },
   "Gloat": {
     "category": "Productivity",
     "size": "m",
     "website": "https://gloat.com/",
     "careers": "https://gloat.com/careers/",
     "linkedin": "gloat",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "IRONSCALES": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://ironscales.com/",
+    "careers": null,
+    "linkedin": "ironscales",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "BTL Travel": {
+    "category": "E-commerce & Retail",
+    "size": "s",
+    "website": "https://www.alice.co.il",
+    "careers": null,
+    "linkedin": "alice-flights",
     "cities": [
       "תל אביב-יפו"
     ]
@@ -3082,16 +3232,6 @@
       "תל אביב-יפו"
     ]
   },
-  "Covercy": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://www.covercy.com/",
-    "careers": null,
-    "linkedin": "covercy",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
   "Cato Networks": {
     "category": "Cybersecurity",
     "size": "l",
@@ -3160,6 +3300,16 @@
     "linkedin": "neema-official",
     "cities": [
       "תל אביב-יפו"
+    ]
+  },
+  "SOLATO": {
+    "category": "Sustainable Technology",
+    "size": "m",
+    "website": "https://www.solato.com/",
+    "careers": null,
+    "linkedin": "solato-official",
+    "cities": [
+      "מעלות תרשיחא"
     ]
   },
   "DocuSign": {
@@ -3262,16 +3412,6 @@
       "Tel Aviv-Yafo"
     ]
   },
-  "CropX": {
-    "category": "AI/ML",
-    "size": "m",
-    "website": "https://cropx.com/",
-    "careers": "https://cropx.com/careers/",
-    "linkedin": "cropx-ltd",
-    "cities": [
-      "בני ברק"
-    ]
-  },
   "Foresight Automotive": {
     "category": "Automotive",
     "size": "m",
@@ -3280,16 +3420,6 @@
     "linkedin": "foresight-automotive",
     "cities": [
       "נס ציונה"
-    ]
-  },
-  "Arbox": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://arboxapp.com",
-    "careers": null,
-    "linkedin": "arbox",
-    "cities": [
-      "תל אביב-יפו"
     ]
   },
   "HiBob": {
@@ -3310,6 +3440,16 @@
     "linkedin": "gong-io",
     "cities": [
       "רמת גן"
+    ]
+  },
+  "Fly Money": {
+    "category": "Fintech",
+    "size": "xs",
+    "website": "https://www.flymoney.com/",
+    "careers": null,
+    "linkedin": "fly-money-technologies",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "Mize": {
@@ -3452,16 +3592,6 @@
       "תל אביב-יפו"
     ]
   },
-  "Biobeat": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.bio-beat.com/",
-    "careers": "https://www.bio-beat.com/jobs",
-    "linkedin": "biobeat-ltd.",
-    "cities": [
-      "פתח תקווה"
-    ]
-  },
   "Salt Security": {
     "category": "Cybersecurity",
     "size": "m",
@@ -3492,6 +3622,16 @@
       "הרצליה"
     ]
   },
+  "EyeControl": {
+    "category": "Health",
+    "size": "s",
+    "website": "https://www.eyecontrol.co.il",
+    "careers": null,
+    "linkedin": "eyecontrol",
+    "cities": [
+      "בני ברק"
+    ]
+  },
   "Innoviz Technologies": {
     "category": "Cybersecurity",
     "size": "l",
@@ -3500,6 +3640,16 @@
     "linkedin": "innoviz-technologies",
     "cities": [
       "Rosh Haayin"
+    ]
+  },
+  "Uniper Care Technologies": {
+    "category": "Health",
+    "size": "m",
+    "website": "https://www.unipercare.com",
+    "careers": null,
+    "linkedin": "uniper-care-technologies",
+    "cities": [
+      "מודיעין-מכבים-רעות"
     ]
   },
   "Aidoc": {
@@ -3693,16 +3843,6 @@
       "תל אביב-יפו"
     ]
   },
-  "Air Doctor": {
-    "category": "Health",
-    "size": "m",
-    "website": "https://www.air-dr.com/",
-    "careers": null,
-    "linkedin": "airdoctor",
-    "cities": [
-      "בית נקופה"
-    ]
-  },
   "Cymulate": {
     "category": "Cybersecurity",
     "size": "l",
@@ -3721,16 +3861,6 @@
     "linkedin": "cymotive",
     "cities": [
       "תל אביב-יפו"
-    ]
-  },
-  "Reflectiz": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.reflectiz.com/",
-    "careers": null,
-    "linkedin": "reflectiz",
-    "cities": [
-      "רמת גן"
     ]
   },
   "Oriient": {
@@ -3966,6 +4096,16 @@
       "הרצליה"
     ]
   },
+  "Nostromo": {
+    "category": "Sustainable Technology",
+    "size": "s",
+    "website": "http://nostromo.energy",
+    "careers": null,
+    "linkedin": "nostromo-energy",
+    "cities": [
+      "הזורעים"
+    ]
+  },
   "Kovrr": {
     "category": "Cybersecurity",
     "size": "s",
@@ -4066,6 +4206,16 @@
       "תל אביב-יפו"
     ]
   },
+  "Axon Vision": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "http://www.axon-vision.com",
+    "careers": null,
+    "linkedin": "axon-vision-ltd",
+    "cities": [
+      "שדרות"
+    ]
+  },
   "NextSilicon": {
     "category": "Semiconductors",
     "size": "l",
@@ -4075,16 +4225,6 @@
     "cities": [
       "גבעתיים",
       "חיפה"
-    ]
-  },
-  "SpecterX": {
-    "category": "Cloud Computing",
-    "size": "xs",
-    "website": "https://www.specterx.com/",
-    "careers": "https://www.specterx.com/careers/",
-    "linkedin": "specterx",
-    "cities": [
-      "תל אביב-יפו"
     ]
   },
   "Snappy Gifts": {
@@ -4197,6 +4337,16 @@
       "תל אביב-יפו"
     ]
   },
+  "ClearSkin": {
+    "category": "Health",
+    "size": "xs",
+    "website": "https://mibiome.co",
+    "careers": null,
+    "linkedin": "clearskin-medical",
+    "cities": [
+      "כרמיאל"
+    ]
+  },
   "Findings": {
     "category": "Cybersecurity",
     "size": "s",
@@ -4305,16 +4455,6 @@
     "linkedin": "activefence",
     "cities": [
       "בנימינה גבעת עדה"
-    ]
-  },
-  "SeeTrue": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://seetrue.ai/",
-    "careers": "https://seetrue.ai/careers/",
-    "linkedin": "seetrue-ai",
-    "cities": [
-      "תל אביב-יפו"
     ]
   },
   "Quantum Machines": {
@@ -4427,16 +4567,6 @@
       "רמת גן"
     ]
   },
-  "VineSight": {
-    "category": "Digital Media",
-    "size": "s",
-    "website": "https://www.vinesight.com",
-    "careers": null,
-    "linkedin": "vinesight",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
   "NeuReality": {
     "category": "AI/ML",
     "size": "m",
@@ -4456,6 +4586,16 @@
     "linkedin": "linearb",
     "cities": [
       "תל אביב-יפו"
+    ]
+  },
+  "CaPow Technologies": {
+    "category": "Robotics & Automation",
+    "size": "s",
+    "website": "https://capow.energy/",
+    "careers": null,
+    "linkedin": "capow-tech",
+    "cities": [
+      "באר שבע"
     ]
   },
   "BridgeWise": {
@@ -4498,14 +4638,14 @@
       "בני ברק"
     ]
   },
-  "BeamUP": {
-    "category": "Sustainable Technology",
-    "size": "s",
-    "website": "https://www.beamup.ai",
-    "careers": null,
-    "linkedin": "beamup",
+  "Zemingo": {
+    "category": "Productivity",
+    "size": "m",
+    "website": "https://www.zemingo.com",
+    "careers": "https://www.zemingo.com/en/careers",
+    "linkedin": "zemingo-mobile-group",
     "cities": [
-      "תל אביב-יפו"
+      "רמת גן"
     ]
   },
   "OneStep": {
@@ -4548,16 +4688,6 @@
       "תל אביב-יפו"
     ]
   },
-  "QbiqAI": {
-    "category": "AI/ML",
-    "size": "s",
-    "website": "https://qbiq.ai/",
-    "careers": null,
-    "linkedin": "qbiq-ai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
   "UNIPaaS Payments Technologies": {
     "category": "Fintech",
     "size": "s",
@@ -4586,16 +4716,6 @@
     "linkedin": "lightruntech",
     "cities": [
       "תל אביב-יפו"
-    ]
-  },
-  "GroWings": {
-    "category": "Robotics & Automation",
-    "size": "s",
-    "website": "https://www.growings.com",
-    "careers": null,
-    "linkedin": "growings-ltd",
-    "cities": [
-      "קדימה צורן"
     ]
   },
   "Ultrawis": {
@@ -4658,6 +4778,16 @@
       "תל אביב-יפו"
     ]
   },
+  "apiiro": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://apiiro.com/",
+    "careers": null,
+    "linkedin": "apiiro",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
   "AxonPulse": {
     "category": "AI/ML",
     "size": "s",
@@ -4666,6 +4796,16 @@
     "linkedin": "axon-pulse",
     "cities": [
       "תל אביב-יפו"
+    ]
+  },
+  "CARRAR": {
+    "category": "Sustainable Technology",
+    "size": "s",
+    "website": "https://www.carrar.net/",
+    "careers": "https://www.carrar.net/careers",
+    "linkedin": "carrar",
+    "cities": [
+      "שער הנגב"
     ]
   },
   "Speedata": {
@@ -4686,6 +4826,36 @@
     "website": "https://www.4manalytics.com/",
     "careers": null,
     "linkedin": "4m-analytics",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Nagish": {
+    "category": "Digital Media",
+    "size": "s",
+    "website": "https://www.talknagish.com/",
+    "careers": "https://nagish.com/careers",
+    "linkedin": "nagish",
+    "cities": [
+      "הרצליה"
+    ]
+  },
+  "Zscaler Israel": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://www.zscaler.com/",
+    "careers": "https://www.zscaler.com/careers",
+    "linkedin": "zscaler",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "Bridgify": {
+    "category": "E-commerce & Retail",
+    "size": "s",
+    "website": "https://www.bridgify.io/",
+    "careers": null,
+    "linkedin": "bridgifytravel",
     "cities": [
       "תל אביב-יפו"
     ]
@@ -4830,1701 +5000,6 @@
       "תל אביב-יפו"
     ]
   },
-  "Imagen": {
-    "category": "Digital Media",
-    "size": "m",
-    "website": "https://www.imagen-ai.com",
-    "careers": null,
-    "linkedin": null,
-    "cities": [
-      "גבעתיים"
-    ]
-  },
-  "ForSight Robotics": {
-    "category": "Robotics & Automation",
-    "size": "m",
-    "website": "https://www.forsightrobotics.com/",
-    "careers": null,
-    "linkedin": "forsightrobotics",
-    "cities": [
-      "יוקנעם עילית"
-    ]
-  },
-  "Landa Digital Printing": {
-    "category": "Digital Media",
-    "size": "l",
-    "website": "https://landanano.com/",
-    "careers": "https://landanano.com/about-us/careers/",
-    "linkedin": "landa-digital-printing",
-    "cities": [
-      "גבעת ברנר"
-    ]
-  },
-  "Solvo": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.solvo.cloud",
-    "careers": "https://www.solvo.cloud/careers/",
-    "linkedin": "solvo-cloud",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Classiq Technologies": {
-    "category": "AI/ML",
-    "size": "m",
-    "website": "https://www.classiq.io/",
-    "careers": null,
-    "linkedin": "classiq-technologies",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Bria AI": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://bria.ai/",
-    "careers": null,
-    "linkedin": "briaai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Cognyte": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.cognyte.com/",
-    "careers": "https://www.cognyte.com/careers/",
-    "linkedin": "cognyte",
-    "cities": [
-      "הרצליה"
-    ]
-  },
-  "QuantHealth": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://quanthealth.ai/",
-    "careers": "https://boards.eu.greenhouse.io/quanthealth",
-    "linkedin": "quanthealthlabs",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Voyantis": {
-    "category": "AdTech",
-    "size": "m",
-    "website": "https://www.voyantis.ai/",
-    "careers": "https://www.voyantis.ai/careers",
-    "linkedin": "voyantis",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "INCRMNTAL": {
-    "category": "AdTech",
-    "size": "s",
-    "website": "https://incrmntal.com/",
-    "careers": null,
-    "linkedin": "incrmntal",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "Legit Security": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.legitsecurity.com/",
-    "careers": null,
-    "linkedin": "legitsecurity",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Loora": {
-    "category": "AI/ML",
-    "size": "s",
-    "website": "https://www.loora.ai/",
-    "careers": null,
-    "linkedin": "loora",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Trullion": {
-    "category": "AI/ML",
-    "size": "m",
-    "website": "https://trullion.com/",
-    "careers": null,
-    "linkedin": "trullion",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Riverside.fm": {
-    "category": "AI/ML",
-    "size": "l",
-    "website": "https://riverside.fm/",
-    "careers": "https://careers.riverside.fm/",
-    "linkedin": "riverside-fm",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "UBS": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://www.ubs.com/",
-    "careers": "https://www.ubs.com/global/en/careers.html",
-    "linkedin": "ubs",
-    "cities": [
-      "הרצליה"
-    ]
-  },
-  "8fig": {
-    "category": "Fintech",
-    "size": "m",
-    "website": "https://www.8fig.co/",
-    "careers": "https://www.8fig.co/jobs/",
-    "linkedin": "8fig",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Tenable": {
-    "category": "Cybersecurity",
-    "size": "xl",
-    "website": "https://www.tenable.com/",
-    "careers": "https://www.tenable.com/careers",
-    "linkedin": "tenableinc",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Anchor": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://www.sayanchor.com",
-    "careers": null,
-    "linkedin": null,
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Via": {
-    "category": "Automotive",
-    "size": "l",
-    "website": "https://www.ridewithvia.com",
-    "careers": "https://ridewithvia.com/careers/jobs",
-    "linkedin": "ridewithvia",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "Toka": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.tokagroup.com/",
-    "careers": null,
-    "linkedin": "tokagroup",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Microsoft": {
-    "category": "Productivity",
-    "size": "l",
-    "website": "https://microsoftrnd.co.il/",
-    "careers": "https://careers.microsoft.com/",
-    "linkedin": "microsoft",
-    "cities": [
-      "הרצליה"
-    ]
-  },
-  "Cyera": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.cyera.io/",
-    "careers": "https://www.cyera.io/careers",
-    "linkedin": "cyera",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Grip Security": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.grip.security/",
-    "careers": "https://www.grip.security/saas-security-careers-page",
-    "linkedin": "grip-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Firefly": {
-    "category": "Cloud Computing",
-    "size": "s",
-    "website": "https://www.firefly.ai/",
-    "careers": "https://www.comeet.com/jobs/firefly/39.000",
-    "linkedin": "fireflyai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Blink": {
-    "category": "Productivity",
-    "size": "m",
-    "website": "https://www.blinkops.com",
-    "careers": "https://www.blinkops.com/careers",
-    "linkedin": "blink-ops",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Grain": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://www.grainfinance.co/",
-    "careers": null,
-    "linkedin": "grainfinance",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Finout": {
-    "category": "Fintech",
-    "size": "m",
-    "website": "https://www.finout.io/",
-    "careers": null,
-    "linkedin": "finout-io",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Zenity": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.zenity.io/",
-    "careers": null,
-    "linkedin": "zenitysec",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Helfy": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://helfy.co",
-    "careers": "https://helfy.co/#career-section",
-    "linkedin": "helfy-online",
-    "cities": [
-      "הרצליה"
-    ]
-  },
-  "Retym": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://www.retym.com/",
-    "careers": "https://www.retym.com/careers/",
-    "linkedin": "retym",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Adaptive6": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://www.adaptive6.com",
-    "careers": null,
-    "linkedin": "adaptive6",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Element Security": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://element.security",
-    "careers": null,
-    "linkedin": "elementsecurity",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Blink Fintech": {
-    "category": "Telecommunications",
-    "size": "s",
-    "website": "https://heyblink.com",
-    "careers": null,
-    "linkedin": "blinkinvest",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Quantum Source": {
-    "category": "Semiconductors",
-    "size": "s",
-    "website": "https://www.qs-labs.com",
-    "careers": null,
-    "linkedin": "quantum-source-labs-ltd",
-    "cities": [
-      "נס ציונה"
-    ]
-  },
-  "Mesh Security": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://mesh.security/",
-    "careers": "https://www.meshsecurity.io/careers",
-    "linkedin": "mesh-cybersecurity",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Exodigo": {
-    "category": "Robotics & Automation",
-    "size": "m",
-    "website": "https://www.exodigo.com/",
-    "careers": "https://www.exodigo.com/careers",
-    "linkedin": "exodigo",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "LayerX Security": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://layerxsecurity.com/",
-    "careers": null,
-    "linkedin": "layerx-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Play Perfect": {
-    "category": "Digital Media",
-    "size": "m",
-    "website": "https://play-perfect.com",
-    "careers": "https://play-perfect.com/careers",
-    "linkedin": "play-perfect",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Chargeflow": {
-    "category": "Fintech",
-    "size": "m",
-    "website": "https://www.chargeflow.io/",
-    "careers": null,
-    "linkedin": "chargeflowhq",
-    "cities": [
-      "מודיעין מכבים רעות"
-    ]
-  },
-  "AKA FOODS": {
-    "category": "AI/ML",
-    "size": "s",
-    "website": "https://www.aka-food.com/",
-    "careers": null,
-    "linkedin": "aka-foods",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Groundcover": {
-    "category": "Cloud Computing",
-    "size": "s",
-    "website": "https://www.groundcover.com/",
-    "careers": null,
-    "linkedin": "groundcover-com",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "OX Security": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.ox.security",
-    "careers": null,
-    "linkedin": "ox-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Apono": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.apono.io/",
-    "careers": "https://www.apono.io/careers/",
-    "linkedin": "aponoio",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Okoora": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://okoora.com/",
-    "careers": null,
-    "linkedin": "okoora",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Aligned": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://teamaligned.com",
-    "careers": "https://alignedup.com/careers/",
-    "linkedin": "alignedup",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Datadog": {
-    "category": "Cloud Computing",
-    "size": "xl",
-    "website": "https://www.datadoghq.com/",
-    "careers": "https://careers.datadoghq.com/",
-    "linkedin": "datadog",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Trustmi": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.trustmi.ai",
-    "careers": "https://www.trustmi.ai/about-us#career",
-    "linkedin": "trustmi-ai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Ritual": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.heyritual.com/",
-    "careers": "https://ritual.co/careers",
-    "linkedin": "ritual-relationships",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Bring It On": {
-    "category": "Digital Media",
-    "size": "s",
-    "website": "https://www.bringiton.games/",
-    "careers": null,
-    "linkedin": "bring-it-on-games",
-    "cities": [
-      "אור יהודה"
-    ]
-  },
-  "Droxi AI": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.droxi.ai",
-    "careers": "https://www.droxi.ai/jobs",
-    "linkedin": "droxi",
-    "cities": [
-      null
-    ]
-  },
-  "Mentee Robotics": {
-    "category": "Robotics & Automation",
-    "size": "s",
-    "website": "https://www.menteebot.com/",
-    "careers": null,
-    "linkedin": "mentee-robotics",
-    "cities": [
-      "הרצליה"
-    ]
-  },
-  "Oligo": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.oligo.security",
-    "careers": "https://www.oligo.security/company/careers",
-    "linkedin": "oligo-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Paytag": {
-    "category": "Telecommunications",
-    "size": "xs",
-    "website": "https://paytagapp.com",
-    "careers": null,
-    "linkedin": "paytagapp",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
-  "Utila": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://utila.io/",
-    "careers": null,
-    "linkedin": "utila-io",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Descope Technologies": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.descope.com/",
-    "careers": "https://careers.descope.com/",
-    "linkedin": "descope",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Ditto Fitness": {
-    "category": "Telecommunications",
-    "size": "xs",
-    "website": "https://www.ditto.fit",
-    "careers": "https://dittofit.notion.site/Ditto-Fitness-Open-positions-2526b305a8dc413c8167cc8fadd6c5fc",
-    "linkedin": "ditto-fitness",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "ScaleOps": {
-    "category": "Productivity",
-    "size": "m",
-    "website": "https://scaleops.com",
-    "careers": "https://scaleops.com/careers/",
-    "linkedin": "scaleops-sh",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Insait IO": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://www.insait.io",
-    "careers": null,
-    "linkedin": "insait-io",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Blockaid": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.blockaid.io/",
-    "careers": null,
-    "linkedin": "blockaid",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Guardz": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://guardz.com/",
-    "careers": "https://guardz.com/careers/",
-    "linkedin": "guardz",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Remondo": {
-    "category": "Productivity",
-    "size": "xs",
-    "website": "https://remondo.com/",
-    "careers": null,
-    "linkedin": "remondo",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "Appcharge": {
-    "category": "Fintech",
-    "size": "s",
-    "website": "https://appcharge.com/",
-    "careers": "https://appcharge.com/jobs/game-designer/",
-    "linkedin": "appcharge",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Zenzap": {
-    "category": "Telecommunications",
-    "size": "s",
-    "website": "https://www.zenzap.co",
-    "careers": null,
-    "linkedin": "zenzap",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Backslash Security": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.backslash.security/",
-    "careers": "https://www.backslash.security/careers",
-    "linkedin": "backslashsecurity",
-    "cities": [
-      "הוד השרון"
-    ]
-  },
-  "Cytactic": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.cytactic.com",
-    "careers": "https://www.cytactic.com/careers",
-    "linkedin": "cytactic",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Addressable": {
-    "category": "Digital Media",
-    "size": "s",
-    "website": "https://www.addressable.io",
-    "careers": "https://www.addressable.io/careers",
-    "linkedin": "addressableio",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Dream Security": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.dreamgroup.com",
-    "careers": null,
-    "linkedin": "dreamsecurity",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "IO River": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://www.ioriver.io/",
-    "careers": null,
-    "linkedin": "io-river",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Remepy": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.remepy.com/",
-    "careers": "https://www.remepy.com/careers",
-    "linkedin": "remepy",
-    "cities": [
-      "רמת השרון"
-    ]
-  },
-  "Zafran Security": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.zafran.io",
-    "careers": "https://www.zafran.io/careers",
-    "linkedin": "zafran-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Sweet Security": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.sweet.security/",
-    "careers": null,
-    "linkedin": "sweet-security",
-    "cities": [
-      "רעננה"
-    ]
-  },
-  "Bananaz": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://www.bananaz.ai",
-    "careers": null,
-    "linkedin": "bananaz-ai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Brya": {
-    "category": "Digital Media",
-    "size": "xs",
-    "website": "https://www.brya.com",
-    "careers": null,
-    "linkedin": "brya-inc",
-    "cities": [
-      "אלון שבות"
-    ]
-  },
-  "In House Health": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.inhouse.health",
-    "careers": null,
-    "linkedin": "in-house-health",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "AgriPass": {
-    "category": "Robotics & Automation",
-    "size": "xs",
-    "website": "https://agripass.co",
-    "careers": "mailto:career@agripass.co",
-    "linkedin": "agripassrobotics",
-    "cities": [
-      "גבעתיים"
-    ]
-  },
-  "Lema": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.lema.ai",
-    "careers": null,
-    "linkedin": "lema-ai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Lasso Security": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.lasso.security/",
-    "careers": null,
-    "linkedin": "lasso-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Noma Security": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.nomasec.com",
-    "careers": null,
-    "linkedin": "noma-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Niart": {
-    "category": "IoT",
-    "size": "s",
-    "website": "https://niart-systems.com",
-    "careers": "https://niart-systems.com/career/",
-    "linkedin": "niart-systems",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Argu": {
-    "category": "Sustainable Technology",
-    "size": "xs",
-    "website": "http://www.argu.ai",
-    "careers": null,
-    "linkedin": "argueye",
-    "cities": [
-      "פרדס חנה כרכור"
-    ]
-  },
-  "Converge Bio": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://converge-bio.com",
-    "careers": null,
-    "linkedin": "converge-bio",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Sola Security": {
-    "category": "Cybersecurity",
-    "size": "xs",
-    "website": "https://sola.security",
-    "careers": "https://sola.security/careers/",
-    "linkedin": "sola-security",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Majestic Labs": {
-    "category": "Cloud Computing",
-    "size": "xs",
-    "website": "https://majestic-labs.ai",
-    "careers": "mailto:jobs@majestic-labs.ai",
-    "linkedin": "majestic-labs-ai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Jeen AI": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://jeen.ai",
-    "careers": null,
-    "linkedin": "jeen-ai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Adge.ai": {
-    "category": "Productivity",
-    "size": "xs",
-    "website": "https://www.adge.ai",
-    "careers": null,
-    "linkedin": "adgeai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Cloudhiro": {
-    "category": "Productivity",
-    "size": "xs",
-    "website": "https://www.cloudhiro.com/",
-    "careers": null,
-    "linkedin": "cloudhiro",
-    "cities": [
-      "גני תקווה"
-    ]
-  },
-  "Israel Aerospace Industries": {
-    "category": "Aerospace",
-    "size": "l",
-    "website": "https://www.iai.co.il/",
-    "careers": "https://www.iai.co.il/about/working-at-iai",
-    "linkedin": "iai",
-    "cities": [
-      "לוד",
-      "יהוד-מונסון",
-      "אשדוד",
-      "באר שבע",
-      "באר יעקב",
-      "ירושלים"
-    ]
-  },
-  "ICL": {
-    "category": "Sustainable Technology",
-    "size": "l",
-    "website": "https://www.icl-group.com/",
-    "careers": "https://careers.icl-group.com/",
-    "linkedin": "icl-group",
-    "cities": [
-      "באר שבע"
-    ]
-  },
-  "KLA": {
-    "category": "Robotics & Automation",
-    "size": "l",
-    "website": "https://www.kla.com/",
-    "careers": "https://www.kla.com/careers",
-    "linkedin": "klacorp",
-    "cities": [
-      "מגדל העמק"
-    ]
-  },
-  "DRS RADA Technologies": {
-    "category": "Aerospace",
-    "size": "l",
-    "website": "https://www.rada.com",
-    "careers": "https://www.drsrada.com/careers",
-    "linkedin": "drsradatechnologies",
-    "cities": [
-      "נתניה"
-    ]
-  },
-  "NICE": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.nice.com/",
-    "careers": "https://www.nice.com/careers",
-    "linkedin": "nice-systems",
-    "cities": [
-      "רעננה"
-    ]
-  },
-  "BMC Software": {
-    "category": "AI/ML",
-    "size": "l",
-    "website": "https://www.bmc.com/",
-    "careers": "https://www.bmc.com/careers/careers.html",
-    "linkedin": "bmc-software",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Electreon": {
-    "category": "Automotive",
-    "size": "m",
-    "website": "https://electreon.com/",
-    "careers": "https://electreon.com/about-us/careers",
-    "linkedin": "electreon",
-    "cities": [
-      "בית ינאי"
-    ]
-  },
-  "ThirdEye Systems": {
-    "category": "AI/ML",
-    "size": "s",
-    "website": "https://thirdeye-systems.com/",
-    "careers": "https://thirdeye-systems.com/careers/",
-    "linkedin": "third-eye-systems-ltd-",
-    "cities": [
-      "נתניה"
-    ]
-  },
-  "Gilat Satellite Networks": {
-    "category": "Telecommunications",
-    "size": "l",
-    "website": "https://gilat.com/",
-    "careers": "https://gilat.com/career/",
-    "linkedin": "gilat-satellite-networks",
-    "cities": [
-      "פתח תקווה"
-    ]
-  },
-  "CI Systems": {
-    "category": "Semiconductors",
-    "size": "m",
-    "website": "https://www.ci-systems.com",
-    "careers": "https://www.ci-systems.com/Careers",
-    "linkedin": "ci-systems",
-    "cities": [
-      "מגדל העמק"
-    ]
-  },
-  "Thales": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.thalesgroup.com",
-    "careers": "https://careers.thalesgroup.com/global/en/home",
-    "linkedin": "thales",
-    "cities": [
-      "פתח תקווה"
-    ]
-  },
-  "Silicom": {
-    "category": "Telecommunications",
-    "size": "l",
-    "website": "https://www.silicom-usa.com",
-    "careers": null,
-    "linkedin": "silicom",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
-  "Tower Semiconductor": {
-    "category": "Semiconductors",
-    "size": "l",
-    "website": "https://towersemi.com/",
-    "careers": "https://careers.towersemi.com/",
-    "linkedin": "tower-semiconductor",
-    "cities": [
-      "מגדל העמק"
-    ]
-  },
-  "Rafael Advanced Defense Systems": {
-    "category": "Aerospace",
-    "size": "l",
-    "website": "https://www.rafael.co.il/",
-    "careers": null,
-    "linkedin": "rafael-advanced-defense-systems-official",
-    "cities": [
-      "חיפה"
-    ]
-  },
-  "BATM": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.batm.com/",
-    "careers": null,
-    "linkedin": "batm",
-    "cities": [
-      "הוד השרון"
-    ]
-  },
-  "Check Point Software Technologies": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.checkpoint.com/",
-    "careers": "https://careers.checkpoint.com/",
-    "linkedin": "check-point-software-technologies",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Elbit Systems": {
-    "category": "Aerospace",
-    "size": "l",
-    "website": "https://elbitsystems.com/",
-    "careers": null,
-    "linkedin": "elbit-systems-ltd",
-    "cities": [
-      "חיפה"
-    ]
-  },
-  "ACS Motion Control": {
-    "category": "Robotics & Automation",
-    "size": "m",
-    "website": "https://www.acsmotioncontrol.com/",
-    "careers": "https://acsmotioncontrol.com/careers/",
-    "linkedin": "acs-motion-control",
-    "cities": [
-      "יקנעם עילית"
-    ]
-  },
-  "RADCOM": {
-    "category": "Telecommunications",
-    "size": "l",
-    "website": "https://radcom.com/",
-    "careers": null,
-    "linkedin": "radcom",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "ADAMA Agricultural Solutions": {
-    "category": "Health",
-    "size": "l",
-    "website": "https://www.adama.com/",
-    "careers": "https://www.adama.com/en/careers",
-    "linkedin": "adama-ltd",
-    "cities": [
-      "באר שבע"
-    ]
-  },
-  "SuperCom": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.supercom.com/",
-    "careers": null,
-    "linkedin": "supercom",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "AudioCodes": {
-    "category": "Telecommunications",
-    "size": "l",
-    "website": "https://www.audiocodes.com/",
-    "careers": "https://www.audiocodes.com/careers",
-    "linkedin": "audiocodes",
-    "cities": [
-      "ראש העין"
-    ]
-  },
-  "Unitronics": {
-    "category": "Robotics & Automation",
-    "size": "m",
-    "website": "https://www.unitronics.com/",
-    "careers": "https://www.unitronicsplc.com/careers/",
-    "linkedin": "unitronics_2",
-    "cities": [
-      "קריית שדה התעופה"
-    ]
-  },
-  "Radware": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.radware.com/",
-    "careers": "https://www.radware.com/careers/",
-    "linkedin": "radware",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Johnson & Johnson": {
-    "category": "Health",
-    "size": "xl",
-    "website": "https://www.jnj.com/",
-    "careers": "https://www.careers.jnj.com/",
-    "linkedin": "johnson-&-johnson",
-    "cities": [
-      "שפיים"
-    ]
-  },
-  "AT&T": {
-    "category": "Telecommunications",
-    "size": "xl",
-    "website": "https://il.att.com/",
-    "careers": "https://www.att.jobs/",
-    "linkedin": "at-t-israel-r-d-center",
-    "cities": [
-      "קריית שדה התעופה"
-    ]
-  },
-  "Samsung Semiconductors": {
-    "category": "Semiconductors",
-    "size": "xl",
-    "website": "https://www.samsung.com",
-    "careers": "https://semiconductor.samsung.com/about-us/careers/",
-    "linkedin": "samsungsemiconductor",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Tata Consultancy Services": {
-    "category": "AI/ML",
-    "size": "l",
-    "website": "https://www.tcs.com/",
-    "careers": "https://www.tcs.com/careers",
-    "linkedin": "tata-consultancy-services",
-    "cities": [
-      "פתח תקווה"
-    ]
-  },
-  "ARM": {
-    "category": "Semiconductors",
-    "size": "m",
-    "website": "https://www.arm.com",
-    "careers": null,
-    "linkedin": "arm",
-    "cities": [
-      "רעננה"
-    ]
-  },
-  "Voyager Labs": {
-    "category": "AI/ML",
-    "size": "m",
-    "website": "https://www.voyager-labs.com/",
-    "careers": null,
-    "linkedin": "voyager-analytics",
-    "cities": [
-      "הוד השרון"
-    ]
-  },
-  "EverC": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://everc.com/",
-    "careers": "https://www.everc.com/careers",
-    "linkedin": "everc",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Avgol": {
-    "category": "E-commerce & Retail",
-    "size": "l",
-    "website": "https://www.avgol.com/",
-    "careers": "https://www.avgol.com/careers/",
-    "linkedin": "avgol",
-    "cities": [
-      "פתח תקווה"
-    ]
-  },
-  "Mend": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.mend.io/",
-    "careers": null,
-    "linkedin": "mend-io",
-    "cities": [
-      "כרמיאל"
-    ]
-  },
-  "Gat Fertilizers": {
-    "category": "Sustainable Technology",
-    "size": "xs",
-    "website": "https://deshengat.co.il/",
-    "careers": null,
-    "linkedin": "gat-fertilizers",
-    "cities": [
-      "קריית גת"
-    ]
-  },
-  "Camtek": {
-    "category": "Semiconductors",
-    "size": "l",
-    "website": "https://www.camtek.com/",
-    "careers": "https://www.camtek.com/careers/working-at-camtek/",
-    "linkedin": "camtek",
-    "cities": [
-      "מגדל העמק"
-    ]
-  },
-  "IBM": {
-    "category": "AI/ML",
-    "size": "l",
-    "website": "https://www.ibm.com/",
-    "careers": "https://www.ibm.com/careers",
-    "linkedin": "ibm",
-    "cities": [
-      "פתח תקווה"
-    ]
-  },
-  "DSIT Solutions": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "http://www.dsit.co.il",
-    "careers": "https://dsit.co.il/about-us/careers/",
-    "linkedin": "dsit-solutions-ltd",
-    "cities": [
-      "גבעת שמואל"
-    ]
-  },
-  "Redler Technologies": {
-    "category": "Robotics & Automation",
-    "size": "s",
-    "website": "https://www.redlertechnologies.com/",
-    "careers": null,
-    "linkedin": "redler-technologies",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
-  "Lycored": {
-    "category": "Health",
-    "size": "m",
-    "website": "https://www.lycored.com/",
-    "careers": null,
-    "linkedin": "lycored",
-    "cities": [
-      "באר שבע"
-    ]
-  },
-  "Merck": {
-    "category": "Health",
-    "size": "l",
-    "website": "https://www.merckgroup.com/en/worldwide/merck-in-israel.html",
-    "careers": "https://jobs.merck.com/us/en",
-    "linkedin": "merck-group",
-    "cities": [
-      "הוד השרון"
-    ]
-  },
-  "Aeronautics": {
-    "category": "Aerospace",
-    "size": "l",
-    "website": "https://www.aeronautics-sys.com/",
-    "careers": null,
-    "linkedin": "aeronautics",
-    "cities": [
-      "יבנה"
-    ]
-  },
-  "Essence Security": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.essence-grp.com/solutions/security-solutions",
-    "careers": "https://www.essence-grp.com/about/careers/",
-    "linkedin": "essence-group",
-    "cities": [
-      "הרצליה"
-    ]
-  },
-  "Septier Communication": {
-    "category": "Telecommunications",
-    "size": "m",
-    "website": "https://www.septier.com/",
-    "careers": "https://www.septier.com/careers/",
-    "linkedin": "septier-communication-ltd",
-    "cities": [
-      "פתח תקווה"
-    ]
-  },
-  "BugSec": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://bugsec.com",
-    "careers": null,
-    "linkedin": "bugsec",
-    "cities": [
-      "ראשון לציון"
-    ]
-  },
-  "Flare": {
-    "category": "Productivity",
-    "size": "l",
-    "website": "https://www.helloflare.com/",
-    "careers": null,
-    "linkedin": "hello-flare",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "Percepto Digital": {
-    "category": "Digital Media",
-    "size": "s",
-    "website": "https://www.percepto-digital.com",
-    "careers": "https://www.percepto-digital.com/careers/",
-    "linkedin": "percepto",
-    "cities": [
-      "בני ברק"
-    ]
-  },
-  "SITE123": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://he.site123.com/",
-    "careers": null,
-    "linkedin": "site123",
-    "cities": [
-      "באר שבע"
-    ]
-  },
-  "ActiveTrail": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://www.activetrail.com/",
-    "careers": null,
-    "linkedin": "activetrail",
-    "cities": [
-      "בני ברק"
-    ]
-  },
-  "Tomax": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "http://www.tomadox.co.uk",
-    "careers": null,
-    "linkedin": "tomax-think-academy",
-    "cities": [
-      "כפר מונש"
-    ]
-  },
-  "Mechanical Devices": {
-    "category": "Semiconductors",
-    "size": "s",
-    "website": "http://www.mechanical-devices.com",
-    "careers": null,
-    "linkedin": "m--d--mechanical-devices",
-    "cities": [
-      "חיפה"
-    ]
-  },
-  "Genesys": {
-    "category": "Productivity",
-    "size": "xl",
-    "website": "https://www.genesys.com/",
-    "careers": "https://www.genesys.com/company/careers",
-    "linkedin": "genesys",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "PointGrab": {
-    "category": "IoT",
-    "size": "s",
-    "website": "https://www.pointgrab.com/",
-    "careers": null,
-    "linkedin": "pointgrab",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
-  "Rapid Medical": {
-    "category": "Health",
-    "size": "m",
-    "website": "https://www.rapid-medical.com/",
-    "careers": null,
-    "linkedin": "rapid-medical",
-    "cities": [
-      "יוקנעם עילית"
-    ]
-  },
-  "NextVision Stabilized Systems": {
-    "category": "Aerospace",
-    "size": "s",
-    "website": "https://www.nextvision-sys.com/",
-    "careers": null,
-    "linkedin": "nextvision-stabilized-systems-ltd-",
-    "cities": [
-      "רעננה"
-    ]
-  },
-  "Squaretalk": {
-    "category": "Telecommunications",
-    "size": "s",
-    "website": "https://squaretalk.com/",
-    "careers": null,
-    "linkedin": "squaretalk",
-    "cities": [
-      "ירושלים"
-    ]
-  },
-  "Foretellix": {
-    "category": "Automotive",
-    "size": "m",
-    "website": "https://www.foretellix.com/",
-    "careers": null,
-    "linkedin": "foretellix",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "Microbot Medical": {
-    "category": "Robotics & Automation",
-    "size": "s",
-    "website": "https://microbotmedical.com/",
-    "careers": null,
-    "linkedin": "microbot-medical",
-    "cities": [
-      "יוקנעם עילית"
-    ]
-  },
-  "Vi Labs": {
-    "category": "AI/ML",
-    "size": "l",
-    "website": "https://vi.co/",
-    "careers": "https://vi.co/careers/",
-    "linkedin": "vi",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Bits of Gold": {
-    "category": "E-commerce & Retail",
-    "size": "s",
-    "website": "https://www.bitsofgold.net",
-    "careers": null,
-    "linkedin": "bits-of-gold-ltd",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Raft Technologies": {
-    "category": "Telecommunications",
-    "size": "m",
-    "website": "https://raft-tech.com/",
-    "careers": null,
-    "linkedin": "raft-technologies",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "Origami.ms": {
-    "category": "Productivity",
-    "size": "s",
-    "website": "https://origami.ms/",
-    "careers": null,
-    "linkedin": "origami-ms",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
-  "CHEQ": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://cheq.ai/",
-    "careers": "https://cheq.ai/careers/",
-    "linkedin": "cheq-ai",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "MazeBolt": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://mazebolt.com/",
-    "careers": "https://mazebolt.com/careers/",
-    "linkedin": "mazebolt-technologies",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "flo Optics": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.flo-optics.com",
-    "careers": "https://www.flo-optics.com/career/",
-    "linkedin": "flo-optics",
-    "cities": [
-      "כרמיאל"
-    ]
-  },
-  "Dragontail Systems": {
-    "category": "AI/ML",
-    "size": "m",
-    "website": "https://www.dragontail.com/",
-    "careers": null,
-    "linkedin": "dragontail-systems",
-    "cities": [
-      "בני ברק"
-    ]
-  },
-  "Moburst": {
-    "category": "Digital Media",
-    "size": "m",
-    "website": "https://www.moburst.com",
-    "careers": "https://www.moburst.com/career/",
-    "linkedin": "moburst",
-    "cities": [
-      "כפר סבא"
-    ]
-  },
-  "Wearable Devices": {
-    "category": "Aerospace",
-    "size": "s",
-    "website": "https://www.wearabledevices.co.il/",
-    "careers": "https://www.wearabledevices.co.il/career",
-    "linkedin": "wearable-devices-ltd",
-    "cities": [
-      "יוקנעם עילית"
-    ]
-  },
-  "IRONSCALES": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://ironscales.com/",
-    "careers": null,
-    "linkedin": "ironscales",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "BTL Travel": {
-    "category": "E-commerce & Retail",
-    "size": "s",
-    "website": "https://www.alice.co.il",
-    "careers": null,
-    "linkedin": "alice-flights",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "SOLATO": {
-    "category": "Sustainable Technology",
-    "size": "m",
-    "website": "https://www.solato.com/",
-    "careers": null,
-    "linkedin": "solato-official",
-    "cities": [
-      "מעלות תרשיחא"
-    ]
-  },
-  "Fly Money": {
-    "category": "Fintech",
-    "size": "xs",
-    "website": "https://www.flymoney.com/",
-    "careers": null,
-    "linkedin": "fly-money-technologies",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "EyeControl": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.eyecontrol.co.il",
-    "careers": null,
-    "linkedin": "eyecontrol",
-    "cities": [
-      "בני ברק"
-    ]
-  },
-  "Uniper Care Technologies": {
-    "category": "Health",
-    "size": "m",
-    "website": "https://www.unipercare.com",
-    "careers": null,
-    "linkedin": "uniper-care-technologies",
-    "cities": [
-      "מודיעין-מכבים-רעות"
-    ]
-  },
-  "Nostromo": {
-    "category": "Sustainable Technology",
-    "size": "s",
-    "website": "http://nostromo.energy",
-    "careers": null,
-    "linkedin": "nostromo-energy",
-    "cities": [
-      "הזורעים"
-    ]
-  },
-  "Axon Vision": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "http://www.axon-vision.com",
-    "careers": null,
-    "linkedin": "axon-vision-ltd",
-    "cities": [
-      "שדרות"
-    ]
-  },
-  "ClearSkin": {
-    "category": "Health",
-    "size": "xs",
-    "website": "https://mibiome.co",
-    "careers": null,
-    "linkedin": "clearskin-medical",
-    "cities": [
-      "כרמיאל"
-    ]
-  },
-  "CaPow Technologies": {
-    "category": "Robotics & Automation",
-    "size": "s",
-    "website": "https://capow.energy/",
-    "careers": null,
-    "linkedin": "capow-tech",
-    "cities": [
-      "באר שבע"
-    ]
-  },
-  "Zemingo": {
-    "category": "Productivity",
-    "size": "m",
-    "website": "https://www.zemingo.com",
-    "careers": "https://www.zemingo.com/en/careers",
-    "linkedin": "zemingo-mobile-group",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "apiiro": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://apiiro.com/",
-    "careers": null,
-    "linkedin": "apiiro",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "CARRAR": {
-    "category": "Sustainable Technology",
-    "size": "s",
-    "website": "https://www.carrar.net/",
-    "careers": "https://www.carrar.net/careers",
-    "linkedin": "carrar",
-    "cities": [
-      "שער הנגב"
-    ]
-  },
-  "Nagish": {
-    "category": "Digital Media",
-    "size": "s",
-    "website": "https://www.talknagish.com/",
-    "careers": "https://nagish.com/careers",
-    "linkedin": "nagish",
-    "cities": [
-      "הרצליה"
-    ]
-  },
-  "Zscaler Israel": {
-    "category": "Cybersecurity",
-    "size": "m",
-    "website": "https://www.zscaler.com/",
-    "careers": "https://www.zscaler.com/careers",
-    "linkedin": "zscaler",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "Bridgify": {
-    "category": "E-commerce & Retail",
-    "size": "s",
-    "website": "https://www.bridgify.io/",
-    "careers": null,
-    "linkedin": "bridgifytravel",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
   "Lidwave": {
     "category": "Automotive",
     "size": "xs",
@@ -6535,94 +5010,14 @@
       "ירושלים"
     ]
   },
-  "NexTenna": {
-    "category": "Telecommunications",
-    "size": "s",
-    "website": "https://www.nextenna.com",
-    "careers": "https://www.nextenna.com/careers-tamp",
-    "linkedin": "nextenna",
-    "cities": [
-      "חיפה"
-    ]
-  },
-  "DeepKeep": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.deepkeep.ai/",
-    "careers": null,
-    "linkedin": "deepkeep",
-    "cities": [
-      "בני ברק"
-    ]
-  },
-  "Reeco": {
-    "category": "E-commerce & Retail",
-    "size": "s",
-    "website": "https://www.reeco.io",
-    "careers": null,
-    "linkedin": "re-eco",
-    "cities": [
-      "תל אביב-יפו"
-    ]
-  },
-  "AISAP": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://www.aisap.ai/",
-    "careers": null,
-    "linkedin": "aisap.ai",
-    "cities": [
-      "רמת גן"
-    ]
-  },
-  "Hypernative Labs": {
-    "category": "Cybersecurity",
-    "size": "s",
-    "website": "https://www.hypernative.io/",
-    "careers": null,
-    "linkedin": "hypernative",
-    "cities": [
-      "רמות השבים"
-    ]
-  },
-  "Novia101": {
+  "Imagen": {
     "category": "Digital Media",
-    "size": "xs",
-    "website": "https://novia101.io",
+    "size": "m",
+    "website": "https://www.imagen-ai.com",
     "careers": null,
-    "linkedin": "novia1-0-1",
+    "linkedin": null,
     "cities": [
       "גבעתיים"
-    ]
-  },
-  "IMCO Industries": {
-    "category": "Cybersecurity",
-    "size": "l",
-    "website": "https://www.imco-ind.com",
-    "careers": "https://imco-ind.com/careers/",
-    "linkedin": "imco-industried-ltd.",
-    "cities": [
-      "נשר"
-    ]
-  },
-  "Together Pharma": {
-    "category": "Health",
-    "size": "s",
-    "website": "https://together-pharma.com/",
-    "careers": null,
-    "linkedin": "together-pharma",
-    "cities": [
-      "מבקיעים"
-    ]
-  },
-  "Mego Afek": {
-    "category": "Health",
-    "size": "m",
-    "website": "https://www.megoafek.com",
-    "careers": "https://www.megoafek.com/career",
-    "linkedin": "mego-afek-ac-ltd",
-    "cities": [
-      "אפק"
     ]
   },
   "Port.io": {
@@ -6643,6 +5038,16 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "KLA": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Migdal HaEmeq, North District, Israel"
     ]
   },
   "Emerson": {
@@ -6675,6 +5080,26 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "PalWallet": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Ramat Gan, Tel Aviv District, Israel"
+    ]
+  },
+  "Microsoft": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Herzliya, Tel Aviv District, Israel"
+    ]
+  },
   "Partnerverse": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6683,16 +5108,6 @@
     "linkedin": "",
     "cities": [
       "Or Akiva, Haifa District, Israel"
-    ]
-  },
-  "Dash0": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "British Council": {
@@ -6705,6 +5120,16 @@
       "Israel"
     ]
   },
+  "Dash0": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Sartorius": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6713,6 +5138,16 @@
     "linkedin": "",
     "cities": [
       "Beit HaEmek, North District, Israel"
+    ]
+  },
+  "Lenovo": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Check Point Software": {
@@ -6735,6 +5170,46 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "Alignerr": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Aidome™": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Rishon LeZion, Center District, Israel"
+    ]
+  },
+  "Teads": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Netanya, Center District, Israel"
+    ]
+  },
+  "Veeva Systems": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Kiryat Ono, Tel Aviv District, Israel"
+    ]
+  },
   "Theranica": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6755,6 +5230,36 @@
       "Israel"
     ]
   },
+  "Riverside": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Riverside.fm": {
+    "category": "AI/ML",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Dream Security": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמת גן"
+    ]
+  },
   "Dream": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6765,6 +5270,66 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "Cognyte": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "הרצליה"
+    ]
+  },
+  "Anchor": {
+    "category": "Fintech",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Exodigo": {
+    "category": "Robotics & Automation",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "ACS Motion Control": {
+    "category": "Robotics & Automation",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "יקנעם עילית"
+    ]
+  },
+  "Play Perfect": {
+    "category": "Digital Media",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Check Point Software Technologies": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
   "PLAYSTUDIOS": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6773,6 +5338,26 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Adaptive6": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Ramat Gan, Tel Aviv District, Israel"
+    ]
+  },
+  "Israel Aerospace Industries": {
+    "category": "Aerospace",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "אשדוד"
     ]
   },
   "NVIDIA": {
@@ -6793,6 +5378,16 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv District, Israel"
+    ]
+  },
+  "AISAP": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמת גן"
     ]
   },
   "Venice": {
@@ -6915,14 +5510,14 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Wearable Devices Ltd": {
+  "Shavit Software": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Yoqneam Illit, North District, Israel"
+      "Tel Aviv District, Israel"
     ]
   },
   "Similarweb": {
@@ -6975,16 +5570,6 @@
       "Center District, Israel"
     ]
   },
-  "NiCE": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Raanana, Center District, Israel"
-    ]
-  },
   "Shabak - Israeli Security Agency - Career": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6993,6 +5578,16 @@
     "linkedin": "",
     "cities": [
       "Center District, Israel"
+    ]
+  },
+  "NiCE": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Raanana, Center District, Israel"
     ]
   },
   "Millennium": {
@@ -7015,24 +5610,14 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
-  "Aidome™": {
+  "Zafran Security": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Rishon LeZion, Center District, Israel"
-    ]
-  },
-  "Nanovel LTD": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Yokneam Ilit, North District, Israel"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Experis": {
@@ -7075,14 +5660,24 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
-  "Matia": {
+  "Sela": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Haifa District, Israel"
+    ]
+  },
+  "YouAppi": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Center District, Israel"
     ]
   },
   "TA9": {
@@ -7105,16 +5700,6 @@
       "Yokneam Ilit, North District, Israel"
     ]
   },
-  "KAMADA": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Beit Kama, South District, Israel"
-    ]
-  },
   "ProPharma": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7125,14 +5710,14 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Sela": {
+  "KAMADA": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Haifa District, Israel"
+      "Beit Kama, South District, Israel"
     ]
   },
   "Experis Israel": {
@@ -7195,6 +5780,16 @@
       "Raanana, Center District, Israel"
     ]
   },
+  "CONTROP Precision Technologies Ltd.": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Kfar Saba, Center District, Israel"
+    ]
+  },
   "Phenom": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7223,16 +5818,6 @@
     "linkedin": "",
     "cities": [
       "Raanana, Center District, Israel"
-    ]
-  },
-  "Stealth Startup": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
     ]
   },
   "Endgame Labs": {
@@ -7285,6 +5870,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "KPMG Israel": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Hello Heart": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7293,6 +5888,46 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv District, Israel"
+    ]
+  },
+  "Elbit Systems": {
+    "category": "Aerospace",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "חיפה"
+    ]
+  },
+  "AudioCodes": {
+    "category": "Telecommunications",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "ראש העין"
+    ]
+  },
+  "INCRMNTAL": {
+    "category": "AdTech",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "Helfy": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "הרצליה"
     ]
   },
   "Axon Pulse": {
@@ -7315,6 +5950,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "Retym": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
   "Plus500™": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7325,6 +5970,86 @@
       "Haifa, Haifa District, Israel"
     ]
   },
+  "ARM": {
+    "category": "Semiconductors",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רעננה"
+    ]
+  },
+  "Tata Consultancy Services": {
+    "category": "AI/ML",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "פתח תקווה"
+    ]
+  },
+  "Reeco": {
+    "category": "E-commerce & Retail",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "ADAMA Agricultural Solutions": {
+    "category": "Health",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "באר שבע"
+    ]
+  },
+  "NICE": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רעננה"
+    ]
+  },
+  "IMCO Industries": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "נשר"
+    ]
+  },
+  "Descope Technologies": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Gilat Satellite Networks": {
+    "category": "Telecommunications",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "פתח תקווה"
+    ]
+  },
   "Apiiro": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7333,6 +6058,26 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Tenable": {
+    "category": "Cybersecurity",
+    "size": "xl",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Johnson & Johnson": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Shefayim, Center District, Israel"
     ]
   },
   "Autofleet": {
@@ -7355,6 +6100,16 @@
       "Ramat Gan, Tel Aviv District, Israel"
     ]
   },
+  "8fig": {
+    "category": "Fintech",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
   "Descope": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7363,6 +6118,36 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Classiq Technologies": {
+    "category": "AI/ML",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "LayerX Security": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Blink Fintech": {
+    "category": "Telecommunications",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "Northive": {
@@ -7405,16 +6190,6 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Dialog": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
-    ]
-  },
   "Envitech Ltd. - Smart Environmental Monitoring Systems": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7433,16 +6208,6 @@
     "linkedin": "",
     "cities": [
       "Or Akiva, Haifa District, Israel"
-    ]
-  },
-  "KPMG Israel": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "GO-OUT": {
@@ -7495,14 +6260,14 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Gotfriends": {
+  "Dialog": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv District, Israel"
+      "Center District, Israel"
     ]
   },
   "i4Valley": {
@@ -7513,6 +6278,16 @@
     "linkedin": "",
     "cities": [
       "Karmiel, North District, Israel"
+    ]
+  },
+  "Team 3 Group": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Strauss Group": {
@@ -7543,26 +6318,6 @@
     "linkedin": "",
     "cities": [
       "Ramat HaSharon, Tel Aviv District, Israel"
-    ]
-  },
-  "Fritz Logistics & Forwarding - Supply Chain Solutions Israel": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Or Yehuda, Tel Aviv District, Israel"
-    ]
-  },
-  "Johnson & Johnson MedTech": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Haifa District, Israel"
     ]
   },
   "Reelu": {
@@ -7635,7 +6390,47 @@
       "Kfar Saba, Center District, Israel"
     ]
   },
-  "RMG Recruitment Agency": {
+  "Noma Security": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Chargeflow": {
+    "category": "Fintech",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "מודיעין מכבים רעות"
+    ]
+  },
+  "Vi": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Trullion": {
+    "category": "AI/ML",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "DeepKeep": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7653,6 +6448,66 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Landa Digital Printing": {
+    "category": "Digital Media",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "גבעת ברנר"
+    ]
+  },
+  "Mego Afek": {
+    "category": "Health",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "אפק"
+    ]
+  },
+  "NexTenna": {
+    "category": "Telecommunications",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "חיפה"
+    ]
+  },
+  "Okoora": {
+    "category": "Fintech",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Radware": {
+    "category": "Cybersecurity",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "ScaleOps": {
+    "category": "Productivity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "IAI - Israel Aerospace Industries": {
@@ -7675,6 +6530,26 @@
       "Ramat Gan, Tel Aviv District, Israel"
     ]
   },
+  "Appcharge": {
+    "category": "Fintech",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Novia101": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "KELA - Cyber Threat Intelligence": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7683,6 +6558,16 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "SuperCom": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "Jeen.ai": {
@@ -7703,6 +6588,26 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Via": {
+    "category": "Automotive",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "Jeen AI": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "Wayve": {
@@ -7773,16 +6678,6 @@
     "linkedin": "",
     "cities": [
       "Rehovot, Center District, Israel"
-    ]
-  },
-  "Lenovo": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Shamir Optical Industry Itd.": {
@@ -7985,6 +6880,36 @@
       "Herzliya, Tel Aviv District, Israel"
     ]
   },
+  "Rafael Advanced Defense Systems": {
+    "category": "Aerospace",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "חיפה"
+    ]
+  },
+  "Cyera": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
+    ]
+  },
+  "Thales": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Cust2Mate - A2Z (NASDAQ: AZ)": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8003,6 +6928,46 @@
     "linkedin": "",
     "cities": [
       "Rehovot, Center District, Israel"
+    ]
+  },
+  "ForSight Robotics": {
+    "category": "Robotics & Automation",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "יוקנעם עילית"
+    ]
+  },
+  "Mentee Robotics": {
+    "category": "Robotics & Automation",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "הרצליה"
+    ]
+  },
+  "Solvo": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Together Pharma": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "מבקיעים"
     ]
   },
   "Infinidat": {
@@ -8025,6 +6990,26 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "QuantHealth": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Loora": {
+    "category": "AI/ML",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
   "Skapion": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8033,16 +7018,6 @@
     "linkedin": "",
     "cities": [
       "Ramat Gan, Tel Aviv District, Israel"
-    ]
-  },
-  "Kela Technologies": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "OpticSolution": {
@@ -8075,6 +7050,16 @@
       "Israel"
     ]
   },
+  "Kela Technologies": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Tenzai": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8093,6 +7078,16 @@
     "linkedin": "",
     "cities": [
       "Petah Tikva, Center District, Israel"
+    ]
+  },
+  "Gotfriends": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
     ]
   },
   "no company name": {
@@ -8125,26 +7120,6 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Personetics": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Givatayim, Tel Aviv District, Israel"
-    ]
-  },
-  "Yad2": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Petah Tikva, Center District, Israel"
-    ]
-  },
   "DT": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8163,6 +7138,16 @@
     "linkedin": "",
     "cities": [
       "Zvulun Regional Council, Haifa District, Israel"
+    ]
+  },
+  "Sedric": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Unilink Ltd.": {
@@ -8265,6 +7250,16 @@
       "Jerusalem District, Israel"
     ]
   },
+  "Bulls Media Worldgroup": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Kiryat Ono, Tel Aviv District, Israel"
+    ]
+  },
   "PURPLE": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8285,16 +7280,6 @@
       "Rishon LeZion, Center District, Israel"
     ]
   },
-  "Bulls Media Worldgroup": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Kiryat Ono, Tel Aviv District, Israel"
-    ]
-  },
   "MAX Security": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8305,14 +7290,44 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "My HR Talents": {
-    "category": "LinkedIn N/A",
-    "size": "",
+  "Aligned": {
+    "category": "Productivity",
+    "size": "s",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Petah Tikva, Center District, Israel"
+      "תל אביב-יפו"
+    ]
+  },
+  "Majestic Labs": {
+    "category": "Cloud Computing",
+    "size": "xs",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Utila": {
+    "category": "Fintech",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Electreon": {
+    "category": "Automotive",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "בית ינאי"
     ]
   },
   "BlueBird Aero Systems Ltd.": {
@@ -8323,6 +7338,26 @@
     "linkedin": "",
     "cities": [
       "Center District, Israel"
+    ]
+  },
+  "DRS RADA Technologies": {
+    "category": "Aerospace",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "נתניה"
+    ]
+  },
+  "Grip Security": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
     ]
   },
   "BTG A Ferring Company": {
@@ -8345,6 +7380,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "ICL": {
+    "category": "Sustainable Technology",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "באר שבע"
+    ]
+  },
   "NetNut.io": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8353,6 +7398,16 @@
     "linkedin": "",
     "cities": [
       "Israel"
+    ]
+  },
+  "Paytag": {
+    "category": "Telecommunications",
+    "size": "xs",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "כפר סבא"
     ]
   },
   "Qodo": {
@@ -8423,16 +7478,6 @@
     "linkedin": "",
     "cities": [
       "Yoqneam Illit, North District, Israel"
-    ]
-  },
-  "Elad Software Systems": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Panax": {
@@ -8605,6 +7650,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "Meta": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Scopely": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -8613,6 +7668,16 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv District, Israel"
+    ]
+  },
+  "Finout": {
+    "category": "Fintech",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
     ]
   },
   "Houzz": {
@@ -8633,16 +7698,6 @@
     "linkedin": "",
     "cities": [
       "Bnei Brak, Tel Aviv District, Israel"
-    ]
-  },
-  "Digital Skills ltd": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
     ]
   },
   "Amazon Web Services (AWS)": {
@@ -8673,6 +7728,456 @@
     "linkedin": "",
     "cities": [
       "Israel"
+    ]
+  },
+  "Voyantis": {
+    "category": "AdTech",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Datadog": {
+    "category": "Cloud Computing",
+    "size": "xl",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "BMC Software": {
+    "category": "AI/ML",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Zenity": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Bria AI": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Insait IO": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Voyager Labs": {
+    "category": "AI/ML",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "הוד השרון"
+    ]
+  },
+  "Cytactic": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Argu": {
+    "category": "Sustainable Technology",
+    "size": "xs",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "פרדס חנה כרכור"
+    ]
+  },
+  "BATM": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "הוד השרון"
+    ]
+  },
+  "Apono": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Sweet Security": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רעננה"
+    ]
+  },
+  "RADCOM": {
+    "category": "Telecommunications",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Legit Security": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Ritual": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "AT&T": {
+    "category": "Telecommunications",
+    "size": "xl",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "קריית שדה התעופה"
+    ]
+  },
+  "Lema": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Bananaz": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Groundcover": {
+    "category": "Cloud Computing",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "OX Security": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Element Security": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Sola Security": {
+    "category": "Cybersecurity",
+    "size": "xs",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "In House Health": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Tower Semiconductor": {
+    "category": "Semiconductors",
+    "size": "l",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "מגדל העמק"
+    ]
+  },
+  "Zenzap": {
+    "category": "Telecommunications",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Adge.ai": {
+    "category": "Productivity",
+    "size": "xs",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "UBS": {
+    "category": "Fintech",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "הרצליה"
+    ]
+  },
+  "Samsung Semiconductors": {
+    "category": "Semiconductors",
+    "size": "xl",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Bring It On": {
+    "category": "Digital Media",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "אור יהודה"
+    ]
+  },
+  "Ditto Fitness": {
+    "category": "Telecommunications",
+    "size": "xs",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "Droxi AI": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      ""
+    ]
+  },
+  "AKA FOODS": {
+    "category": "AI/ML",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Lasso Security": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Addressable": {
+    "category": "Digital Media",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Remepy": {
+    "category": "Health",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמת השרון"
+    ]
+  },
+  "Backslash Security": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "הוד השרון"
+    ]
+  },
+  "Blink": {
+    "category": "Productivity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Grain": {
+    "category": "Fintech",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Remondo": {
+    "category": "Productivity",
+    "size": "xs",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "EverC": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "IO River": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Hypernative Labs": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "רמות השבים"
+    ]
+  },
+  "Oligo": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Mesh Security": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Toka": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "תל אביב-יפו"
     ]
   }
 }
