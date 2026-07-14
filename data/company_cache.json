@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-07-13T14:45:18.663193+00:00",
+  "_cached_at": "2026-07-14T10:54:53.411891+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8409,6 +8409,286 @@
       "linkedin": "mego-afek-ac-ltd",
       "cities": [
         "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "MTC Industries and Research": {
+      "category": "Aerospace",
+      "size": "m",
+      "website": "https://www.mtcind.com/",
+      "careers": null,
+      "linkedin": "mtcind",
+      "cities": [
+        "כרמיאל"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ActiveTrail": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.activetrail.com/",
+      "careers": null,
+      "linkedin": "activetrail",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EndoSpan": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.endospan.com/",
+      "careers": "https://www.endospan.com/careers",
+      "linkedin": "endospan",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Optimove": {
+      "category": "AdTech",
+      "size": "l",
+      "website": "https://www.optimove.com/",
+      "careers": "https://www.optimove.com/careers",
+      "linkedin": "optimove",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Smart Shooter": {
+      "category": "Robotics & Automation",
+      "size": "m",
+      "website": "https://www.smart-shooter.com/",
+      "careers": null,
+      "linkedin": "smart-shooter",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BigPanda": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.bigpanda.io/",
+      "careers": "https://www.bigpanda.io/company/panda-way/jobs/",
+      "linkedin": "bigpanda",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Spectrum Dynamics Medical": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://spectrum-dynamics.com/",
+      "careers": "https://spectrum-dynamics.com/careers/",
+      "linkedin": "spectrum-dynamics",
+      "cities": [
+        "קיסריה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Teramount": {
+      "category": "Semiconductors",
+      "size": "s",
+      "website": "https://teramount.com/",
+      "careers": null,
+      "linkedin": "teramount",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "MazeBolt": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://mazebolt.com/",
+      "careers": "https://mazebolt.com/careers/",
+      "linkedin": "mazebolt-technologies",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Sonovia": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://sonoviatech.com/",
+      "careers": null,
+      "linkedin": "sonovia-ltd",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "CropX": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://cropx.com/",
+      "careers": "https://cropx.com/careers/",
+      "linkedin": "cropx-ltd",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kissterra": {
+      "category": "AdTech",
+      "size": "m",
+      "website": "https://kissterra.com/",
+      "careers": "https://kissterra.com/careers",
+      "linkedin": "kissterra",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "TG-17 (Bond)": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.ourbond.com",
+      "careers": "https://www.comeet.com/jobs/bond/D2.00B",
+      "linkedin": "bondpersonalsecurity",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Pendo": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://www.pendo.io/",
+      "careers": "https://www.pendo.io/careers/",
+      "linkedin": "pendo-io",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BiltOn": {
+      "category": "Telecommunications",
+      "size": "m",
+      "website": "https://www.beti.tech",
+      "careers": "https://careers.bilton.tech/",
+      "linkedin": "bilton",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Lightrun": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://lightrun.com/",
+      "careers": null,
+      "linkedin": "lightruntech",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Newphotonics": {
+      "category": "Aerospace",
+      "size": "s",
+      "website": "https://www.newphotonics.com/",
+      "careers": null,
+      "linkedin": "newphotonics",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EFI": {
+      "category": "E-commerce & Retail",
+      "size": "s",
+      "website": "https://www.efi.com/",
+      "careers": "https://www.efi.com/about-efi/careers/",
+      "linkedin": "efiprint",
+      "cities": [
+        "ראש העין"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AT&T": {
+      "category": "Telecommunications",
+      "size": "xl",
+      "website": "https://il.att.com/",
+      "careers": "https://www.att.jobs/",
+      "linkedin": "at-t-israel-r-d-center",
+      "cities": [
+        "קריית שדה התעופה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kafrit Group": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://kafritgroup.com/",
+      "careers": null,
+      "linkedin": "kafrit-industries-1993-ltd",
+      "cities": [
+        "כפר עזה"
       ],
       "greenhouseId": null,
       "leverId": null,
