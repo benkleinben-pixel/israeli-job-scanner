@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-07-15T11:04:24.045676+00:00",
+  "_cached_at": "2026-07-16T11:03:59.933517+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8931,6 +8931,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Gloat": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://gloat.com/",
+      "careers": "https://gloat.com/careers/",
+      "linkedin": "gloat",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "gloat/E5.000",
       "breezyId": null
     }
   }
