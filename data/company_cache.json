@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-07-25T22:12:56.271830+00:00",
+  "_cached_at": "2026-07-26T10:53:43.832973+00:00",
   "companies": {
     "MSD": {
       "category": "Health",
@@ -8199,6 +8199,552 @@
       "linkedin": "mego-afek-ac-ltd",
       "cities": [
         "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Phibro Animal Health": {
+      "category": "Health",
+      "size": "xl",
+      "website": "https://www.pahc.com/",
+      "careers": "https://jobs.pahc.com/",
+      "linkedin": "phibro-animal-health",
+      "cities": [
+        "קריית שדה התעופה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Motorola Solutions": {
+      "category": "Telecommunications",
+      "size": "xl",
+      "website": "https://www.motorolasolutions.com/",
+      "careers": "https://www.motorolasolutions.com/en_us/about/careers.html",
+      "linkedin": "motorolasolutions",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Unilever": {
+      "category": "E-commerce & Retail",
+      "size": "l",
+      "website": "https://www.unilever.com/",
+      "careers": "https://www.unilever.com/careers/",
+      "linkedin": "unilever",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Bruker": {
+      "category": "Health",
+      "size": "xl",
+      "website": "https://www.bruker.com/",
+      "careers": "https://www.bruker.com/en/careers.html",
+      "linkedin": "bruker-corporation",
+      "cities": [
+        "מגדל העמק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Hazera": {
+      "category": "Sustainable Technology",
+      "size": "l",
+      "website": "https://www.hazera.com/",
+      "careers": "https://career.hazera.com/",
+      "linkedin": "hazera-seeds",
+      "cities": [
+        "ברורים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Port": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.getport.io/",
+      "careers": null,
+      "linkedin": "getport",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Rockwell Automation": {
+      "category": "Robotics & Automation",
+      "size": "m",
+      "website": "https://www.rockwellautomation.com/",
+      "careers": "https://www.rockwellautomation.com/en-us/company/careers.html",
+      "linkedin": "rockwell-automation",
+      "cities": [
+        "חולון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ScanMaster Systems": {
+      "category": "Robotics & Automation",
+      "size": "m",
+      "website": "https://scanmaster-irt.com/",
+      "careers": null,
+      "linkedin": "scanmaster-systems",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Medinol": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://medinol.com/",
+      "careers": null,
+      "linkedin": "medinol",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Operative": {
+      "category": "Digital Media",
+      "size": "l",
+      "website": "https://www.operative.com/",
+      "careers": null,
+      "linkedin": "operative",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "PayPal": {
+      "category": "Fintech",
+      "size": "l",
+      "website": "https://www.paypal.com/",
+      "careers": null,
+      "linkedin": "paypal",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "StoreNext": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://www.storenext.co.il/",
+      "careers": null,
+      "linkedin": "storenext",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Polytex Technologies": {
+      "category": "Robotics & Automation",
+      "size": "m",
+      "website": "https://polytex-technologies.com/",
+      "careers": null,
+      "linkedin": "polytex-technologies",
+      "cities": [
+        "קיסריה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Red Hat": {
+      "category": "Cloud Computing",
+      "size": "l",
+      "website": "https://www.redhat.com",
+      "careers": "https://www.redhat.com/en/jobs",
+      "linkedin": "red-hat",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Seeking Alpha": {
+      "category": "Digital Media",
+      "size": "l",
+      "website": "https://seekingalpha.com/",
+      "careers": "https://jobs.seekingalpha.com/",
+      "linkedin": "seeking-alpha",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Flare": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://www.helloflare.com/",
+      "careers": null,
+      "linkedin": "hello-flare",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Innovid": {
+      "category": "AdTech",
+      "size": "l",
+      "website": "https://www.innovid.com/",
+      "careers": null,
+      "linkedin": "innovid",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Strauss Water": {
+      "category": "Sustainable Technology",
+      "size": "l",
+      "website": "https://www.strauss-group.com/company/strauss-water",
+      "careers": null,
+      "linkedin": "strauss-water-ltd-",
+      "cities": [
+        "אור יהודה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Istra Research": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "http://www.istraresearch.com",
+      "careers": null,
+      "linkedin": "istraresearch",
+      "cities": [
+        "לוד"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Sync.me": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://sync.me/",
+      "careers": null,
+      "linkedin": "sync-me",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Scooper": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://digital.scooper.co.il/en/",
+      "careers": null,
+      "linkedin": "scooperdigital",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Candex Technologies": {
+      "category": "Fintech",
+      "size": "m",
+      "website": "https://www.candex.com/",
+      "careers": null,
+      "linkedin": "candex-technologies",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Simply": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://www.hellosimply.com/",
+      "careers": null,
+      "linkedin": "simply-joytunes",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "YouCC Technologies": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://youcc.co.il/",
+      "careers": null,
+      "linkedin": "youcc-technologies-ltd-",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "YellowHEAD": {
+      "category": "Digital Media",
+      "size": "m",
+      "website": "https://www.yellowhead.com",
+      "careers": null,
+      "linkedin": "yellowhead",
+      "cities": [
+        "געש"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Linnovate": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.linnovate.net",
+      "careers": null,
+      "linkedin": "linnovate-ltd",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Bits of Gold": {
+      "category": "E-commerce & Retail",
+      "size": "s",
+      "website": "https://www.bitsofgold.net",
+      "careers": null,
+      "linkedin": "bits-of-gold-ltd",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Way2Vat": {
+      "category": "Fintech",
+      "size": "s",
+      "website": "https://way2vat.com/",
+      "careers": null,
+      "linkedin": "way2vat",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Intelligo": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.intelligo.ai",
+      "careers": null,
+      "linkedin": "intelligo-group",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Beach Bum": {
+      "category": "Gaming",
+      "size": "l",
+      "website": "https://www.bbumgames.com/",
+      "careers": "https://www.bbumgames.com/careers/",
+      "linkedin": "beach-bum-ltd",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "LightBits Labs": {
+      "category": "Cloud Computing",
+      "size": "m",
+      "website": "https://www.lightbitslabs.com/",
+      "careers": null,
+      "linkedin": "lightbits-labs",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "WaveBL": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://wavebl.com",
+      "careers": "https://wavebl.com/career/",
+      "linkedin": "wavebl",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Fillip": {
+      "category": "E-commerce & Retail",
+      "size": "xs",
+      "website": "https://www.fillip.co",
+      "careers": null,
+      "linkedin": "fillip-co",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Package.ai": {
+      "category": "Telecommunications",
+      "size": "s",
+      "website": "http://www.package.ai",
+      "careers": null,
+      "linkedin": "package.ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Easy": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://easy.co.il/en/",
+      "careers": null,
+      "linkedin": "easy.co.il",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SeeTrue": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://seetrue.ai/",
+      "careers": "https://seetrue.ai/careers/",
+      "linkedin": "seetrue-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Lowental Hybrid": {
+      "category": "Automotive",
+      "size": "xs",
+      "website": "https://www.lowental-hybrid.com/",
+      "careers": null,
+      "linkedin": "lowental-hybrid-ltd",
+      "cities": [
+        "מישר"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "GeTruck": {
+      "category": "Telecommunications",
+      "size": "s",
+      "website": "https://www.getruck.co",
+      "careers": null,
+      "linkedin": "getruck-ltd",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Up Capital": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "https://upcapital.io",
+      "careers": "https://upcapital.io/careers",
+      "linkedin": "up-capital-ltd",
+      "cities": [
+        "הוד השרון"
       ],
       "greenhouseId": null,
       "leverId": null,
