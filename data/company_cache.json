@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-07-27T17:09:18.665067+00:00",
+  "_cached_at": "2026-07-28T11:16:22.153109+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8116,6 +8116,34 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Coro": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://coro.net",
+      "careers": "https://www.coro.net/careers",
+      "linkedin": "corocyber",
+      "cities": [
+        "תל אביב"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "coro/08.00A",
+      "breezyId": null
+    },
+    "CYMOTIVE Technologies": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.cymotive.com/",
+      "careers": "https://www.cymotive.com/join-the-team/",
+      "linkedin": "cymotive",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "cymotive/F1.008",
       "breezyId": null
     }
   }
