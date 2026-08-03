@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-08-02T13:36:33.833605+00:00",
+  "_cached_at": "2026-08-03T12:40:18.337552+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8590,6 +8590,286 @@
       "website": "https://everc.com/",
       "careers": "https://www.everc.com/careers",
       "linkedin": "everc",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Barantech": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://barantec.com",
+      "careers": "https://barantech.com/careers/",
+      "linkedin": "baran-tech",
+      "cities": [
+        "קרית גת"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Elspec Engineering": {
+      "category": "Sustainable Technology",
+      "size": "m",
+      "website": "https://www.elspec-ltd.com/",
+      "careers": "https://www.elspec-ltd.com/careers/",
+      "linkedin": "elspec-ltd.",
+      "cities": [
+        "קיסריה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "DOLAV": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://dolav.com/",
+      "careers": null,
+      "linkedin": "dolav-plastic-products",
+      "cities": [
+        "דביר"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "RADWIN": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://radwin.com/",
+      "careers": null,
+      "linkedin": "radwin",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Aeronautics": {
+      "category": "Aerospace",
+      "size": "l",
+      "website": "https://www.aeronautics-sys.com/",
+      "careers": null,
+      "linkedin": "aeronautics",
+      "cities": [
+        "יבנה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ScanMaster Systems": {
+      "category": "Robotics & Automation",
+      "size": "m",
+      "website": "https://scanmaster-irt.com/",
+      "careers": null,
+      "linkedin": "scanmaster-systems",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Renesas": {
+      "category": "Semiconductors",
+      "size": null,
+      "website": "https://www.renesas.com/",
+      "careers": "https://jobs.renesas.com/",
+      "linkedin": "renesas",
+      "cities": [
+        "בית שמש"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Insightec": {
+      "category": "Health",
+      "size": "l",
+      "website": "https://insightec.com/",
+      "careers": "https://insightec.com/careers/",
+      "linkedin": "insightec",
+      "cities": [
+        "טירת כרמל"
+      ],
+      "greenhouseId": "insightec",
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Flare": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://www.helloflare.com/",
+      "careers": null,
+      "linkedin": "hello-flare",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Madsec": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.madsec.co.il",
+      "careers": null,
+      "linkedin": "madsec",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Hoopo": {
+      "category": "IoT",
+      "size": "s",
+      "website": "https://www.hoopo.tech/",
+      "careers": null,
+      "linkedin": "hoopo",
+      "cities": [
+        "גליל ים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Uniper Care Technologies": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.unipercare.com",
+      "careers": null,
+      "linkedin": "uniper-care-technologies",
+      "cities": [
+        "מודיעין-מכבים-רעות"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Nostromo": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "http://nostromo.energy",
+      "careers": null,
+      "linkedin": "nostromo-energy",
+      "cities": [
+        "הזורעים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SeeTrue": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://seetrue.ai/",
+      "careers": "https://seetrue.ai/careers/",
+      "linkedin": "seetrue-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Novelrad": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://novelrad.com/",
+      "careers": null,
+      "linkedin": "novelrad",
+      "cities": [
+        "מצר"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Hi Auto": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://hi.auto/",
+      "careers": "https://hi.auto/careers/",
+      "linkedin": "hi-auto",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Ultrawis": {
+      "category": "Robotics & Automation",
+      "size": "s",
+      "website": "https://www.ultrawis.com/",
+      "careers": "https://www.ultrawis.com/careers/",
+      "linkedin": "ultrawis",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Justt": {
+      "category": "Fintech",
+      "size": "m",
+      "website": "https://justt.ai",
+      "careers": null,
+      "linkedin": "justt-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "justt/36.001",
+      "breezyId": null
+    },
+    "Strix Drones": {
+      "category": "Robotics & Automation",
+      "size": "s",
+      "website": "https://www.strixdrones.com/",
+      "careers": "https://www.strixdrones.com/careers-in-strix-drones",
+      "linkedin": "strixdrones",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Firefly": {
+      "category": "Cloud Computing",
+      "size": "s",
+      "website": "https://www.firefly.ai/",
+      "careers": "https://www.comeet.com/jobs/firefly/39.000",
+      "linkedin": "fireflyai",
       "cities": [
         "תל אביב-יפו"
       ],
