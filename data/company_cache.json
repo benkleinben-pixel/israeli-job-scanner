@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-08-05T11:25:36.217193+00:00",
+  "_cached_at": "2026-08-06T11:25:35.294619+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -9280,6 +9280,230 @@
         "קריית גת"
       ],
       "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "TopGum Industries": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://topgummiceuticals.com/",
+      "careers": "https://careers.topgummiceuticals.com/",
+      "linkedin": "topgummiceuticals",
+      "cities": [
+        "שדרות"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "CoolAutomation": {
+      "category": "IoT",
+      "size": "s",
+      "website": "https://coolautomation.com/",
+      "careers": null,
+      "linkedin": "cool-automation",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ryze beyond": {
+      "category": "AdTech",
+      "size": "m",
+      "website": "https://ryzebeyond.com/",
+      "careers": null,
+      "linkedin": "ryzebeyond",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Freightos": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://www.freightos.com/",
+      "careers": null,
+      "linkedin": "freightos",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Takeda": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://www.takeda.com/",
+      "careers": "https://www.takeda.com/careers/",
+      "linkedin": "takeda-pharmaceuticals",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Source Defense": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://sourcedefense.com/",
+      "careers": null,
+      "linkedin": "source-defense",
+      "cities": [
+        "באר שבע"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Planck": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://www.planckdata.com/",
+      "careers": null,
+      "linkedin": "planckdata",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Bites": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.mybites.io/",
+      "careers": null,
+      "linkedin": "bites-learning",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "4Cast": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://4cast-solutions.com",
+      "careers": null,
+      "linkedin": "4cast-ai",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Stream.Security": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.stream.security",
+      "careers": "https://www.comeet.com/jobs/streamsecurity/39.008",
+      "linkedin": "streamsecurity",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Sightful": {
+      "category": "AR/VR",
+      "size": "m",
+      "website": "https://www.sightful.com/",
+      "careers": null,
+      "linkedin": "heysightful",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "INCRMNTAL": {
+      "category": "AdTech",
+      "size": "s",
+      "website": "https://incrmntal.com/",
+      "careers": null,
+      "linkedin": "incrmntal",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Scytale AI": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://scytale.ai/",
+      "careers": null,
+      "linkedin": "scytale-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Backslash Security": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.backslash.security/",
+      "careers": "https://www.backslash.security/careers",
+      "linkedin": "backslashsecurity",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Foundational": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.foundational.io",
+      "careers": null,
+      "linkedin": "foundationaldata",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Verifone": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://verifone.com/",
+      "careers": null,
+      "linkedin": "verifone",
+      "cities": [
+        "ראש העין"
+      ],
+      "greenhouseId": "verifone",
       "leverId": null,
       "comeetId": null,
       "breezyId": null
