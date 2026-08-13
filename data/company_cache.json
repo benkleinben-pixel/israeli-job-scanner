@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-08-12T10:06:57.574950+00:00",
+  "_cached_at": "2026-08-13T10:14:56.919556+00:00",
   "companies": {
     "Phibro Animal Health": {
       "category": "Health",
@@ -8927,6 +8927,160 @@
       "linkedin": "ageera-energy-storage-systems",
       "cities": [
         "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Septier Communication": {
+      "category": "Telecommunications",
+      "size": "m",
+      "website": "https://www.septier.com/",
+      "careers": "https://www.septier.com/careers/",
+      "linkedin": "septier-communication-ltd",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "NetApp": {
+      "category": "Cloud Computing",
+      "size": "m",
+      "website": "https://www.netapp.com/",
+      "careers": "https://careers.netapp.com/",
+      "linkedin": "netapp",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Atlantium Technologies": {
+      "category": "Sustainable Technology",
+      "size": "m",
+      "website": "https://atlantium.com/",
+      "careers": null,
+      "linkedin": "atlantium",
+      "cities": [
+        "בית שמש"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "K2view": {
+      "category": "Cloud Computing",
+      "size": "m",
+      "website": "https://www.k2view.com/",
+      "careers": null,
+      "linkedin": "k2view",
+      "cities": [
+        "יוקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SGTech": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "http://sgtech.co.il",
+      "careers": null,
+      "linkedin": "sgtech.co.il",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Anzu.io": {
+      "category": "AdTech",
+      "size": "m",
+      "website": "https://www.anzu.io/",
+      "careers": "https://www.anzu.io/careers",
+      "linkedin": "anzuio",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "GrowDirector": {
+      "category": "IoT",
+      "size": "s",
+      "website": "https://growdirector.com/",
+      "careers": null,
+      "linkedin": "growdirector",
+      "cities": [
+        "נס ציונה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Workiz": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.workiz.com/",
+      "careers": null,
+      "linkedin": "workizinc",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tastewise": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://tastewise.io/",
+      "careers": "https://tastewise.io/careers",
+      "linkedin": "tastewise",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "tastewise/F8.000",
+      "breezyId": null
+    },
+    "eSH": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.esh.com",
+      "careers": null,
+      "linkedin": "esh-com",
+      "cities": [
+        "גבעתיים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Paytag": {
+      "category": "Telecommunications",
+      "size": "xs",
+      "website": "https://paytagapp.com",
+      "careers": null,
+      "linkedin": "paytagapp",
+      "cities": [
+        "כפר סבא"
       ],
       "greenhouseId": null,
       "leverId": null,
