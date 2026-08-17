@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-08-16T12:36:19.414702+00:00",
+  "_cached_at": "2026-08-17T09:40:06.196342+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -8567,6 +8567,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Upstream Security": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://upstream.auto/",
+      "careers": "https://upstream.auto/careers/",
+      "linkedin": "upstream-security",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "upstream/E4.003",
       "breezyId": null
     }
   }
