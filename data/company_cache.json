@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-08-18T09:45:03.894288+00:00",
+  "_cached_at": "2026-08-19T09:36:27.477586+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -8897,6 +8897,104 @@
       "website": "https://www.xpander.ai",
       "careers": null,
       "linkedin": "xpander-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Teldor": {
+      "category": "Telecommunications",
+      "size": "m",
+      "website": "https://www.teldor.com/",
+      "careers": null,
+      "linkedin": "teldor",
+      "cities": [
+        "קיבוץ עין דור"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "IIT": {
+      "category": "Productivity",
+      "size": "xs",
+      "website": "http://www.iit.co.il",
+      "careers": null,
+      "linkedin": "iit-image-information-technologies",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Phenome Networks": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "https://phenome-networks.com/en",
+      "careers": null,
+      "linkedin": "phenom-networks-inc.",
+      "cities": [
+        "רחובות"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Duda": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.duda.co/",
+      "careers": null,
+      "linkedin": "duda",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": "duda",
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "TA9": {
+      "category": "Cybersecurity",
+      "size": "xs",
+      "website": "http://www.t-a9.com",
+      "careers": "https://www.t-a9.com/careers/",
+      "linkedin": "ta9",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kueez": {
+      "category": "Cloud Computing",
+      "size": "s",
+      "website": "https://weare.kueez.com",
+      "careers": "https://weare.kueez.com/careers",
+      "linkedin": "kueez",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Reco": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.reco.ai/",
+      "careers": "https://www.reco.ai/careers",
+      "linkedin": "recolabs",
       "cities": [
         "תל אביב-יפו"
       ],
