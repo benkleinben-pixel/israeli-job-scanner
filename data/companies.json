@@ -5606,37 +5606,257 @@
       "תל אביב-יפו"
     ]
   },
-  "Gotfriends": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
+  "Nirlat": {
+    "category": "Productivity",
+    "size": "l",
+    "website": "https://en.nirlat.com/",
+    "careers": null,
+    "linkedin": "nirlat",
     "cities": [
-      "Tel Aviv District, Israel"
+      "קיבוץ ניר עוז"
+    ]
+  },
+  "RADWIN": {
+    "category": "Telecommunications",
+    "size": "l",
+    "website": "https://radwin.com/",
+    "careers": null,
+    "linkedin": "radwin",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Aeronautics": {
+    "category": "Aerospace",
+    "size": "l",
+    "website": "https://www.aeronautics-sys.com/",
+    "careers": null,
+    "linkedin": "aeronautics",
+    "cities": [
+      "יבנה"
+    ]
+  },
+  "Earnix": {
+    "category": "Fintech",
+    "size": "l",
+    "website": "https://earnix.com/",
+    "careers": null,
+    "linkedin": "earnix",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "Sisense": {
+    "category": "Productivity",
+    "size": "l",
+    "website": "https://www.sisense.com",
+    "careers": "https://www.sisense.com/careers/",
+    "linkedin": "sisense",
+    "cities": [
+      "רמת גן"
+    ]
+  },
+  "Pipl": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://pipl.com/",
+    "careers": null,
+    "linkedin": "pipl-inc",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Persona.ly": {
+    "category": "Digital Media",
+    "size": "s",
+    "website": "https://persona.ly",
+    "careers": null,
+    "linkedin": "persona-ly",
+    "cities": [
+      "רחובות"
+    ]
+  },
+  "Comparts": {
+    "category": "Cybersecurity",
+    "size": "s",
+    "website": "https://www.comparts.co.il",
+    "careers": null,
+    "linkedin": "comparts-ltd",
+    "cities": [
+      "פתח תקווה"
+    ]
+  },
+  "GlassesUSA": {
+    "category": "E-commerce & Retail",
+    "size": "l",
+    "website": "https://www.glassesusa.com",
+    "careers": null,
+    "linkedin": "glassesusa-llc",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Pixellot": {
+    "category": "Digital Media",
+    "size": "m",
+    "website": "https://www.pixellot.tv/",
+    "careers": null,
+    "linkedin": "pixellotltd",
+    "cities": [
+      "פתח תקווה"
+    ]
+  },
+  "Panorays": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://panorays.com/",
+    "careers": "https://panorays.com/careers/",
+    "linkedin": "panorays",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "CytoReason": {
+    "category": "AI/ML",
+    "size": "m",
+    "website": "https://www.cytoreason.com/",
+    "careers": null,
+    "linkedin": "cytoreason",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "SerVC": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "https://www.servc.co.il",
+    "careers": "https://www.servc.co.il/careers",
+    "linkedin": "servc-fund-administrator",
+    "cities": [
+      "הרצליה"
+    ]
+  },
+  "Comunix": {
+    "category": "Gaming",
+    "size": "m",
+    "website": "https://www.getcomunix.com/",
+    "careers": null,
+    "linkedin": "getcomunix",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Blink": {
+    "category": "Productivity",
+    "size": "m",
+    "website": "https://www.blinkops.com",
+    "careers": "https://www.blinkops.com/careers",
+    "linkedin": "blink-ops",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "OX Security": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://www.ox.security",
+    "careers": null,
+    "linkedin": "ox-security",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Pickommerce AI Robotics": {
+    "category": "Robotics & Automation",
+    "size": "s",
+    "website": "https://www.pickommerce.com/",
+    "careers": "https://www.pickommerce.com/careers",
+    "linkedin": "pickommerce-ai-robotics",
+    "cities": [
+      "מיתר"
+    ]
+  },
+  "Discure Technologies": {
+    "category": "Health",
+    "size": "s",
+    "website": "http://discuremd.com",
+    "careers": null,
+    "linkedin": "discure-technologies",
+    "cities": [
+      "פתח תקווה"
     ]
   },
   "Quantum Art": {
+    "category": "Productivity",
+    "size": "s",
+    "website": "https://www.quantum-art.tech/",
+    "careers": null,
+    "linkedin": "quantum-art-tech",
+    "cities": [
+      "נס ציונה"
+    ]
+  },
+  "Guardoc": {
+    "category": "Health",
+    "size": "s",
+    "website": "https://guardoc.health",
+    "careers": "https://www.guardoc.health/jobs",
+    "linkedin": "guardoc-health",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "UST": {
+    "category": "Productivity",
+    "size": "xl",
+    "website": "https://www.ust.com/en/innovation/spark",
+    "careers": null,
+    "linkedin": "ustglobal",
+    "cities": [
+      "קיסריה"
+    ]
+  },
+  "SuperCom": {
+    "category": "Cybersecurity",
+    "size": "m",
+    "website": "https://www.supercom.com/",
+    "careers": null,
+    "linkedin": "supercom",
+    "cities": [
+      "תל אביב-יפו"
+    ]
+  },
+  "Vishay Intertechnology, Inc.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Nes Ziona, Center District, Israel"
+      "Migdal HaEmek, North District, Israel"
     ]
   },
-  "movement - the wellness group": {
+  "Plarium": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Lod, Center District, Israel"
+      "Herzliya, Tel Aviv District, Israel"
     ]
   },
-  "Nogamy": {
+  "NVIDIA": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Yokneam Ilit, North District, Israel"
+    ]
+  },
+  "comblack": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -5646,47 +5866,7 @@
       "Center District, Israel"
     ]
   },
-  "Ethosia": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Netanya, Center District, Israel"
-    ]
-  },
-  "Moveo Source": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "JobsSeek": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Yoqneam Illit, North District, Israel"
-    ]
-  },
-  "ManpowerGroup": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "North District, Israel"
-    ]
-  },
-  "M.D. Mechanical Devices Ltd.": {
+  "GE HealthCare": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -5706,7 +5886,97 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Classiq": {
+  "Gotfriends": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Center District, Israel"
+    ]
+  },
+  "Majestic Labs ai": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Raanana, Center District, Israel"
+    ]
+  },
+  "OriginAI": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Ramat Gan, Tel Aviv District, Israel"
+    ]
+  },
+  "DoiT": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "FIBI - הבנק הבינלאומי": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Rishon LeZion, Center District, Israel"
+    ]
+  },
+  "Ingram Micro": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Nogamy": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Center District, Israel"
+    ]
+  },
+  "Yael Group": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "West Jerusalem, Jerusalem District, Israel"
+    ]
+  },
+  "Converge Bio": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Startingup": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -5716,47 +5986,77 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "IAI - Israel Aerospace Industries": {
+  "Dialog": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Lod, Center District, Israel"
+      "Center District, Israel"
     ]
   },
-  "NVIDIA AI": {
+  "Moveo Source": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Raanana, Center District, Israel"
+      "Tel Aviv District, Israel"
     ]
   },
-  "Applied Materials - Israel": {
+  "Ethosia": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Rehovot, Center District, Israel"
+      "Netanya, Center District, Israel"
     ]
   },
-  "NVIDIA": {
+  "SQLink Group": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Raanana, Center District, Israel"
+      "Yehud Monosson, Center District, Israel"
     ]
   },
-  "Infinidat": {
+  "Terra Security": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Altshuler Shaham": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
+    ]
+  },
+  "Regatta Data": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Binyamina, Haifa District, Israel"
+    ]
+  },
+  "Logica-IT": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -5766,7 +6066,47 @@
       "Herzliya, Tel Aviv District, Israel"
     ]
   },
-  "Aikido Security": {
+  "R2Net Inc": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Herzliya, Tel Aviv District, Israel"
+    ]
+  },
+  "MARQUIS TECHNOLOGIES PRIVATE LIMITED": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Israel"
+    ]
+  },
+  "Experis Israel": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Yeruham, South District, Israel"
+    ]
+  },
+  "Tesnet Group Ltd": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Sderot, South District, Israel"
+    ]
+  },
+  "Orca AI": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -5776,27 +6116,67 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Utron": {
+  "JobsSeek": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Shoham, Center District, Israel"
+      "Yoqneam Illit, North District, Israel"
     ]
   },
-  "Yael Korentec Technologies": {
+  "Meyzi Architects": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Kiryat Bialik, Haifa District, Israel"
+      "Tel Aviv District, Israel"
     ]
   },
-  "Workday": {
+  "Inbal - HR Solutions": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Netanya, Center District, Israel"
+    ]
+  },
+  "Arbex": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Afula, North District, Israel"
+    ]
+  },
+  "Zabar Solar | צבר סולאר": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Givat Oz, North District, Israel"
+    ]
+  },
+  "Fitly": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
+    ]
+  },
+  "Team 3 Group": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -5806,24 +6186,94 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "G2 Risk Solutions": {
+  "Ben-Gurion University of the Negev": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Be'er Sheva, South District, Israel"
     ]
   },
-  "BlinkOps": {
+  "Elevation": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Tel Aviv District, Israel"
+    ]
+  },
+  "מרטנס | Mertens – מקבוצת מלם תים": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Center District, Israel"
+    ]
+  },
+  "Comigo.io": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Petah Tikva, Center District, Israel"
+    ]
+  },
+  "GENECIT": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Haifa, Haifa District, Israel"
+    ]
+  },
+  "MKS Inc.": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Jerusalem District, Israel"
+    ]
+  },
+  "M.D. Mechanical Devices Ltd.": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Haifa, Haifa District, Israel"
+    ]
+  },
+  "INSIGHTEC": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Haifa, Haifa District, Israel"
+    ]
+  },
+  "Jeen.ai": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
     ]
   },
   "Guardoc Health": {
@@ -5836,6 +6286,96 @@
       "Tel Aviv District, Israel"
     ]
   },
+  "Elbit Systems Israel": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Be'er Sheva, South District, Israel"
+    ]
+  },
+  "Infinidat": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Herzliya, Tel Aviv District, Israel"
+    ]
+  },
+  "BlinkOps": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "MaxLinear": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Petah Tikva, Center District, Israel"
+    ]
+  },
+  "NVIDIA AI": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Yoqneam Illit, North District, Israel"
+    ]
+  },
+  "Appdome": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Mobile Group Ltd.": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Hadera, Haifa District, Israel"
+    ]
+  },
+  "Aqurate Data": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Shoham, Center District, Israel"
+    ]
+  },
+  "Applied Materials - Israel": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Rehovot, Center District, Israel"
+    ]
+  },
   "Unframe": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -5846,34 +6386,14 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "BGone Consultants": {
+  "SportAtlas": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Holon, Tel Aviv District, Israel"
-    ]
-  },
-  "Payoneer": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Herzliya, Tel Aviv District, Israel"
-    ]
-  },
-  "Bynet Data Communications": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
+      "Israel"
     ]
   },
   "Shavit Software": {
@@ -5896,24 +6416,34 @@
       "Bnei Brak, Tel Aviv District, Israel"
     ]
   },
-  "OriginAI": {
+  "AllCloud": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
+      "Raanana, Center District, Israel"
     ]
   },
-  "Experis Israel": {
+  "Aikido Security": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Yehud Monosson, Center District, Israel"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Penlink": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Herzliya, Tel Aviv District, Israel"
     ]
   },
   "ARAN Software": {
@@ -5936,26 +6466,6 @@
       "Center District, Israel"
     ]
   },
-  "Commit": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Petah Tikva, Center District, Israel"
-    ]
-  },
-  "MatchIT": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
-    ]
-  },
   "TeraSky": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -5966,27 +6476,7 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
-  "Gong": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "Skyers": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Herzliya, Tel Aviv District, Israel"
-    ]
-  },
-  "Discure Technologies": {
+  "Commit": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -5996,17 +6486,7 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
-  "Yael Group": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Olympus Corporation": {
+  "Confidential": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6026,14 +6506,24 @@
       "Haifa District, Israel"
     ]
   },
-  "SUN PHARMA": {
+  "Skyers": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Haifa, Haifa District, Israel"
+      "Herzliya, Tel Aviv District, Israel"
+    ]
+  },
+  "Implant Direct": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Modiin-Maccabim-Reut, Center District, Israel"
     ]
   },
   "Jones Software": {
@@ -6046,6 +6536,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "HT VET": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Hod HaSharon, Center District, Israel"
+    ]
+  },
   "HiO": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6056,7 +6556,7 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Jeen.ai": {
+  "VYBS": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6066,14 +6566,64 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "HT VET": {
+  "Regulus": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Hod HaSharon, Center District, Israel"
+      "Tirat Karmel, Haifa District, Israel"
+    ]
+  },
+  "Compie Technologies": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Or Yehuda, Tel Aviv District, Israel"
+    ]
+  },
+  "Octally Integration": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Modiin-Maccabim-Reut, Center District, Israel"
+    ]
+  },
+  "Tadbik": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Karmiel, North District, Israel"
+    ]
+  },
+  "MoroShabat Tours": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Israel"
+    ]
+  },
+  "IMP Clinical Supply Services Ltd.": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Shoham, Center District, Israel"
     ]
   },
   "Mindspace": {
@@ -6086,27 +6636,37 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
-  "IRANI CORP (FACTORY 54)": {
+  "Carroll County, Virginia": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv District, Israel"
+      "Or Akiva, Haifa District, Israel"
     ]
   },
-  "NoCompany1": {
+  "SUN PHARMA": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
+      "Haifa, Haifa District, Israel"
     ]
   },
-  "Q-Factor": {
+  "Air Products": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Caesarea, Haifa District, Israel"
+    ]
+  },
+  "Tzahala community country club": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6116,7 +6676,27 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "flō Optics": {
+  "Kroll Consulting": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Yaqum, Center District, Israel"
+    ]
+  },
+  "One Systems": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Lod, Center District, Israel"
+    ]
+  },
+  "Ready Group": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6126,17 +6706,27 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
-  "Elbit Systems Israel": {
+  "Ultra Clean Technology": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Haifa District, Israel"
+      "Nof HaGalil, North District, Israel"
     ]
   },
-  "Torq": {
+  "Talent Integration": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Petah Tikva, Center District, Israel"
+    ]
+  },
+  "Similarweb": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6146,7 +6736,17 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Jamf": {
+  "CYCL (Powered by Bugsec)": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Rishon LeZion, Center District, Israel"
+    ]
+  },
+  "Torq": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6166,16 +6766,6 @@
       "Givatayim, Tel Aviv District, Israel"
     ]
   },
-  "Siemens Digital Industries Software": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
   "McKinsey & Company": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6186,27 +6776,37 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "GitLab": {
+  "Kfitzat Haderech  קפיצת הדרך": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Israel"
+      "Be'er Sheva, South District, Israel"
     ]
   },
-  "GE HealthCare": {
+  "Delta Galil Industries": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Haifa, Haifa District, Israel"
+      "Caesarea, Haifa District, Israel"
     ]
   },
-  "CrowdStrike": {
+  "HoliMont Ski Area": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Or Akiva, Haifa District, Israel"
+    ]
+  },
+  "EY": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6216,14 +6816,34 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "MDA Space": {
+  "The Estée Lauder Companies Inc.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Rehovot, Center District, Israel"
+      "Rishon LeZion, Center District, Israel"
+    ]
+  },
+  "Gong": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Cisco": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Fido": {
@@ -6236,6 +6856,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "Apartment List": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Israel"
+    ]
+  },
   "HUNTHEAD": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6246,6 +6876,16 @@
       "West Jerusalem, Jerusalem District, Israel"
     ]
   },
+  "Millennium": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Confidential Jobs": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6254,6 +6894,16 @@
     "linkedin": "",
     "cities": [
       "Center District, Israel"
+    ]
+  },
+  "Google DeepMind": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Recruitx": {
@@ -6286,46 +6936,6 @@
       "Haifa, Haifa District, Israel"
     ]
   },
-  "WORK ABROAD| GLOBAL CAREERS | DIGITAL NOMADS-   EUROPE Jobs| USA| CANADA| |  Frannie": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Rosh Pina, North District, Israel"
-    ]
-  },
-  "mdc medical device certification GmbH": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Haifa, Haifa District, Israel"
-    ]
-  },
-  "Govan Engineering, LLC": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Or Akiva, Haifa District, Israel"
-    ]
-  },
-  "Delta Galil Industries": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Karmiel, North District, Israel"
-    ]
-  },
   "Alstom": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6336,24 +6946,34 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "TopTalent Recruitment Agency": {
+  "Stanley Black & Decker, Inc.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
+      "Migdal HaEmek, North District, Israel"
     ]
   },
-  "OPSWAT": {
+  "Tesla": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Petah Tikva, Center District, Israel"
+      "Ashdod, South District, Israel"
+    ]
+  },
+  "FedEx": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Ben Shemen, Center District, Israel"
     ]
   },
   "DT": {
@@ -6364,6 +6984,26 @@
     "linkedin": "",
     "cities": [
       "Petah Tikva, Center District, Israel"
+    ]
+  },
+  "IAI - Israel Aerospace Industries": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Ashdod, South District, Israel"
+    ]
+  },
+  "Samsung Semiconductor": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
     ]
   },
   "GTH Software": {
@@ -6386,7 +7026,7 @@
       "Raanana, Center District, Israel"
     ]
   },
-  "Ariga (Atlas)": {
+  "SuperCom (NASDAQ: SPCB)": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6396,27 +7036,7 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "WEKA": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "SentinelOne": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "ServiceNow": {
+  "Nanox Vision": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6426,7 +7046,7 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
-  "Shahar": {
+  "Balance": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6434,6 +7054,46 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Lastprice": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tirat HaCarmel, Haifa District, Israel"
+    ]
+  },
+  "HR Home": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Haifa District, Israel"
+    ]
+  },
+  "morning by Green Invoice": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Publicis Groupe Israel": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Bnei Brak, Tel Aviv District, Israel"
     ]
   },
   "Itron, Inc.": {
@@ -6454,46 +7114,6 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "Publicis Groupe Israel": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Bnei Brak, Tel Aviv District, Israel"
-    ]
-  },
-  "eSentire": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "morning by Green Invoice": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "מרטנס | Mertens – מקבוצת מלם תים": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
     ]
   },
   "EPAM Systems": {
@@ -6526,16 +7146,6 @@
       "Ramat Gan, Tel Aviv District, Israel"
     ]
   },
-  "CargoSeer": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
-    ]
-  },
   "Upwind Security": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6546,37 +7156,17 @@
       "Ramat Gan, Tel Aviv District, Israel"
     ]
   },
-  "comblack": {
+  "Menlo Security Inc.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Center District, Israel"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "commit-ai.co.il": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Veeva Crossix": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Kiryat Ono, Tel Aviv District, Israel"
-    ]
-  },
-  "Red Sea Fish Pharm Ltd.": {
+  "Hexion Inc.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6586,7 +7176,7 @@
       "Herzliya, Tel Aviv District, Israel"
     ]
   },
-  "Hexion Inc.": {
+  "Red Sea Fish Pharm Ltd.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6606,44 +7196,34 @@
       "Rehovot, Center District, Israel"
     ]
   },
-  "Menlo Security Inc.": {
+  "Veeva Crossix": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Kiryat Ono, Tel Aviv District, Israel"
     ]
   },
-  "Strauss Group": {
+  "Keter": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Safed, North District, Israel"
+      "North District, Israel"
     ]
   },
-  "Tesnet Group Ltd": {
+  "Jacobs": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Center District, Israel"
-    ]
-  },
-  "SuperCom (NASDAQ: SPCB)": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Kiryat Gat, South District, Israel"
     ]
   },
   "Base44": {
@@ -6666,36 +7246,6 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Jacobs": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Kiryat Gat, South District, Israel"
-    ]
-  },
-  "Keter": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "North District, Israel"
-    ]
-  },
-  "E2E Solutions IL": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
   "Astera Labs": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6706,17 +7256,7 @@
       "Israel"
     ]
   },
-  "SPS-JOBS": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
-    ]
-  },
-  "Samsung Semiconductor": {
+  "LarionKantor": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6726,74 +7266,34 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Jobgether": {
+  "MER Group": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Israel"
+      "Ashkelon, South District, Israel"
     ]
   },
-  "Novocure": {
+  "מגירה": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tirat HaCarmel, Haifa District, Israel"
+      "Petah Tikva, Center District, Israel"
     ]
   },
-  "Ceva, Inc.": {
+  "Sonova Group": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Raanana, Center District, Israel"
-    ]
-  },
-  "NXP Semiconductors": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Yokneam Ilit, North District, Israel"
-    ]
-  },
-  "Confidential Careers": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
-    ]
-  },
-  "Similarweb": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "Dream": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Haifa District, Israel"
     ]
   },
   "Autofleet": {
@@ -6816,7 +7316,7 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Corephotonics Ltd": {
+  "Classiq": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6826,7 +7326,17 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Appdome": {
+  "YouCC Technologies Ltd.": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Center District, Israel"
+    ]
+  },
+  "Echo": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6836,27 +7346,47 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Clover Security": {
+  "Xpend": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Tel Aviv District, Israel"
     ]
   },
-  "Wonderful": {
+  "Baz": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Tel Aviv District, Israel"
     ]
   },
-  "Hello Heart": {
+  "AMAREL LTD": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Yokneam Ilit, North District, Israel"
+    ]
+  },
+  "Triple Whale": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "West Jerusalem, Jerusalem District, Israel"
+    ]
+  },
+  "Medulla": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -6876,6 +7406,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "Wonderful": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Guidde": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6886,24 +7426,14 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Triple Whale": {
+  "Hello Heart": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "West Jerusalem, Jerusalem District, Israel"
-    ]
-  },
-  "Yarden Abramovich HR Consulting": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
+      "Tel Aviv District, Israel"
     ]
   },
   "Medison Pharma": {
@@ -6916,6 +7446,16 @@
       "Petah Tikva, Center District, Israel"
     ]
   },
+  "eSentire": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
   "Minute": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6926,24 +7466,14 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Aqurate Data": {
+  "G2 Risk Solutions": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Shoham, Center District, Israel"
-    ]
-  },
-  "Algorio": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "ArborKnot": {
@@ -6956,6 +7486,16 @@
       "Tel Aviv District, Israel"
     ]
   },
+  "Modellama": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Raanana, Center District, Israel"
+    ]
+  },
   "Chainalysis": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -6966,34 +7506,14 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Modellama": {
+  "Workday": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Center District, Israel"
-    ]
-  },
-  "AllCloud": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Raanana, Center District, Israel"
-    ]
-  },
-  "Dialog": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "evoke": {
@@ -7006,16 +7526,6 @@
       "Herzliya, Tel Aviv District, Israel"
     ]
   },
-  "SQLink Group": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Rishon LeZion, Center District, Israel"
-    ]
-  },
   "PayPlus - The Future of Payments & Commerce": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7026,7 +7536,7 @@
       "Holon, Tel Aviv District, Israel"
     ]
   },
-  "Rubrik": {
+  "Vessel Technologies, Inc.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7046,17 +7556,7 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "AMAREL LTD": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Haifa District, Israel"
-    ]
-  },
-  "Vessel Technologies, Inc.": {
+  "Rubrik": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7066,34 +7566,54 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "AST SpaceMobile": {
+  "City of Troy, Ohio": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Petah Tikva, Center District, Israel"
+      "Or Akiva, Haifa District, Israel"
     ]
   },
-  "WAXMAN GROUP": {
+  "UWORK": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Bnei Brak, Tel Aviv District, Israel"
+      "Beit Shemesh, Jerusalem District, Israel"
     ]
   },
-  "Nuvoton Technology Israel Ltd": {
+  "PepsiCo": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Herzliya, Tel Aviv District, Israel"
+      "Rahat, South District, Israel"
+    ]
+  },
+  "ג'יטק איי.טי": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Center District, Israel"
+    ]
+  },
+  "C.R.G Electronics": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Caesarea, Haifa District, Israel"
     ]
   },
   "GOARC": {
@@ -7106,17 +7626,37 @@
       "Israel"
     ]
   },
-  "Lumana": {
+  "BTG A Ferring Company": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Caesarea, Haifa District, Israel"
+      "Beer Tuvya, South District, Israel"
     ]
   },
-  "Zadara": {
+  "Speedata.io": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Netanya, Center District, Israel"
+    ]
+  },
+  "Investing.com": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv District, Israel"
+    ]
+  },
+  "Anyray": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7126,7 +7666,17 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Rylo": {
+  "OurCrowd": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Rounds": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7166,24 +7716,14 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Rounds": {
+  "Vega": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "R2Net Inc": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Herzliya, Tel Aviv District, Israel"
+      "Tel Aviv District, Israel"
     ]
   },
   "DWI Ltd": {
@@ -7206,17 +7746,7 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Vega": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Scopely": {
+  "Warner Music Group": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7224,6 +7754,16 @@
     "linkedin": "",
     "cities": [
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
+    ]
+  },
+  "Yad2": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Petah Tikva, Center District, Israel"
     ]
   },
   "Finubit": {
@@ -7236,6 +7776,16 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
+  "Strauss Group": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Nof HaGalil, North District, Israel"
+    ]
+  },
   "Elad Software Systems": {
     "category": "LinkedIn N/A",
     "size": "",
@@ -7246,14 +7796,24 @@
       "Sdot Dan Regional Council, Center District, Israel"
     ]
   },
-  "Orca AI": {
+  "SodaStream International, Ltd.": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv District, Israel"
+      "Rahat, South District, Israel"
+    ]
+  },
+  "Nisha - נישה": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Ashdod, South District, Israel"
     ]
   },
   "Vishay Precision Group, Inc. (VPG)": {
@@ -7266,24 +7826,14 @@
       "Holon, Tel Aviv District, Israel"
     ]
   },
-  "Akeyless Security": {
+  "Confidential Careers": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Phibro Middle East & Europe": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Beit Shemesh, Jerusalem District, Israel"
+      "Center District, Israel"
     ]
   },
   "The Center for Educational Technology (CET)": {
@@ -7296,84 +7846,14 @@
       "Tel Aviv District, Israel"
     ]
   },
-  "Mobile Group Ltd.": {
+  "Altera": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Hadera, Haifa District, Israel"
-    ]
-  },
-  "Nisha Group - קבוצת נישה": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Rehovot, Center District, Israel"
-    ]
-  },
-  "Shafran Security Consulting": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "Ethos": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Israel"
-    ]
-  },
-  "Cisco": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "Superkit": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Raanana, Center District, Israel"
-    ]
-  },
-  "Hillcrest Labs, acquired by CEVA": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Raanana, Center District, Israel"
-    ]
-  },
-  "Taplix": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      "Haifa District, Israel"
     ]
   },
   "Credo": {
@@ -7386,14 +7866,24 @@
       "Modiin-Maccabim-Reut, Center District, Israel"
     ]
   },
-  "Scytale": {
+  "Unidress - יונידרס": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Center District, Israel"
+      "Haifa, Haifa District, Israel"
+    ]
+  },
+  "Taplix": {
+    "category": "LinkedIn N/A",
+    "size": "",
+    "website": "",
+    "careers": "",
+    "linkedin": "",
+    "cities": [
+      "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
   "Perion": {
@@ -7406,147 +7896,17 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Bagira": {
+  "Docusign": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Modiin-Maccabim-Reut, Center District, Israel"
-    ]
-  },
-  "Bizyasmin": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Eyeviation": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
-    ]
-  },
-  "SignalPET®": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "First Connect Insurance Services": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
+      "Givat Shmuel, Center District, Israel"
     ]
   },
   "Ashley Digital": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "DoiT": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "Log-On Software": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
-    ]
-  },
-  "Kela Technologies": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv-Yafo, Tel Aviv District, Israel"
-    ]
-  },
-  "Nisha Pro": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Center District, Israel"
-    ]
-  },
-  "Earnix": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
-    ]
-  },
-  "SkyForce Physical AI": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Spacial": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Muze AI": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
-    ]
-  },
-  "Zipher": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7566,37 +7926,7 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Immunai": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
-    ]
-  },
-  "Limy AI": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Tel Aviv District, Israel"
-    ]
-  },
-  "Antidote Health": {
-    "category": "LinkedIn N/A",
-    "size": "",
-    "website": "",
-    "careers": "",
-    "linkedin": "",
-    "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
-    ]
-  },
-  "QuantumBlack, AI by McKinsey": {
+  "Zipher": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7606,7 +7936,7 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "Manyone": {
+  "Crusoe": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
@@ -7616,24 +7946,24 @@
       "Tel Aviv-Yafo, Tel Aviv District, Israel"
     ]
   },
-  "SeeHR Cyber & Tech Recruiting": {
+  "City of Sunbury, Ohio": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Tel Aviv District, Israel"
+      "Or Akiva, Haifa District, Israel"
     ]
   },
-  "Global Dev Experts": {
+  "Harcatus Community Action Prgm": {
     "category": "LinkedIn N/A",
     "size": "",
     "website": "",
     "careers": "",
     "linkedin": "",
     "cities": [
-      "Ramat Gan, Tel Aviv District, Israel"
+      "Or HaNer, South District, Israel"
     ]
   }
 }
