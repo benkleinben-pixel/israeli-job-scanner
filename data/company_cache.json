@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-09-14T21:26:57.496399+00:00",
+  "_cached_at": "2026-09-15T14:16:56.615655+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -8030,6 +8030,314 @@
       "linkedin": "everc",
       "cities": [
         "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "IBM": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.ibm.com/",
+      "careers": "https://www.ibm.com/careers",
+      "linkedin": "ibm",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "RADWIN": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://radwin.com/",
+      "careers": null,
+      "linkedin": "radwin",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Tenova": {
+      "category": "Sustainable Technology",
+      "size": "xl",
+      "website": "https://tenova.com/",
+      "careers": "https://tenova.com/people-careers/working-tenova",
+      "linkedin": "tenova",
+      "cities": [
+        "יקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "april": {
+      "category": "Fintech",
+      "size": "m",
+      "website": "https://www.getapril.com/",
+      "careers": null,
+      "linkedin": "apriltax",
+      "cities": [
+        "ניצני עוז"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Efficient Finance": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.ef.biz",
+      "careers": null,
+      "linkedin": "efficient-finance",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Ramon.Space": {
+      "category": "Aerospace",
+      "size": "m",
+      "website": "https://ramon.space/",
+      "careers": "https://ramon.space/careers/",
+      "linkedin": "ramonspace",
+      "cities": [
+        "יקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AIR": {
+      "category": "Automotive",
+      "size": "s",
+      "website": "https://www.airev.aero/",
+      "careers": "https://www.airev.aero/careers",
+      "linkedin": "air-ev",
+      "cities": [
+        "פרדס חנה כרכור"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Sightec": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.sightec.com/",
+      "careers": "https://www.sightec.com/careers/",
+      "linkedin": "sightec",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Powermat Technologies": {
+      "category": "IoT",
+      "size": "s",
+      "website": "https://powermat.com/",
+      "careers": null,
+      "linkedin": "powermat",
+      "cities": [
+        "נווה אילן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Altshare": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://altshare.com",
+      "careers": "https://altshare.com/careers",
+      "linkedin": "altshare",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Toga Networks": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://toganetworks.com/",
+      "careers": "https://toganetworks.com/careers/",
+      "linkedin": "toga-networks",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ElSight": {
+      "category": "Semiconductors",
+      "size": "s",
+      "website": "https://www.elsight.com",
+      "careers": null,
+      "linkedin": "elsight",
+      "cities": [
+        "גבעתיים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Vi Labs": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://vi.co/",
+      "careers": "https://vi.co/careers/",
+      "linkedin": "vi",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Jifiti": {
+      "category": "E-commerce & Retail",
+      "size": "m",
+      "website": "https://www.jifiti.com/",
+      "careers": "https://www.jifiti.com/jobs/",
+      "linkedin": "jifiti",
+      "cities": [
+        "לוד"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "jifiti/47.005",
+      "breezyId": null
+    },
+    "PTC": {
+      "category": "Productivity",
+      "size": "xl",
+      "website": "https://www.ptc.com",
+      "careers": "https://www.ptc.com/en/careers",
+      "linkedin": "ptcinc",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "EcoPlant": {
+      "category": "Sustainable Technology",
+      "size": "s",
+      "website": "https://www.ecoplant.co/",
+      "careers": null,
+      "linkedin": "ecoplant-technological-innovation-ltd",
+      "cities": [
+        "גבים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "StarkWare Industries": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://starkware.co/",
+      "careers": "https://starkware.co/careers/",
+      "linkedin": "starkware",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "IDE Technologies": {
+      "category": "Productivity",
+      "size": "l",
+      "website": "https://ide-tech.com/en",
+      "careers": null,
+      "linkedin": "ide-technologies-ltd.",
+      "cities": [
+        "קדימה צורן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AgPlenus": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.agplenus.com/",
+      "careers": null,
+      "linkedin": "agplenus2019",
+      "cities": [
+        "גבעת ברנר"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Octup": {
+      "category": "E-commerce & Retail",
+      "size": "s",
+      "website": "https://octup.com",
+      "careers": null,
+      "linkedin": "octup-com",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "NanoScout": {
+      "category": "Health",
+      "size": "xs",
+      "website": "https://www.nanoscout.com/",
+      "careers": null,
+      "linkedin": "nanoscout",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BATM": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.batm.com/",
+      "careers": null,
+      "linkedin": "batm",
+      "cities": [
+        "הוד השרון"
       ],
       "greenhouseId": null,
       "leverId": null,
