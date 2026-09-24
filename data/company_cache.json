@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-09-23T14:13:21.602278+00:00",
+  "_cached_at": "2026-09-24T18:59:51.548631+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -324,20 +324,6 @@
       "comeetId": "sodastream/40.008",
       "breezyId": null
     },
-    "IBM": {
-      "category": "AI/ML",
-      "size": "l",
-      "website": "https://www.ibm.com/",
-      "careers": "https://www.ibm.com/careers",
-      "linkedin": "ibm",
-      "cities": [
-        "פתח תקווה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Maytronics": {
       "category": "Productivity",
       "size": "l",
@@ -458,6 +444,20 @@
       "linkedin": "nirlat",
       "cities": [
         "קיבוץ ניר עוז"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "DSIT Solutions": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "http://www.dsit.co.il",
+      "careers": "https://dsit.co.il/about-us/careers/",
+      "linkedin": "dsit-solutions-ltd",
+      "cities": [
+        "גבעת שמואל"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -996,20 +996,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Septier Communication": {
-      "category": "Telecommunications",
-      "size": "m",
-      "website": "https://www.septier.com/",
-      "careers": "https://www.septier.com/careers/",
-      "linkedin": "septier-communication-ltd",
-      "cities": [
-        "פתח תקווה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Vishay": {
       "category": "Semiconductors",
       "size": "l",
@@ -1060,20 +1046,6 @@
       "linkedin": "nokia",
       "cities": [
         "כפר סבא"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "King Engine Bearings": {
-      "category": "Automotive",
-      "size": "m",
-      "website": "https://www.kingbearings.com/",
-      "careers": null,
-      "linkedin": "king-engine-bearings",
-      "cities": [
-        "קריית גת"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -1379,20 +1351,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "SysAid": {
-      "category": "Productivity",
-      "size": "l",
-      "website": "https://www.sysaid.com/",
-      "careers": "https://www.sysaid.com/company/careers",
-      "linkedin": "sysaid-technologies-ltd",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Maxlinear": {
       "category": "Semiconductors",
       "size": "xl",
@@ -1471,6 +1429,20 @@
       "linkedin": "variscite-ltd-",
       "cities": [
         "לוד"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Ramon.Space": {
+      "category": "Aerospace",
+      "size": "m",
+      "website": "https://ramon.space/",
+      "careers": "https://ramon.space/careers/",
+      "linkedin": "ramonspace",
+      "cities": [
+        "יקנעם עילית"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -1603,6 +1575,20 @@
       "comeetId": null,
       "breezyId": null
     },
+    "Nayax": {
+      "category": "Fintech",
+      "size": "l",
+      "website": "https://www.nayax.com/",
+      "careers": null,
+      "linkedin": "nayax",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
     "Bottomline Technologies": {
       "category": "Fintech",
       "size": "xl",
@@ -1659,6 +1645,20 @@
       "comeetId": null,
       "breezyId": null
     },
+    "Galooli": {
+      "category": "Sustainable Technology",
+      "size": "l",
+      "website": "https://www.galooli.com",
+      "careers": null,
+      "linkedin": "galooli",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
     "Nuvoton": {
       "category": "Semiconductors",
       "size": "l",
@@ -1667,20 +1667,6 @@
       "linkedin": "nuvoton-technology-israel-ltd",
       "cities": [
         "הרצליה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Singular": {
-      "category": "Productivity",
-      "size": "l",
-      "website": "https://www.singular.net/",
-      "careers": null,
-      "linkedin": "singular-labs",
-      "cities": [
-        "ירושלים"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -2548,20 +2534,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "NetSpark": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://www.netspark.com/",
-      "careers": null,
-      "linkedin": "netspark-ltd",
-      "cities": [
-        "גבעת שמואל"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "WorldQuant": {
       "category": "Fintech",
       "size": "xl",
@@ -2702,20 +2674,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "ClearCut Medical": {
-      "category": "Health",
-      "size": "s",
-      "website": "https://www.clrcut.com/",
-      "careers": null,
-      "linkedin": "clear-cut-medical",
-      "cities": [
-        "רחובות"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Meta": {
       "category": "Digital Media",
       "size": "xl",
@@ -2828,6 +2786,20 @@
       "comeetId": null,
       "breezyId": null
     },
+    "Microbot Medical": {
+      "category": "Robotics & Automation",
+      "size": "s",
+      "website": "https://microbotmedical.com/",
+      "careers": null,
+      "linkedin": "microbot-medical",
+      "cities": [
+        "יוקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
     "Tipalti": {
       "category": "Fintech",
       "size": "l",
@@ -2920,20 +2892,6 @@
       "linkedin": "youcc-technologies-ltd-",
       "cities": [
         "פתח תקווה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "AU10TIX": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://www.au10tix.com/",
-      "careers": null,
-      "linkedin": "au10tix-limited",
-      "cities": [
-        "הוד השרון"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -3178,28 +3136,28 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Bllink": {
-      "category": "Fintech",
-      "size": "s",
-      "website": "https://www.bllink.co/",
+    "YellowHEAD": {
+      "category": "Digital Media",
+      "size": "m",
+      "website": "https://www.yellowhead.com",
       "careers": null,
-      "linkedin": "bllink",
+      "linkedin": "yellowhead",
       "cities": [
-        "תל אביב-יפו"
+        "געש"
       ],
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
       "breezyId": null
     },
-    "Corephotonics": {
-      "category": "Semiconductors",
+    "YouAppi": {
+      "category": "AdTech",
       "size": "m",
-      "website": "https://corephotonics.com/",
-      "careers": "https://corephotonics.com/careers/",
-      "linkedin": "corephotonics-ltd",
+      "website": "https://youappi.com/",
+      "careers": "https://youappi.com/careers/",
+      "linkedin": "youappi",
       "cities": [
-        "תל אביב-יפו"
+        "רעננה"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -3824,20 +3782,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "MazeBolt": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://mazebolt.com/",
-      "careers": "https://mazebolt.com/careers/",
-      "linkedin": "mazebolt-technologies",
-      "cities": [
-        "רמת גן"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "flo Optics": {
       "category": "Health",
       "size": "s",
@@ -4146,20 +4090,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Amarel": {
-      "category": "Productivity",
-      "size": "xs",
-      "website": "https://www.aes-connect.com",
-      "careers": "https://www.aes-connect.com/careers/",
-      "linkedin": "aes-amarel-engineering-services",
-      "cities": [
-        "יוקנעם עילית"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Duve": {
       "category": "E-commerce & Retail",
       "size": "m",
@@ -4286,20 +4216,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Shopic": {
-      "category": "E-commerce & Retail",
-      "size": "m",
-      "website": "https://www.shopic.co/",
-      "careers": "https://www.shopic.co/career/",
-      "linkedin": "shopic",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": "shopic/E6.002",
-      "breezyId": null
-    },
     "GoArc": {
       "category": "Productivity",
       "size": "s",
@@ -4392,6 +4308,20 @@
       "linkedin": "hisky-ltd.",
       "cities": [
         "ראש העין"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Credito": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://credito.co.il",
+      "careers": "https://credito.co.il/jobs/",
+      "linkedin": "creditoisrael",
+      "cities": [
+        "תל אביב-יפו"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -4538,6 +4468,20 @@
       "comeetId": null,
       "breezyId": null
     },
+    "Lawflex": {
+      "category": "Cloud Computing",
+      "size": "s",
+      "website": "http://www.lawflex.com",
+      "careers": null,
+      "linkedin": "lawflex",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
     "Cross River Technologies": {
       "category": "Fintech",
       "size": "m",
@@ -4648,6 +4592,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": "vastdata/43.001",
+      "breezyId": null
+    },
+    "LightBits Labs": {
+      "category": "Cloud Computing",
+      "size": "m",
+      "website": "https://www.lightbitslabs.com/",
+      "careers": null,
+      "linkedin": "lightbits-labs",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
       "breezyId": null
     },
     "Salt Security": {
@@ -5029,34 +4987,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "UNIQAI Systems": {
-      "category": "AI/ML",
-      "size": "s",
-      "website": "https://www.uniqai.com/",
-      "careers": null,
-      "linkedin": "uniqai-systems",
-      "cities": [
-        "רמת גן"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Bites": {
-      "category": "Productivity",
-      "size": "s",
-      "website": "https://www.mybites.io/",
-      "careers": null,
-      "linkedin": "bites-learning",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "CytoReason": {
       "category": "AI/ML",
       "size": "m",
@@ -5180,20 +5110,6 @@
       "linkedin": "dustphotonics",
       "cities": [
         "מודיעין מכבים רעות"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Verint Systems": {
-      "category": "Productivity",
-      "size": "l",
-      "website": "https://www.verint.com/",
-      "careers": "https://www.verint.com/careers/",
-      "linkedin": "verint",
-      "cities": [
-        "הרצליה"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -5336,20 +5252,6 @@
         "תל אביב-יפו"
       ],
       "greenhouseId": "axonius",
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "IDENTI Healthcare": {
-      "category": "Health",
-      "size": "s",
-      "website": "https://identimedical.com",
-      "careers": null,
-      "linkedin": "identimedical",
-      "cities": [
-        "נתניה"
-      ],
-      "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
       "breezyId": null
@@ -5571,20 +5473,6 @@
       "website": "https://www.wenrix.com/",
       "careers": "https://www.wenrix.com/home/careers",
       "linkedin": "wenrix",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "MedHub": {
-      "category": "Health",
-      "size": "xs",
-      "website": "https://www.medhub-ai.com",
-      "careers": "https://www.medhub-ai.com/careers/",
-      "linkedin": "medhub-ai",
       "cities": [
         "תל אביב-יפו"
       ],
@@ -6125,6 +6013,20 @@
       "comeetId": "rapyd/73.00E",
       "breezyId": null
     },
+    "FireArc": {
+      "category": "Digital Media",
+      "size": "m",
+      "website": "https://fire-arc.com",
+      "careers": "https://fire-arc.com/careers/",
+      "linkedin": "firearc",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
     "Fetcherr": {
       "category": "AI/ML",
       "size": "m",
@@ -6211,20 +6113,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "4M Analytics": {
-      "category": "IoT",
-      "size": "m",
-      "website": "https://www.4manalytics.com/",
-      "careers": null,
-      "linkedin": "4m-analytics",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Zscaler Israel": {
       "category": "Cybersecurity",
       "size": "m",
@@ -6267,6 +6155,20 @@
       "comeetId": null,
       "breezyId": null
     },
+    "Sensi.ai": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.sensi.ai",
+      "careers": "https://www.sensi.ai/careers",
+      "linkedin": "sensi-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
     "Mitiga": {
       "category": "Cybersecurity",
       "size": "m",
@@ -6293,6 +6195,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": "justt/36.001",
+      "breezyId": null
+    },
+    "BloomX": {
+      "category": "Robotics & Automation",
+      "size": "s",
+      "website": "https://www.bloomx.ag/",
+      "careers": null,
+      "linkedin": "bloomx-ag",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
       "breezyId": null
     },
     "Siemens": {
@@ -6373,6 +6289,20 @@
       "linkedin": "haat-delivery",
       "cities": [
         "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SkillReal": {
+      "category": "AR/VR",
+      "size": "s",
+      "website": "https://www.skillreal.com/",
+      "careers": null,
+      "linkedin": "skillreal",
+      "cities": [
+        "פתח תקווה"
       ],
       "greenhouseId": null,
       "leverId": null,
@@ -6729,20 +6659,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Varolio": {
-      "category": "AI/ML",
-      "size": "xs",
-      "website": "https://varolio.io/",
-      "careers": null,
-      "linkedin": "varolio",
-      "cities": [
-        "עומר"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Finout": {
       "category": "Fintech",
       "size": "m",
@@ -7037,20 +6953,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Lama AI": {
-      "category": "Productivity",
-      "size": "s",
-      "website": "https://www.lama.ai",
-      "careers": "https://www.lama.ai/company#positions",
-      "linkedin": "lamaai",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Mentee Robotics": {
       "category": "Robotics & Automation",
       "size": "s",
@@ -7079,1033 +6981,6 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Oligo": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://www.oligo.security",
-      "careers": "https://www.oligo.security/company/careers",
-      "linkedin": "oligo-security",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Utila": {
-      "category": "Fintech",
-      "size": "s",
-      "website": "https://utila.io/",
-      "careers": null,
-      "linkedin": "utila-io",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Octup": {
-      "category": "E-commerce & Retail",
-      "size": "s",
-      "website": "https://octup.com",
-      "careers": null,
-      "linkedin": "octup-com",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "ScaleOps": {
-      "category": "Productivity",
-      "size": "m",
-      "website": "https://scaleops.com",
-      "careers": "https://scaleops.com/careers/",
-      "linkedin": "scaleops-sh",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Quantum Art": {
-      "category": "Productivity",
-      "size": "s",
-      "website": "https://www.quantum-art.tech/",
-      "careers": null,
-      "linkedin": "quantum-art-tech",
-      "cities": [
-        "נס ציונה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Blockaid": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://www.blockaid.io/",
-      "careers": null,
-      "linkedin": "blockaid",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Guardz": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://guardz.com/",
-      "careers": "https://guardz.com/careers/",
-      "linkedin": "guardz",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Dream Security": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://www.dreamgroup.com",
-      "careers": null,
-      "linkedin": "dreamsecurity",
-      "cities": [
-        "רמת גן"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Vetric Technology": {
-      "category": "Productivity",
-      "size": "xs",
-      "website": "https://vetric.io/",
-      "careers": null,
-      "linkedin": "vetric",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Zafran Security": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://www.zafran.io",
-      "careers": "https://www.zafran.io/careers",
-      "linkedin": "zafran-security",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Sweet Security": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://www.sweet.security/",
-      "careers": null,
-      "linkedin": "sweet-security",
-      "cities": [
-        "רעננה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Miggo Security": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://www.miggo.io/",
-      "careers": null,
-      "linkedin": "miggo-security",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "In House Health": {
-      "category": "Health",
-      "size": "s",
-      "website": "https://www.inhouse.health",
-      "careers": null,
-      "linkedin": "in-house-health",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Nominal": {
-      "category": "Productivity",
-      "size": "s",
-      "website": "https://nominal.so/",
-      "careers": null,
-      "linkedin": "nominalinc",
-      "cities": [
-        "ראשון לציון"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": "nominal/E8.003",
-      "breezyId": null
-    },
-    "Token Security": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://www.token.security/",
-      "careers": null,
-      "linkedin": "token-security",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Lema": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://www.lema.ai",
-      "careers": null,
-      "linkedin": "lema-ai",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Ageera Evron General Partner": {
-      "category": "AI/ML",
-      "size": "xs",
-      "website": "https://www.ageera.org/",
-      "careers": null,
-      "linkedin": "ageera-energy-storage-systems",
-      "cities": [
-        "חיפה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Noma Security": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://www.nomasec.com",
-      "careers": null,
-      "linkedin": "noma-security",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Claroai": {
-      "category": "AI/ML",
-      "size": "xs",
-      "website": "https://www.claroai.com/",
-      "careers": null,
-      "linkedin": "claroai",
-      "cities": [
-        "הוד השרון"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "WDS": {
-      "category": "IoT",
-      "size": "s",
-      "website": "https://www.wds-tech.com",
-      "careers": null,
-      "linkedin": "warehouse-drone-system",
-      "cities": [
-        "ראש העין"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Twine": {
-      "category": "Cybersecurity",
-      "size": "s",
-      "website": "https://twinesecurity.com",
-      "careers": null,
-      "linkedin": "twinesecurity",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Majestic Labs": {
-      "category": "Cloud Computing",
-      "size": "xs",
-      "website": "https://majestic-labs.ai",
-      "careers": "mailto:jobs@majestic-labs.ai",
-      "linkedin": "majestic-labs-ai",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "AILight": {
-      "category": "Productivity",
-      "size": "xs",
-      "website": "https://ailight.tech",
-      "careers": null,
-      "linkedin": "ailight",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Jeen AI": {
-      "category": "Productivity",
-      "size": "s",
-      "website": "https://jeen.ai",
-      "careers": null,
-      "linkedin": "jeen-ai",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Chamelio": {
-      "category": "Productivity",
-      "size": "xs",
-      "website": "https://chamelio.ai",
-      "careers": "https://chamelio.ai/careers-2/",
-      "linkedin": "chamelio",
-      "cities": [
-        "רמת גן"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Israel Shipyards": {
-      "category": "Aerospace",
-      "size": "m",
-      "website": "https://www.israel-shipyards.com/",
-      "careers": null,
-      "linkedin": "israel-shipyards",
-      "cities": [
-        "חיפה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Israel Aerospace Industries": {
-      "category": "Aerospace",
-      "size": "l",
-      "website": "https://www.iai.co.il/",
-      "careers": "https://www.iai.co.il/about/working-at-iai",
-      "linkedin": "iai",
-      "cities": [
-        "לוד",
-        "יהוד-מונסון",
-        "אשדוד",
-        "באר שבע",
-        "באר יעקב",
-        "ירושלים"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "ICL": {
-      "category": "Sustainable Technology",
-      "size": "l",
-      "website": "https://www.icl-group.com/",
-      "careers": "https://careers.icl-group.com/",
-      "linkedin": "icl-group",
-      "cities": [
-        "באר שבע"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "KLA": {
-      "category": "Robotics & Automation",
-      "size": "l",
-      "website": "https://www.kla.com/",
-      "careers": "https://www.kla.com/careers",
-      "linkedin": "klacorp",
-      "cities": [
-        "מגדל העמק"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "DRS RADA Technologies": {
-      "category": "Aerospace",
-      "size": "l",
-      "website": "https://www.rada.com",
-      "careers": "https://www.drsrada.com/careers",
-      "linkedin": "drsradatechnologies",
-      "cities": [
-        "נתניה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "NICE": {
-      "category": "Cybersecurity",
-      "size": "l",
-      "website": "https://www.nice.com/",
-      "careers": "https://www.nice.com/careers",
-      "linkedin": "nice-systems",
-      "cities": [
-        "רעננה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "IMCO Industries": {
-      "category": "Cybersecurity",
-      "size": "l",
-      "website": "https://www.imco-ind.com",
-      "careers": "https://imco-ind.com/careers/",
-      "linkedin": "imco-industried-ltd.",
-      "cities": [
-        "נשר"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "BMC Software": {
-      "category": "AI/ML",
-      "size": "l",
-      "website": "https://www.bmc.com/",
-      "careers": "https://www.bmc.com/careers/careers.html",
-      "linkedin": "bmc-software",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Qlik": {
-      "category": "Productivity",
-      "size": "m",
-      "website": "https://www.qlik.com/",
-      "careers": "https://www.qlik.com/us/company/careers",
-      "linkedin": "qlik",
-      "cities": [
-        "כפר סבא"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Electreon": {
-      "category": "Automotive",
-      "size": "m",
-      "website": "https://electreon.com/",
-      "careers": "https://electreon.com/about-us/careers",
-      "linkedin": "electreon",
-      "cities": [
-        "בית ינאי"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Gilat Satellite Networks": {
-      "category": "Telecommunications",
-      "size": "l",
-      "website": "https://gilat.com/",
-      "careers": "https://gilat.com/career/",
-      "linkedin": "gilat-satellite-networks",
-      "cities": [
-        "פתח תקווה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": "gilat/39.005",
-      "breezyId": null
-    },
-    "Verifone": {
-      "category": "Telecommunications",
-      "size": "l",
-      "website": "https://verifone.com/",
-      "careers": null,
-      "linkedin": "verifone",
-      "cities": [
-        "ראש העין"
-      ],
-      "greenhouseId": "verifone",
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "CI Systems": {
-      "category": "Semiconductors",
-      "size": "m",
-      "website": "https://www.ci-systems.com",
-      "careers": "https://www.ci-systems.com/Careers",
-      "linkedin": "ci-systems",
-      "cities": [
-        "מגדל העמק"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Thales": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://www.thalesgroup.com",
-      "careers": "https://careers.thalesgroup.com/global/en/home",
-      "linkedin": "thales",
-      "cities": [
-        "פתח תקווה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Tosaf Compounds": {
-      "category": "Semiconductors",
-      "size": "l",
-      "website": "https://www.tosaf.com/",
-      "careers": null,
-      "linkedin": "tosaf-compounds",
-      "cities": [
-        "תנובות"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Tower Semiconductor": {
-      "category": "Semiconductors",
-      "size": "l",
-      "website": "https://towersemi.com/",
-      "careers": "https://careers.towersemi.com/",
-      "linkedin": "tower-semiconductor",
-      "cities": [
-        "מגדל העמק"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Rafael Advanced Defense Systems": {
-      "category": "Aerospace",
-      "size": "l",
-      "website": "https://www.rafael.co.il/",
-      "careers": null,
-      "linkedin": "rafael-advanced-defense-systems-official",
-      "cities": [
-        "חיפה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Lumenis": {
-      "category": "Health",
-      "size": "l",
-      "website": "https://lumenis.com/",
-      "careers": null,
-      "linkedin": "lumenis",
-      "cities": [
-        "יוקנעם עילית"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": "lumenis/A1.00C",
-      "breezyId": null
-    },
-    "Check Point Software Technologies": {
-      "category": "Cybersecurity",
-      "size": "l",
-      "website": "https://www.checkpoint.com/",
-      "careers": "https://careers.checkpoint.com/",
-      "linkedin": "check-point-software-technologies",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Elbit Systems": {
-      "category": "Aerospace",
-      "size": "l",
-      "website": "https://elbitsystems.com/",
-      "careers": null,
-      "linkedin": "elbit-systems-ltd",
-      "cities": [
-        "חיפה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "ACS Motion Control": {
-      "category": "Robotics & Automation",
-      "size": "m",
-      "website": "https://www.acsmotioncontrol.com/",
-      "careers": "https://acsmotioncontrol.com/careers/",
-      "linkedin": "acs-motion-control",
-      "cities": [
-        "יקנעם עילית"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": "ACS/14.000",
-      "breezyId": null
-    },
-    "RADCOM": {
-      "category": "Telecommunications",
-      "size": "l",
-      "website": "https://radcom.com/",
-      "careers": null,
-      "linkedin": "radcom",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "ADAMA Agricultural Solutions": {
-      "category": "Health",
-      "size": "l",
-      "website": "https://www.adama.com/",
-      "careers": "https://www.adama.com/en/careers",
-      "linkedin": "adama-ltd",
-      "cities": [
-        "באר שבע"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "SuperCom": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://www.supercom.com/",
-      "careers": null,
-      "linkedin": "supercom",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "AudioCodes": {
-      "category": "Telecommunications",
-      "size": "l",
-      "website": "https://www.audiocodes.com/",
-      "careers": "https://www.audiocodes.com/careers",
-      "linkedin": "audiocodes",
-      "cities": [
-        "ראש העין"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Radware": {
-      "category": "Cybersecurity",
-      "size": "l",
-      "website": "https://www.radware.com/",
-      "careers": "https://www.radware.com/careers/",
-      "linkedin": "radware",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Johnson & Johnson": {
-      "category": "Health",
-      "size": "xl",
-      "website": "https://www.jnj.com/",
-      "careers": "https://www.careers.jnj.com/",
-      "linkedin": "johnson-&-johnson",
-      "cities": [
-        "שפיים"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "AT&T": {
-      "category": "Telecommunications",
-      "size": "xl",
-      "website": "https://il.att.com/",
-      "careers": "https://www.att.jobs/",
-      "linkedin": "at-t-israel-r-d-center",
-      "cities": [
-        "קריית שדה התעופה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Samsung Semiconductors": {
-      "category": "Semiconductors",
-      "size": "xl",
-      "website": "https://www.samsung.com",
-      "careers": "https://semiconductor.samsung.com/about-us/careers/",
-      "linkedin": "samsungsemiconductor",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Tata Consultancy Services": {
-      "category": "AI/ML",
-      "size": "l",
-      "website": "https://www.tcs.com/",
-      "careers": "https://www.tcs.com/careers",
-      "linkedin": "tata-consultancy-services",
-      "cities": [
-        "פתח תקווה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "ARM": {
-      "category": "Semiconductors",
-      "size": "m",
-      "website": "https://www.arm.com",
-      "careers": null,
-      "linkedin": "arm",
-      "cities": [
-        "רעננה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "EverC": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "https://everc.com/",
-      "careers": "https://www.everc.com/careers",
-      "linkedin": "everc",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "AIR": {
-      "category": "Automotive",
-      "size": "s",
-      "website": "https://www.airev.aero/",
-      "careers": "https://www.airev.aero/careers",
-      "linkedin": "air-ev",
-      "cities": [
-        "פרדס חנה כרכור"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Galooli": {
-      "category": "Sustainable Technology",
-      "size": "l",
-      "website": "https://www.galooli.com",
-      "careers": null,
-      "linkedin": "galooli",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Sensi.ai": {
-      "category": "Health",
-      "size": "m",
-      "website": "https://www.sensi.ai",
-      "careers": "https://www.sensi.ai/careers",
-      "linkedin": "sensi-ai",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "BloomX": {
-      "category": "Robotics & Automation",
-      "size": "s",
-      "website": "https://www.bloomx.ag/",
-      "careers": null,
-      "linkedin": "bloomx-ag",
-      "cities": [
-        "הוד השרון"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "SkillReal": {
-      "category": "AR/VR",
-      "size": "s",
-      "website": "https://www.skillreal.com/",
-      "careers": null,
-      "linkedin": "skillreal",
-      "cities": [
-        "פתח תקווה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Apptor": {
-      "category": "E-commerce & Retail",
-      "size": "xs",
-      "website": "https://apptor-ai.com",
-      "careers": null,
-      "linkedin": "apptor-ai",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "DSIT Solutions": {
-      "category": "Cybersecurity",
-      "size": "m",
-      "website": "http://www.dsit.co.il",
-      "careers": "https://dsit.co.il/about-us/careers/",
-      "linkedin": "dsit-solutions-ltd",
-      "cities": [
-        "גבעת שמואל"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Ramon.Space": {
-      "category": "Aerospace",
-      "size": "m",
-      "website": "https://ramon.space/",
-      "careers": "https://ramon.space/careers/",
-      "linkedin": "ramonspace",
-      "cities": [
-        "יקנעם עילית"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Nayax": {
-      "category": "Fintech",
-      "size": "l",
-      "website": "https://www.nayax.com/",
-      "careers": null,
-      "linkedin": "nayax",
-      "cities": [
-        "הרצליה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Microbot Medical": {
-      "category": "Robotics & Automation",
-      "size": "s",
-      "website": "https://microbotmedical.com/",
-      "careers": null,
-      "linkedin": "microbot-medical",
-      "cities": [
-        "יוקנעם עילית"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "YellowHEAD": {
-      "category": "Digital Media",
-      "size": "m",
-      "website": "https://www.yellowhead.com",
-      "careers": null,
-      "linkedin": "yellowhead",
-      "cities": [
-        "געש"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "YouAppi": {
-      "category": "AdTech",
-      "size": "m",
-      "website": "https://youappi.com/",
-      "careers": "https://youappi.com/careers/",
-      "linkedin": "youappi",
-      "cities": [
-        "רעננה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Credito": {
-      "category": "Productivity",
-      "size": "s",
-      "website": "https://credito.co.il",
-      "careers": "https://credito.co.il/jobs/",
-      "linkedin": "creditoisrael",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "Lawflex": {
-      "category": "Cloud Computing",
-      "size": "s",
-      "website": "http://www.lawflex.com",
-      "careers": null,
-      "linkedin": "lawflex",
-      "cities": [
-        "תל אביב-יפו"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "LightBits Labs": {
-      "category": "Cloud Computing",
-      "size": "m",
-      "website": "https://www.lightbitslabs.com/",
-      "careers": null,
-      "linkedin": "lightbits-labs",
-      "cities": [
-        "כפר סבא"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
-    "FireArc": {
-      "category": "Digital Media",
-      "size": "m",
-      "website": "https://fire-arc.com",
-      "careers": "https://fire-arc.com/careers/",
-      "linkedin": "firearc",
-      "cities": [
-        "הרצליה"
-      ],
-      "greenhouseId": null,
-      "leverId": null,
-      "comeetId": null,
-      "breezyId": null
-    },
     "Pickommerce AI Robotics": {
       "category": "Robotics & Automation",
       "size": "s",
@@ -8120,12 +6995,12 @@
       "comeetId": null,
       "breezyId": null
     },
-    "Pointfive": {
-      "category": "Productivity",
+    "Oligo": {
+      "category": "Cybersecurity",
       "size": "s",
-      "website": "https://pointfive.co",
-      "careers": null,
-      "linkedin": "pointfive-us",
+      "website": "https://www.oligo.security",
+      "careers": "https://www.oligo.security/company/careers",
+      "linkedin": "oligo-security",
       "cities": [
         "תל אביב-יפו"
       ],
