@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-09-30T17:37:37.547477+00:00",
+  "_cached_at": "2026-10-01T12:15:23.855622+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -7810,6 +7810,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Altair": {
+      "category": "AI/ML",
+      "size": "xs",
+      "website": "https://altair.com/",
+      "careers": "https://altair.com/careers",
+      "linkedin": null,
+      "cities": [
+        "יקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "altair-semi/88.003",
       "breezyId": null
     }
   }
