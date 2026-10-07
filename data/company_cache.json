@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-10-06T12:46:49.408921+00:00",
+  "_cached_at": "2026-10-07T09:38:38.099544+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -8062,6 +8062,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Browzwear": {
+      "category": "AR/VR",
+      "size": "l",
+      "website": "https://browzwear.com/",
+      "careers": "https://browzwear.com/careers",
+      "linkedin": "browzwear",
+      "cities": [
+        "הוד השרון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "browzwear/03.000",
       "breezyId": null
     }
   }
