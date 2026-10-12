@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-10-11T17:32:46.570680+00:00",
+  "_cached_at": "2026-10-12T14:24:04.582480+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -7834,6 +7834,160 @@
       "linkedin": "mego-afek-ac-ltd",
       "cities": [
         "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Compugen": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://cgen.com/",
+      "careers": "https://www3.compugen.com/en-ca/careers",
+      "linkedin": "compugen-ltd",
+      "cities": [
+        "חולון"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Redler Technologies": {
+      "category": "Robotics & Automation",
+      "size": "s",
+      "website": "https://www.redlertechnologies.com/",
+      "careers": null,
+      "linkedin": "redler-technologies",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "PayPal": {
+      "category": "Fintech",
+      "size": "l",
+      "website": "https://www.paypal.com/",
+      "careers": null,
+      "linkedin": "paypal",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Efficient Finance": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://www.ef.biz",
+      "careers": null,
+      "linkedin": "efficient-finance",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Innovid": {
+      "category": "AdTech",
+      "size": "l",
+      "website": "https://www.innovid.com/",
+      "careers": null,
+      "linkedin": "innovid",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Safeguard Applied Innovation": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://en.safeguard.co.il/",
+      "careers": null,
+      "linkedin": "safeguardappliedinnovation",
+      "cities": [
+        "ירושלים"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Planck": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://www.planckdata.com/",
+      "careers": null,
+      "linkedin": "planckdata",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Zesty": {
+      "category": "Cloud Computing",
+      "size": "l",
+      "website": "https://zesty.co/",
+      "careers": "https://zesty.co/careers/",
+      "linkedin": "zestyco",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Nervio": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://www.nervio.ai/",
+      "careers": null,
+      "linkedin": "nervio-ai",
+      "cities": [
+        "רקפת"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "AKA FOODS": {
+      "category": "AI/ML",
+      "size": "s",
+      "website": "https://www.aka-food.com/",
+      "careers": null,
+      "linkedin": "aka-foods",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "aka_food/79.00D",
+      "breezyId": null
+    },
+    "Blockaid": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.blockaid.io/",
+      "careers": null,
+      "linkedin": "blockaid",
+      "cities": [
+        "תל אביב-יפו"
       ],
       "greenhouseId": null,
       "leverId": null,
