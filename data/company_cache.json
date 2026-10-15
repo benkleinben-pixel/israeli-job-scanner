@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-10-15T08:15:54.843791+00:00",
+  "_cached_at": "2026-10-15T13:59:42.419835+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -7726,6 +7726,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "AI21 Labs": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.ai21.com/",
+      "careers": null,
+      "linkedin": "ai21",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "ai21/E6.001",
       "breezyId": null
     }
   }
