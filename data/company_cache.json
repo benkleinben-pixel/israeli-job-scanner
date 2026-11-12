@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-11-11T22:03:19.757753+00:00",
+  "_cached_at": "2026-11-12T14:38:24.933742+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -7740,6 +7740,62 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Surecomp": {
+      "category": "Fintech",
+      "size": "l",
+      "website": "https://surecomp.com/",
+      "careers": "https://surecomp.com/careers/",
+      "linkedin": "surecomp",
+      "cities": [
+        "כפר סבא"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "Surecomp/24.00E",
+      "breezyId": null
+    },
+    "Start.io": {
+      "category": "AdTech",
+      "size": "m",
+      "website": "https://www.start.io/",
+      "careers": "https://www.start.io/join-us/",
+      "linkedin": "start-io",
+      "cities": [
+        "נתניה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "start.io/b2.004",
+      "breezyId": null
+    },
+    "Island": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://island.io/",
+      "careers": "https://www.island.io/careers",
+      "linkedin": "island-io",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "island/09.00A",
+      "breezyId": null
+    },
+    "Justt": {
+      "category": "Fintech",
+      "size": "m",
+      "website": "https://justt.ai",
+      "careers": null,
+      "linkedin": "justt-ai",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "justt/36.001",
       "breezyId": null
     }
   }
