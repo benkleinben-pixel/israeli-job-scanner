@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-11-19T02:21:03.901158+00:00",
+  "_cached_at": "2026-11-19T20:09:16.274586+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -7890,6 +7890,202 @@
       "linkedin": "arm",
       "cities": [
         "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "IBM": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://www.ibm.com/",
+      "careers": "https://www.ibm.com/careers",
+      "linkedin": "ibm",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "G-STAT": {
+      "category": "AI/ML",
+      "size": "m",
+      "website": "https://g-stat.com/",
+      "careers": null,
+      "linkedin": "g-stat",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Variscite": {
+      "category": "IoT",
+      "size": "m",
+      "website": "https://www.variscite.com",
+      "careers": "https://www.variscite.com/careers",
+      "linkedin": "variscite-ltd-",
+      "cities": [
+        "לוד"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Anima Biotech": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.animabiotech.com/",
+      "careers": null,
+      "linkedin": "anima-biotech",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "SolidRun": {
+      "category": "IoT",
+      "size": "s",
+      "website": "https://www.solid-run.com/",
+      "careers": null,
+      "linkedin": "solidrun-ltd-",
+      "cities": [
+        "עכו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "YouCC Technologies": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://youcc.co.il/",
+      "careers": null,
+      "linkedin": "youcc-technologies-ltd-",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "ULTRA RED": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.ultrared.ai/",
+      "careers": null,
+      "linkedin": "ultra-red-ltd",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "TechSee Augmented Vision": {
+      "category": "AR/VR",
+      "size": "m",
+      "website": "https://techsee.me/",
+      "careers": "https://techsee.me/careers/",
+      "linkedin": "techsee",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "BTG": {
+      "category": "Health",
+      "size": "l",
+      "website": "https://www.btgil.com/",
+      "careers": null,
+      "linkedin": "bio-technology-general",
+      "cities": [
+        "יקנעם עילית"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "torq": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://torq.io/",
+      "careers": "https://torq.io/careers/",
+      "linkedin": "torqio",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "FlightOps": {
+      "category": "Robotics & Automation",
+      "size": "s",
+      "website": "https://www.flightops.io/",
+      "careers": null,
+      "linkedin": "flightops",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Miggo Security": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.miggo.io/",
+      "careers": null,
+      "linkedin": "miggo-security",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Ageera Evron General Partner": {
+      "category": "AI/ML",
+      "size": "xs",
+      "website": "https://www.ageera.org/",
+      "careers": null,
+      "linkedin": "ageera-energy-storage-systems",
+      "cities": [
+        "חיפה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "RADCOM": {
+      "category": "Telecommunications",
+      "size": "l",
+      "website": "https://radcom.com/",
+      "careers": null,
+      "linkedin": "radcom",
+      "cities": [
+        "תל אביב-יפו"
       ],
       "greenhouseId": null,
       "leverId": null,
