@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-11-23T23:39:31.052923+00:00",
+  "_cached_at": "2026-11-24T19:53:59.218068+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -7698,6 +7698,20 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": null,
+      "breezyId": null
+    },
+    "Optibus": {
+      "category": "AI/ML",
+      "size": "l",
+      "website": "https://optibus.com/",
+      "careers": "https://optibus.com/company/careers/",
+      "linkedin": "optibus-ltd",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": "optibus/D1.00C",
       "breezyId": null
     }
   }
