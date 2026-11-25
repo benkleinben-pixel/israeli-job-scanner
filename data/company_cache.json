@@ -1,5 +1,5 @@
 {
-  "_cached_at": "2026-11-24T19:53:59.218068+00:00",
+  "_cached_at": "2026-11-25T16:48:39.084219+00:00",
   "companies": {
     "Motorola Solutions": {
       "category": "Telecommunications",
@@ -7712,6 +7712,286 @@
       "greenhouseId": null,
       "leverId": null,
       "comeetId": "optibus/D1.00C",
+      "breezyId": null
+    },
+    "Essence Security": {
+      "category": "Cybersecurity",
+      "size": "l",
+      "website": "https://www.essence-grp.com/solutions/security-solutions",
+      "careers": "https://www.essence-grp.com/about/careers/",
+      "linkedin": "essence-group",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Innovid": {
+      "category": "AdTech",
+      "size": "l",
+      "website": "https://www.innovid.com/",
+      "careers": null,
+      "linkedin": "innovid",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Primis": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.primis.tech/",
+      "careers": null,
+      "linkedin": "primis-um",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Wave Guard Technologies": {
+      "category": "Cybersecurity",
+      "size": "xs",
+      "website": "https://waveguardtechnologies.com/",
+      "careers": null,
+      "linkedin": "wave-guard-technologies-ltd-",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Fitness22": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://fitness22.com/",
+      "careers": "https://fitness22.com/join-us/",
+      "linkedin": "fitness22",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Bringg": {
+      "category": "E-commerce & Retail",
+      "size": "l",
+      "website": "https://www.bringg.com/",
+      "careers": "https://www.bringg.com/careers/",
+      "linkedin": "bringg",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Pfizer": {
+      "category": "Health",
+      "size": "s",
+      "website": "https://www.pfizer.com/",
+      "careers": "https://www.pfizer.com/about/careers",
+      "linkedin": "pfizer",
+      "cities": [
+        "הרצליה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Nanit": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.nanit.com/",
+      "careers": null,
+      "linkedin": "nanit",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Simploud": {
+      "category": "Cloud Computing",
+      "size": "s",
+      "website": "https://simploud.com/",
+      "careers": null,
+      "linkedin": "simploud",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Griiip": {
+      "category": "Automotive",
+      "size": "s",
+      "website": "https://www.griiip.com/",
+      "careers": null,
+      "linkedin": "griiip",
+      "cities": [
+        "פתח תקווה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Panorays": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://panorays.com/",
+      "careers": "https://panorays.com/careers/",
+      "linkedin": "panorays",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Vicarius": {
+      "category": "Cybersecurity",
+      "size": "m",
+      "website": "https://www.vicarius.io/",
+      "careers": null,
+      "linkedin": "vicarius",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kueez": {
+      "category": "Cloud Computing",
+      "size": "s",
+      "website": "https://weare.kueez.com",
+      "careers": "https://weare.kueez.com/careers",
+      "linkedin": "kueez",
+      "cities": [
+        "בני ברק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Mine": {
+      "category": "Productivity",
+      "size": "m",
+      "website": "https://www.mineos.ai",
+      "careers": "https://www.mineos.ai/careers",
+      "linkedin": "mineos",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Bond Sports": {
+      "category": "Productivity",
+      "size": "s",
+      "website": "https://facilities.bondsports.co",
+      "careers": "https://www.comeet.com/jobs/bondsports/F7.009",
+      "linkedin": "bond-sports",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Kimonix": {
+      "category": "E-commerce & Retail",
+      "size": "s",
+      "website": "https://www.kimonix.com/",
+      "careers": null,
+      "linkedin": "kimonix",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "finitiOne": {
+      "category": "E-commerce & Retail",
+      "size": "s",
+      "website": "https://www.finitione.com",
+      "careers": "https://www.finitione.com/jobs",
+      "linkedin": "finitione",
+      "cities": [
+        "רמת גן"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Sweet Security": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.sweet.security/",
+      "careers": null,
+      "linkedin": "sweet-security",
+      "cities": [
+        "רעננה"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Miggo Security": {
+      "category": "Cybersecurity",
+      "size": "s",
+      "website": "https://www.miggo.io/",
+      "careers": null,
+      "linkedin": "miggo-security",
+      "cities": [
+        "תל אביב-יפו"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
+      "breezyId": null
+    },
+    "Mego Afek": {
+      "category": "Health",
+      "size": "m",
+      "website": "https://www.megoafek.com",
+      "careers": "https://www.megoafek.com/career",
+      "linkedin": "mego-afek-ac-ltd",
+      "cities": [
+        "אפק"
+      ],
+      "greenhouseId": null,
+      "leverId": null,
+      "comeetId": null,
       "breezyId": null
     }
   }
